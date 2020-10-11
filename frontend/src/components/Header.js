@@ -17,7 +17,9 @@ const Header = () => {
                 height='60'
                 className='d-inline-block align-top'
               />
-              <div>Shopping Point</div>
+              <div>
+                Faculty of <br /> Engineering and Technology
+              </div>
             </Navbar.Brand>
           </LinkContainer>
           {/* Navbar toggle area starts */}
