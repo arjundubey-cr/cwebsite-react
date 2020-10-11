@@ -28,16 +28,32 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
-              <LinkContainer to='/cart'>
-                <Nav.Link>
-                  <i className='fas fa-shopping-cart' /> Cart
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/signin'>
-                <Nav.Link>
-                  <i className='fas fa-login' /> Cart
-                </Nav.Link>
-              </LinkContainer>
+              <NavDropdown title='Department' id='basic-nav-dropdown'>
+                <LinkContainer to='/cse'>
+                  <NavDropdown.Item>
+                    Computer Science and Engineering
+                  </NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/ece'>
+                  <NavDropdown.Item>
+                    Electronics and Communication Engineering
+                  </NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/ce'>
+                  <NavDropdown.Item>Civil Engineering</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/me'>
+                  <NavDropdown.Item>Mechanical Engineering</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/ee'>
+                  <NavDropdown.Item>Electrical Engineering</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/ash'>
+                  <NavDropdown.Item>
+                    Applied Science and Humanities
+                  </NavDropdown.Item>
+                </LinkContainer>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>

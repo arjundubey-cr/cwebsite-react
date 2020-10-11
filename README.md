@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <ul>
 <li>node>=8 <br/>
 <li>npm(lastest) <br/>
-<li>create-react-app(latest)
+<li>create-react-app(latest)<br/>
 </ul>
 
 ### Setting up Dev
