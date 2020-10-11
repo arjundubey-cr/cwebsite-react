@@ -1,8 +1,9 @@
 {
-  "name": "college-website",
+  "name": "ecomm",
   "version": "1.0.0",
-  "description": "Website for college FOET, Lucknow University",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -11,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arjundubey-cr/cwebsite-react.git"
+    "url": ""
   },
   "keywords": [
     "college",
@@ -19,13 +20,11 @@
   ],
   "author": "Arjun Dubey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arjundubey-cr/cwebsite-react/issues"
-  },
-  "homepage": "https://github.com/arjundubey-cr/cwebsite-react#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",

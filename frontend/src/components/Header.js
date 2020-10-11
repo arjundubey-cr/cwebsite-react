@@ -17,9 +17,7 @@ const Header = () => {
                 height='60'
                 className='d-inline-block align-top'
               />
-              <div>
-                Faculty Of <br /> Engineering and Technology
-              </div>
+              <div>Shopping Point</div>
             </Navbar.Brand>
           </LinkContainer>
           {/* Navbar toggle area starts */}
@@ -28,39 +26,16 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
-              <Nav.Link href='/cart'>
-                <i className='fas fa-shopping-cart' /> Cart
-              </Nav.Link>
-              <LinkContainer to='/about-us'>
-                <Nav.Link>About Us</Nav.Link>
+              <LinkContainer to='/cart'>
+                <Nav.Link>
+                  <i className='fas fa-shopping-cart' /> Cart
+                </Nav.Link>
               </LinkContainer>
-              {/* dropdown for department: CSE, ECE, ME, CE, ASH, EE */}
-              <NavDropdown title='Department' id='basic-nav-dropdown'>
-                <LinkContainer to='/cse'>
-                  <NavDropdown.Item>
-                    Computer Science and Engineering
-                  </NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/ece'>
-                  <NavDropdown.Item>
-                    Electronics and Communication Engineering
-                  </NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/ce'>
-                  <NavDropdown.Item>Civil Engineering</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/me'>
-                  <NavDropdown.Item>Mechanical Engineering</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/ash'>
-                  <NavDropdown.Item>
-                    Applied Science and Humanities
-                  </NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/ee'>
-                  <NavDropdown.Item>Electrical Engineering</NavDropdown.Item>
-                </LinkContainer>
-              </NavDropdown>
+              <LinkContainer to='/signin'>
+                <Nav.Link>
+                  <i className='fas fa-login' /> Cart
+                </Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
