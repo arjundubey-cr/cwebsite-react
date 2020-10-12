@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <Navbar bg='light' variant='light' collapseOnSelect expand='lg'>
         <Container>
-          {/* Branding */}
+          {/*brand name & logo*/}
           <LinkContainer to='/'>
             <Navbar.Brand>
               <img
@@ -28,6 +28,10 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
+              <LinkContainer to='/about'>
+                <Nav.Link>About</Nav.Link>
+              </LinkContainer>
+              {/* NavbarDropdown for Departments */}
               <NavDropdown title='Department' id='basic-nav-dropdown'>
                 <LinkContainer to='/cse'>
                   <NavDropdown.Item>
@@ -54,6 +58,22 @@ const Header = () => {
                   </NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
+              {/* Container for admission */}
+              <LinkContainer to='/admission'>
+                <Nav.Link>Admission</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/contact'>
+                <Nav.Link>Contact</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/faculty'>
+                <Nav.Link>Faculty</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/tpc'>
+                <Nav.Link>Training and Placement</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/student'>
+                <Nav.Link>Student Corner</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
