@@ -4,7 +4,6 @@ import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomeScreen from './screens/HomeScreen'
-import ProductScreen from './screens/ProductScreen'
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <main className='py-3'>
         <Container>
           <Route path='/' component={HomeScreen} exact />
-          <Route path='/products/:_id' component={ProductScreen} />
         </Container>
       </main>
       <Footer />
