@@ -1,35 +1,50 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+//import ReactDOM from "react-dom"
 import './commondesign.css'
-class Cse extends Component {
+import About from './mainContent/About'
 
-    constructor(props)
-    {
-        super(props)
-        this.hello=React.createRef()
+const Cse= (props)=> {
+
+    const [mainContent,setContent]=useState('')
+
+    const handlediv = (e) => {
+        // const a=e.target.getAttribute('Value')
+        // const [mainContent,setState]=useState(e.target.getAttribute('value'))
+        setContent(e.target.getAttribute('Value'))
+        console.log(mainContent);
     }
-    handlediv=()=>
-    {
-            // this.hello.current=<h1>hi</h1>
+
+    const goback = () => {
+        this.props.history.push('/');
     }
-    render() {
         return (
-            <div>
-                <div className="sidebar">
-                    <li className="sidebar-item card bg-secondary"><Link to='' className="active">About</Link></li>
-                    <li className="sidebar-item card bg-secondary"><Link to=''>Visions & mission</Link></li>
-                    <li className="sidebar-item card bg-secondary"><Link to='/cse' onClick={this.handlediv}>Faculty</Link></li>
-                    <li className="sidebar-item card bg-secondary"><Link to=''>Facilities</Link></li>
-                    <li className="sidebar-item card bg-secondary"><Link to=''>Achievements</Link></li>
-                    <li className="sidebar-item card bg-secondary"><Link to=''>Course Syllabus</Link></li>
+            <div className="screen">
+                <div className="side">
+                    <div className="sidebar">
+                        <li className="sidebar-item card "><Link to='/cse' onClick={handlediv} value='About' className="active">About</Link></li>
+                        <li className="sidebar-item card "><Link to='/cse' onClick={handlediv} value='VisionAndMission'>Visions & mission</Link></li>
+                        <li className="sidebar-item card "><Link to='/cse' onClick={handlediv} value="Faculty">Faculty</Link></li>
+                        <li className="sidebar-item card "><Link to='/cse' onClick={handlediv} value='Facilities'>Facilities</Link></li>
+                        <li className="sidebar-item card "><Link to='/cse' onClick={handlediv} value='Achievement'>Achievements</Link></li>
+                        <li className="sidebar-item card "><Link to='/cse' onClick={handlediv} value='CourseSyllabus'>Course Syllabus</Link></li>
+                    </div>
+                    <button className="btn goback btn-success m-3 ml-6 text-dark p-2 rounded" onClick={goback}>Go Back</button>
                 </div>
-                <div>
-                    <h4 className="text-right hello" ref={this.hello}>hello</h4>
+                <div className="content ">
+
+                    
+
                 </div>
             </div>
 
         )
-    }
+
+    // const ChangeContent=(ContentName)=>
+    // {   
+       
+        
+    // }
 }
 
 export default Cse;

@@ -1,21 +1,42 @@
+.screen
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
 .sidebar
 {
-    background-color: blanchedalmond;
-    position:fixed;
-    left:2px;
-    padding:17px;
-    width:15%;
-
+    background-color:grey;
+    padding: 9px;
+    padding-left: 14px;
+    position: sticky;
+    top:5%;
+    height:80%;
+    width:100%;
+    
 }
 
 .sidebar-item
 {
-    padding: 10px;
-    padding-bottom: 20px;
-    list-style: none;
-    color: black;
+    padding: 8%;
+    font-size: 1.2rem;
 }
 
 .sidebar-item a{
-    color: black;
+    color:black;
+}
+
+.content
+{
+    width:78%;
+    padding-left:5%;
+    padding-right:4%;
+    padding-top:4%;
+}
+
+.side
+{
+    width:25%;
+    height:50%;
 }
