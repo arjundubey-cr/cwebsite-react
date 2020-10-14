@@ -10,9 +10,7 @@
     background-color:grey;
     padding: 9px;
     padding-left: 14px;
-    position: sticky;
-    top:5%;
-    height:80%;
+    height:75%;
     width:100%;
     
 }
@@ -21,17 +19,32 @@
 {
     padding: 8%;
     font-size: 1.2rem;
+    
 }
 
 .sidebar-item:hover
 {
-    background-color: chartreuse;
+    background-color: grey;
+}
+
+.card
+{
+    border:1px solid grey;
+}
+
+.sidebar-item:hover a
+{
+    color:white;
 }
 
 .sidebar-item a{
     color:black;
 }
 
+.sidebar-item a:hover{
+    text-decoration: none;
+    color:white!important;
+}
 .content
 {
     width:78%;
@@ -43,10 +56,78 @@
 .side
 {
     width:25%;
-    height:50%;
+    position: sticky;
+    top:5%;
+    height:100%;
+    /* background-color: hotpink; */
 }
 
 .tx-blue
 {
     color:#0f0f61;
+}
+
+.li-none
+{
+    list-style-type: none;
+}
+
+.lab
+{
+    width:45%;
+    height:auto;
+}
+
+.lab-image
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.font-awsome
+{
+    font-size: 2rem;
+}
+
+.a-text-none:hover
+{
+    text-decoration:none;
+}
+
+.faculty-data
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.faculty-member
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.faculty-image
+{
+    height:100%;
+    width:30%;
+
+}
+
+.member-image
+{
+    width:70%;
+    height:50%;
+}
+
+.faculty-detail
+{
+    height:100%;
+    width:60%;
 }
