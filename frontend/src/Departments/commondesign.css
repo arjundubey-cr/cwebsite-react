@@ -23,6 +23,11 @@
     font-size: 1.2rem;
 }
 
+.sidebar-item:hover
+{
+    background-color: chartreuse;
+}
+
 .sidebar-item a{
     color:black;
 }
@@ -32,11 +37,16 @@
     width:78%;
     padding-left:5%;
     padding-right:4%;
-    padding-top:4%;
+    padding-top:2%;
 }
 
 .side
 {
     width:25%;
     height:50%;
+}
+
+.tx-blue
+{
+    color:#0f0f61;
 }
