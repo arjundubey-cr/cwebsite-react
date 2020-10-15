@@ -1,0 +1,234 @@
+<table>
+                            <tbody>
+                                <tr>
+                                    <td className="p-2"><i className="fas fa-user"></i></td>
+                                    <th className="p-2">Himanshu Pandey</th>
+                                </tr>
+                                <tr>
+                                    <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                                    <td className="p-2">Assistant Professor</td>
+                                </tr>
+                                <tr>
+                                    <td className="p-2"><i className="fas fa-phone"></i></td>
+                                    <td className="p-2">7905287870</td>
+                                </tr>
+                                <tr>
+                                    <td className="p-2"><i className="fas fa-envelope"></i></td>
+                                    <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
+
+<div className="row facuty-data ml-5">
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/HimanshuPandey.jpg')}  className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Dr. Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/AkanshaYadav.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Er. Akansha Yadav</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7524086772</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:itsakanksha9@gmail.com" className="text-danger">itsakanksha9@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/AnshuSingh.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Er.Anshu Singh</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7376252768</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:anshu.singh6225@gmail.com" className="text-danger">anshu.singh6225@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<div className="row facuty-data ml-5">
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/AkanshaYadav.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/HimanshuPandey.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/HimanshuPandey.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<div className="row facuty-data ml-5">
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/HimanshuPandey.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/HimanshuPandey.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div className="col-lg-4 m-4 p-3 rounded">
+    <img src={require('../../images/cse/faculty/HimanshuPandey.jpg')} className="rounded-circle" className="bd-placeholder-img rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
+    <h2>Himanshu Pandey</h2>
+    {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
+    <table>
+        <tbody>
+
+            <tr>
+                <td className="p-2"><i className="fas fa-briefcase"></i></td>
+                <td className="p-2">Assistant Professor</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-phone"></i></td>
+                <td className="p-2">7905287870</td>
+            </tr>
+            <tr>
+                <td className="p-2"><i className="fas fa-envelope"></i></td>
+                <td className="p-2"><a href="mailto:hpandey010@gmail.com" className="text-danger">hpandey010@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<div className="row facuty-data ml-5">
+
+<div className="container marketing">
+
+                  
+</div>

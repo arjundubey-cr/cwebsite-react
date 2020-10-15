@@ -48,9 +48,10 @@
 .content
 {
     width:78%;
-    padding-left:5%;
+    padding-left:3%;
     padding-right:4%;
     padding-top:2%;
+    overflow-x: overlay;
 }
 
 .side
@@ -101,33 +102,20 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: left;
 }
 
-.faculty-member
+.bg-grey
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    background-color: grey;
 }
 
-.faculty-image
+.justify-content-space-between
 {
-    height:100%;
-    width:30%;
-
+    justify-content: space-between;
 }
 
-.member-image
+.img-shadow
 {
-    width:70%;
-    height:50%;
-}
-
-.faculty-detail
-{
-    height:100%;
-    width:60%;
+   box-shadow: 1px 1px 10px 8px #98978b;
 }
