@@ -35,6 +35,7 @@ main {
 
 .section-underline {
   border-top: solid 3px #fd2d34;
+  margin-top: 5px;
   width: 30%;
 }
 .section-heading {

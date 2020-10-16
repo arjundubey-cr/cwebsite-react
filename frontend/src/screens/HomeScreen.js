@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
 
-import React from 'react'
-
 const HomeScreen = () => {
   return (
     <div>
