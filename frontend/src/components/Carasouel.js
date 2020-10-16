@@ -29,7 +29,6 @@ const Carasouel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img className='d-block h-50 w-100' src={img3} alt='Third slide' />
-
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
