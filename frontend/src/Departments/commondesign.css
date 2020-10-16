@@ -1,21 +1,121 @@
+.screen
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
 .sidebar
 {
-    background-color: blanchedalmond;
-    position:fixed;
-    left:2px;
-    padding:17px;
-    width:15%;
-
+    background-color:grey;
+    padding: 9px;
+    padding-left: 14px;
+    height:75%;
+    width:100%;
+    
 }
 
 .sidebar-item
 {
-    padding: 10px;
-    padding-bottom: 20px;
-    list-style: none;
-    color: black;
+    padding: 8%;
+    font-size: 1.2rem;
+    
+}
+
+.sidebar-item:hover
+{
+    background-color: grey;
+}
+
+.card
+{
+    border:1px solid grey;
+}
+
+.sidebar-item:hover a
+{
+    color:white;
 }
 
 .sidebar-item a{
-    color: black;
+    color:black;
+}
+
+.sidebar-item a:hover{
+    text-decoration: none;
+    color:white!important;
+}
+.content
+{
+    width:78%;
+    padding-left:3%;
+    padding-right:4%;
+    padding-top:2%;
+    overflow-x: overlay;
+}
+
+.side
+{
+    width:25%;
+    position: sticky;
+    top:5%;
+    height:100%;
+    /* background-color: hotpink; */
+}
+
+.tx-blue
+{
+    color:#0f0f61;
+}
+
+.li-none
+{
+    list-style-type: none;
+}
+
+.lab
+{
+    width:45%;
+    height:auto;
+}
+
+.lab-image
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.font-awsome
+{
+    font-size: 2rem;
+}
+
+.a-text-none:hover
+{
+    text-decoration:none;
+}
+
+.faculty-data
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.bg-grey
+{
+    background-color: grey;
+}
+
+.justify-content-space-between
+{
+    justify-content: space-between;
+}
+
+.img-shadow
+{
+   box-shadow: 1px 1px 10px 8px #98978b;
 }
