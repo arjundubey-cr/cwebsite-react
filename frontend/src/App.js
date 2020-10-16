@@ -13,9 +13,9 @@ function App() {
       <main className='py-3'>
         <Container>
           <Route path='/' component={HomeScreen} exact />
-    
         </Container>
           <Route path='/cse' component={Cse} exact />
+    
       </main>
       <Footer />
     </Router>
