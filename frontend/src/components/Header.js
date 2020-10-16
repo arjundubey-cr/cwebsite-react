@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../logo/lu_logo_nobg.png'
+import logo from '../assets/logo/lu_logo_nobg.png'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 
 const Header = () => {
   return (
     <header>
-      <Navbar bg='light' variant='light' collapseOnSelect expand='lg'>
+      <Navbar variant='light' collapseOnSelect expand='lg'>
         <Container>
           {/*brand name & logo*/}
           <LinkContainer to='/'>
