@@ -1,0 +1,21 @@
+.sidebar
+{
+    background-color: blanchedalmond;
+    position:fixed;
+    left:2px;
+    padding:17px;
+    width:15%;
+
+}
+
+.sidebar-item
+{
+    padding: 10px;
+    padding-bottom: 20px;
+    list-style: none;
+    color: black;
+}
+
+.sidebar-item a{
+    color: black;
+}

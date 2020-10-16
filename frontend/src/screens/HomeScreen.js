@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
-function HomeScreen() {
+function HomeScreen(){
   return (
     <div>
       <Carasouel />
