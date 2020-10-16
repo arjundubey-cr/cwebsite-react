@@ -3,8 +3,10 @@ main {
   min-height: 80vh;
 }
 .navbar {
-  background-color: white !important;
   border-bottom: 1px gray solid;
+}
+.bg-light {
+  background-color: white !important;
 }
 .navbar-brand {
   display: flex !important;
@@ -28,4 +30,17 @@ main {
 .fa-bars {
   color: black;
   outline-width: none;
+}
+.section-underline {
+  border-top: solid 3px #fd2d34;
+  width: 30%;
+}
+.section-heading {
+  font-weight: 900;
+  font-size: 3em;
+  color: #2a2a53;
+}
+.description {
+  color: #9a9999;
+  font-size: 1.25em;
 }
