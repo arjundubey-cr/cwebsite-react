@@ -1,6 +1,6 @@
-<!-- <img src="./logo/android-chrome-192x192.png" alt="Logo of the project" height="80" align="right"> -->
+<img src="./logo/android-chrome-192x192.png" alt="Logo of the project" height="80" align="right">
 
-<!-- # FOET, University of Lucknow -->
+# FOET, University of Lucknow
 
 [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm)
 [![npm](https://img.shields.io/npm/v/npm?style=flat-square)](https://www.npmjs.com/package/npm)
@@ -12,7 +12,7 @@
 
 > Local setup should primarily be used only for testing or contribution.
 
-This project is a website for '''insert name later'''
+This project is a website for Faculty of Engineering and Technology, University of Lucknow
 
 ## Developing
 
