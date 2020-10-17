@@ -4,8 +4,8 @@ import { Col, Row, Container, Button } from 'react-bootstrap'
 const AboutHome = () => {
   return (
     <Col className='text-center'>
-      <h1 class='section-heading'>About our college</h1>
-      <hr class='section-underline' />
+      <h1 className='section-heading'>About our college</h1>
+      <hr className='section-underline' />
       <div className='description'>
         The Faculty of Engineering and Technology was re-established as one of
         the Faculties of the University of Lucknow in 2017. The Faculty has five
