@@ -10,10 +10,8 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className='py-3'>
-        <Container>
-          <Route path='/' component={HomeScreen} exact />
-        </Container>
+      <main>
+        <Route path='/' component={HomeScreen} exact />
         <Route path='/cse' component={Cse} exact />
       </main>
       <Footer />
