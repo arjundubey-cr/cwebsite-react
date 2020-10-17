@@ -28,16 +28,11 @@ main {
   border: none !important;
   outline-width: 0 !important;
 }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1400px !important;
-  }
-}
 .carousel-img {
   max-height: 690px;
 }
 .section-underline {
-  border-top: solid 3px #fd2d34;
+  border-top: solid 5px #fd2d34;
   margin-top: 0px;
   width: 15%;
 }

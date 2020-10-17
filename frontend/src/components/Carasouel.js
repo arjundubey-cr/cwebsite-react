@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import img1 from '../assets/images/faculty-back1.jpg'
 import img2 from '../assets/images/faculty-front1.jpg'
