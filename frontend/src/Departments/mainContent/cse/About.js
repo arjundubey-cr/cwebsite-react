@@ -13,7 +13,7 @@ const About = (props) => {
             <div className="social-handle mb-2 p-2">
                 <div className="youtube">
                     <a className="a-text-none" href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos" alt="Computer Science youtube Channel" target="_blank">
-                    <i class="fab fa-youtube text-danger font-awsome"></i>
+                    <i className="fab fa-youtube text-danger font-awsome"></i>
                     <span className="ml-2 text-danger" style={{fontSize:"1rem"}}>Youtube Channel</span>
                     </a>
                 </div>
