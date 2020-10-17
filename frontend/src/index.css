@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+:root {
+  --blue-text: #2a2a53;
+  --gray-text: #9a9999;
+}
+
 main {
   min-height: 80vh;
 }
@@ -41,9 +45,29 @@ main {
   font-size: 3em;
   font-family: 'Roboto', sans-serif;
   margin-top: 30px;
-  color: #2a2a53;
+  color: var(--blue-text);
 }
 .description {
-  color: #9a9999;
+  color: var(--gray-text);
   font-size: 1.25em;
+}
+.card {
+  cursor: pointer !important;
+  border: none !important;
+}
+.card:hover .card-img-top {
+  background-color: rgba(151, 63, 63, 0.2);
+}
+
+.card-img-top {
+  width: 100px !important;
+  border: solid 1px red;
+  padding: 10px;
+  border-radius: 25px !important;
+  margin: 0 auto !important;
+}
+.card-title {
+  font-size: 1.3em !important;
+  font-weight: 700 !important;
+  color: var(--blue-text);
 }
