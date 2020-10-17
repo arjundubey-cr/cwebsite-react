@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 main {
   min-height: 80vh;
 }
@@ -27,20 +28,19 @@ main {
   border: none !important;
   outline-width: 0 !important;
 }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1400px !important;
-  }
+.carousel-img {
+  max-height: 690px;
 }
-
 .section-underline {
-  border-top: solid 3px #fd2d34;
-  margin-top: 5px;
-  width: 30%;
+  border-top: solid 5px #fd2d34;
+  margin-top: 0px;
+  width: 15%;
 }
 .section-heading {
   font-weight: 900;
   font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
   color: #2a2a53;
 }
 .description {
