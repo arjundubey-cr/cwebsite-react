@@ -14,7 +14,7 @@ const Cse = (props) => {
             return <About />
         }
         else if (ContentName === '') {
-            return <Faculty />
+            return <About />
         }
         else if (ContentName === 'Faculty') {
             return <Faculty />
@@ -31,10 +31,6 @@ const Cse = (props) => {
         setContent(e.target.getAttribute('Value'))
         const a = document.getElementsByClassName('item-nav');
         a[0].classList.remove("show");
-        a[0].classList.add("collapsing");
-        a[0].classList.remove("collapsing");
-
-
         // console.log(a[0]);
         // console.log(a[0].classList);
         // console.log(mainContent);

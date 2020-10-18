@@ -85,19 +85,31 @@
     list-style-type: none;
 }
 
-.lab
-{
-    width:45%;
-    height:auto;
-}
-
 .lab-image
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
+    height:60%;
+    width:90%;
+    padding: 2%;
+   margin:auto;
 
+}
+
+.lab-inside
+{
+    width:320px;
+    height:295px;
+    padding: 1%;
+    margin:2%;
+}
+
+.img-border
+{
+    border:6px solid black;
+    border-radius: 10%;
 }
 
 .font-awsome
