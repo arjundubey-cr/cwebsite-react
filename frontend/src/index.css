@@ -58,7 +58,6 @@ main {
 .card:hover .card-img-top {
   background-color: rgba(151, 63, 63, 0.2);
 }
-
 .card-img-top {
   width: 100px !important;
   border: solid 1px red;
@@ -70,4 +69,14 @@ main {
   font-size: 1.3em !important;
   font-weight: 700 !important;
   color: var(--blue-text);
+}
+
+/* Footer Styling */
+footer {
+  background-color: #34393c;
+  min-height: 500px !important;
+  color: white;
+}
+.footer-logo {
+  width: 150px;
 }

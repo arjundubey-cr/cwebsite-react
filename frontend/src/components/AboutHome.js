@@ -17,7 +17,7 @@ const AboutHome = () => {
       </div>
       <LinkContainer to='/about'>
         <Button className='mt-3' variant='danger' size='lg'>
-          View About Us
+          Learn More About Us
         </Button>
       </LinkContainer>
     </Col>
