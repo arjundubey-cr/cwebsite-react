@@ -1,4 +1,4 @@
-.screen
+/* .screen
 {
     display:flex;
     flex-direction: row;
@@ -13,9 +13,9 @@
     height:75%;
     width:100%;
     
-}
+} */
 
-.sidebar-item
+/* .sidebar-item
 {
     padding: 6.5%;
     font-size: 1.2rem;
@@ -44,8 +44,9 @@
 .sidebar-item a:hover{
     text-decoration: none;
     color:white!important;
-}
-.content
+} */
+
+/* .content
 {
     width:78%;
     padding-left:3%;
@@ -60,7 +61,11 @@
     position: sticky;
     top:5%;
     height:100%;
-    /* background-color: hotpink; */
+} */
+
+.bg-blue
+{
+    background-color:  indigo;
 }
 
 .tx-blue
