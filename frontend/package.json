@@ -22,7 +22,6 @@
     "predeploy": "npm run-script build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://arjundubey-cr.github.io/cwebsite-react",
   "eslintConfig": {
     "extends": "react-app"
   },

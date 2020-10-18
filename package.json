@@ -1,0 +1,36 @@
+{
+  "name": "foet-website",
+  "version": "1.0.0",
+  "description": "website for college",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "client": "npm start --prefix frontend",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjundubey-cr/cwebsite-react.git"
+  },
+  "homepage": "https://arjundubey-cr.github.io/cwebsite-react",
+  "keywords": [
+    "college",
+    "website"
+  ],
+  "author": "Arjun Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "bugs": {
+    "url": "https://github.com/arjundubey-cr/cwebsite-react/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "netlify-cli": "^2.65.6"
+  }
+}
