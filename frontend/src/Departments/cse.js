@@ -29,8 +29,12 @@ const Cse = (props) => {
         // const a=e.target.getAttribute('Value')
         // const [mainContent,setState]=useState(e.target.getAttribute('value'))
         setContent(e.target.getAttribute('Value'))
-        const a=document.getElementsByClassName('item-nav');
+        const a = document.getElementsByClassName('item-nav');
         a[0].classList.remove("show");
+        a[0].classList.add("collapsing");
+        a[0].classList.remove("collapsing");
+
+
         // console.log(a[0]);
         // console.log(a[0].classList);
         // console.log(mainContent);
@@ -42,35 +46,37 @@ const Cse = (props) => {
     return (
         <div className="screen">
             <nav className="navbar navbar-expand-lg navbar-dark bg-blue nav-fixed-top">
-                <div>
-                    <button className="btn goback btn-success mr-auto text-dark p-2 rounded" onClick={goback}>Go Back</button>
-                </div>
-                <button className="navbar-toggler collapsed ml-auto " type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler collapsed mr-auto " type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
+                
                 <div className="navbar-collapse collapse item-nav" id="navbarsExample05" style={{}}>
-                    <ul className="navbar-nav ml-auto">
+                    <ul className="navbar-nav mr-auto">
 
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link active" onClick={handlediv} value='About'>About</Link>
+                            <Link to='/cse' className="nav-link sidebar-item active" onClick={handlediv} value='About'>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link" onClick={handlediv} value="Faculty" >Faculty</Link>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value="Faculty" >Faculty</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link" onClick={handlediv} value='CourseOffered' >Course Offered and Thrust Areas</Link></li>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link></li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link" onClick={handlediv} value='Achievement' >Achievements</Link>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Achievement' >Achievements</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link" onClick={handlediv} value='Resources' >Resources</Link>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
                         </li>
                     </ul>
+                </div>
+
+                <div>
+                    <button className="btn goback btn-success ml-auto text-dark p-2 rounded" onClick={goback}>Go Back</button>
                 </div>
             </nav>
             <div className="content pl-5 pr-5 pt-4 pb-5 bg-light">

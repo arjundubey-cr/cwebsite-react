@@ -63,9 +63,16 @@
     height:100%;
 } */
 
+.sidebar-item
+{
+    font-size: 0.9em!important;
+    font-family: cursive;
+    color: #c8d5e9!important;
+}
+
 .bg-blue
 {
-    background-color:  indigo;
+    background-color:  #0d1751;
 }
 
 .tx-blue
