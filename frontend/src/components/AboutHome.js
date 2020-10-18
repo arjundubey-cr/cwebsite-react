@@ -1,6 +1,6 @@
 import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Col, Row, Container, Button } from 'react-bootstrap'
+import { Col, Button } from 'react-bootstrap'
 const AboutHome = () => {
   return (
     <Col className='text-center'>
