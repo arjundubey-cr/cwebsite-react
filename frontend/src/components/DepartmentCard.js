@@ -19,8 +19,8 @@ const DepartmentCard = () => {
           for solving the hardest problems in service to society.
         </div>
       </Row>
-      <Row>
-        <Col className='justify-content-space-between'>
+      <Row className='pt-5'>
+        <Col>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={cse} />
@@ -37,24 +37,13 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-
-          <LinkContainer to='/cse'>
-            <Card className='departmentCard' style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={me} />
-              <Card.Body>
-                <Card.Title>Mechanical Engineering</Card.Title>
-              </Card.Body>
-            </Card>
-          </LinkContainer>
         </Col>
         <Col>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ece} />
               <Card.Body>
-                <Card.Title>
-                  Electronics &amp; Communication Engineering
-                </Card.Title>
+                <Card.Title>Electronics &amp; Comm. Engineering</Card.Title>
               </Card.Body>
             </Card>
           </LinkContainer>
@@ -67,7 +56,16 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-
+        </Col>
+        <Col>
+          <LinkContainer to='/cse'>
+            <Card className='departmentCard' style={{ width: '15rem' }}>
+              <Card.Img variant='top' src={me} />
+              <Card.Body>
+                <Card.Title>Mechanical Engineering</Card.Title>
+              </Card.Body>
+            </Card>
+          </LinkContainer>
           <LinkContainer to='/'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ash} />
