@@ -6,7 +6,7 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 const Header = () => {
   return (
     <header>
-      <Navbar bg='light' variant='light' collapseOnSelect expand='lg'>
+      <Navbar collapseOnSelect expand='lg'>
         <Container>
           {/*brand name & logo*/}
           <LinkContainer to='/'>

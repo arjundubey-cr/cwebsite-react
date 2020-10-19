@@ -9,8 +9,6 @@ main {
 }
 .navbar {
   border-bottom: 1px gray solid;
-}
-.bg-light {
   background-color: white !important;
 }
 .navbar-brand {
