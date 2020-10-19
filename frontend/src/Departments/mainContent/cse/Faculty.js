@@ -168,7 +168,7 @@ const Faculty = (props) => {
                     </div>
                     <div className="col-lg-3 m-4 p-3 rounded">
                         <img src={require('../../images/cse/faculty/ShrutiSaxenaDas.jpg')} className="bd-placeholder-img img-shadow rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
-                        <h2 className="font-weight-bold">Shruti Saxena Das</h2>
+                        <h2 className="font-weight-bold">Er. Shruti Saxena Das</h2>
                         {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
                         <table>
                             <tbody>
@@ -190,7 +190,7 @@ const Faculty = (props) => {
                     </div>
                     <div className="col-lg-3 m-4 p-3 rounded">
                         <img src={require('../../images/cse/faculty/ZeeshanAliSiddiqui.jpg')} className="bd-placeholder-img img-shadow rounded-circle mb-2" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="Himanshu Pandey"></img>
-                        <h2 className="font-weight-bold">Zeeshan Ali Siddiqui</h2>
+                        <h2 className="font-weight-bold">Er. Zeeshan Ali Siddiqui</h2>
                         {/* <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> */}
                         <table>
                             <tbody>

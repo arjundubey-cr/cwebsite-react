@@ -80,12 +80,12 @@ const About = (props) => {
                     <h2 className="intro text-uppercase tx-blue font-weight-bold">
                         Laboratories in Department of Computer Science & Engineering
                 </h2>
-                <div className="lab-image mx-2 my-3 p-2">
-                    <img src={ComputerLab1} alt="ComputerLab1" className="lab m-3 p-2"/>
-                    <img src={ComputerLab2} alt="ComputerLab2" className="lab m-3 p-2"/>
-                    <img src={ComputerLab3} alt="ComputerLab3" className="lab m-3 p-2"/>
-                    <img src={matlab} alt="matlab" className="lab m-3 p-2"/>
-                    <img src={NetworkLab} alt="NetworkLab" className="lab m-3 p-2"/>
+                <div className="lab-image my-3">
+                    <img src={ComputerLab1} alt="ComputerLab1" className="lab-inside img-border"/>
+                    <img src={ComputerLab2} alt="ComputerLab2" className="lab-inside img-border"/>
+                    <img src={ComputerLab3} alt="ComputerLab3" className="lab-inside img-border"/>
+                    <img src={matlab} alt="matlab" className="lab-inside img-border"/>
+                    <img src={NetworkLab} alt="NetworkLab" className="lab-inside img-border"/>
                 </div>
                 </div>
             </div>

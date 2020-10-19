@@ -9,7 +9,7 @@ import ash from '../assets/logo/ash.png'
 import ee from '../assets/logo/ee.png'
 const DepartmentCard = () => {
   return (
-    <Col className='text-center'>
+    <Col className='text-center'>      
       <h1 class='section-heading'>Departments We have</h1>
       <hr class='section-underline' />
       <Row>
