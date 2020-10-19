@@ -72,7 +72,7 @@
 
 .bg-blue
 {
-    background-color:  #0d1751;
+    background-color:  #0d1751!important;
 }
 
 .tx-blue
@@ -108,7 +108,7 @@
 
 .img-border
 {
-    border:6px solid black;
+    border:4px solid black;
     border-radius: 10%;
 }
 
