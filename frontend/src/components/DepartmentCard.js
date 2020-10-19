@@ -9,9 +9,9 @@ import ash from '../assets/logo/ash.png'
 import ee from '../assets/logo/ee.png'
 const DepartmentCard = () => {
   return (
-    <Col className='text-center'>
-      <h1 className='section-heading'>Department We have</h1>
-      <hr className='section-underline' />
+    <Col className='text-center'>      
+      <h1 class='section-heading'>Departments We have</h1>
+      <hr class='section-underline' />
       <Row>
         <div className='description'>
           We offer course in following 5 departments, our students combine
