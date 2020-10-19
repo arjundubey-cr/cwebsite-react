@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   --blue-text: #2a2a53;
   --gray-text: #9a9999;
@@ -75,8 +75,31 @@ main {
 footer {
   background-color: #34393c;
   min-height: 500px !important;
+
   color: white;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
+
 .footer-logo {
   width: 150px;
+}
+.footer-section-details {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-section-heading {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+ul.footer-section-details li {
+  padding-top: 0.25em;
+  font-size: 1.2em;
+}
+.footer-link {
+  text-decoration: none !important;
+  color: #d5d5d5;
+}
+.footer-link:hover {
+  color: #6a8191;
 }
