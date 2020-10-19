@@ -1,4 +1,7 @@
 import React from 'react'
+import { ReactComponent as Insta } from '../assets/logo/instagram.svg'
+import { ReactComponent as Facebook } from '../assets/logo/facebook.svg'
+import { ReactComponent as Twitter } from '../assets/logo/twitter.svg'
 import { Link } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 import logo from '../assets/logo/lu_logo_nobg.png'
@@ -6,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <Container className='pt-3' fluid>
+        <Container className='pt-3'>
           <Row className='space-around'>
             <Col>
               <img src={logo} alt='Logo' className='footer-logo' />
@@ -17,7 +20,11 @@ const Footer = () => {
                 Jankipuram, Lucknow, <br />
                 Uttar Pradesh 226021
               </address>
-              <div className='connect'></div>
+              <div className='connect'>
+                <Insta />
+                <Facebook />
+                <Twitter />
+              </div>
             </Col>
             <Col>
               <div className='footer-section-heading'>ADMISSION</div>
@@ -47,6 +54,20 @@ const Footer = () => {
                 </Link>
                 <Link to='/admission' className='footer-link'>
                   <li></li>
+                </Link>
+                <Link to='/admission' className='footer-link'>
+                  <li>Scholarship</li>
+                </Link>
+              </ul>
+            </Col>
+            <Col>
+              <div className='footer-section-heading'>RESOURCES</div>
+              <ul className='footer-section-details'>
+                <Link to='/admission' className='footer-link'>
+                  <li>Syllabus</li>
+                </Link>
+                <Link to='/admission' className='footer-link'>
+                  <li>E-content</li>
                 </Link>
                 <Link to='/admission' className='footer-link'>
                   <li>Scholarship</li>

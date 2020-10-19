@@ -75,15 +75,18 @@ main {
 footer {
   background-color: #34393c;
   min-height: 500px !important;
-
   color: white;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
 }
-
 .footer-logo {
   width: 150px;
 }
+address {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
 .footer-section-details {
   list-style-type: none;
   padding: 0;
@@ -95,6 +98,9 @@ footer {
 ul.footer-section-details li {
   padding-top: 0.25em;
   font-size: 1.2em;
+}
+.connect svg {
+  margin: 10px;
 }
 .footer-link {
   text-decoration: none !important;
