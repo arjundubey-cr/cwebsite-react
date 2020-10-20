@@ -27,7 +27,7 @@ main {
   }
   .bottom-list a.nav-link {
     font-weight: 900 !important;
-    font-size: 0.95em;
+    font-size: 1em;
   }
 }
 @media only screen and (max-width: 992px) {
