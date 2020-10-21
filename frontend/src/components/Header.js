@@ -27,7 +27,18 @@ const Header = () => {
             <i className='fa fa-bars fa-lg' aria-hidden='true' />
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ml-auto'>
+            <Nav className='ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
+              <LinkContainer to='/about'>
+                <Nav.Link>Faculty</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/campus-life'>
+                <Nav.Link>Training &amp; Placement </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/admission'>
+                <Nav.Link>Contact Us</Nav.Link>
+              </LinkContainer>
+            </Nav>
+            <Nav className='ml-auto mt-xl-5 mt-lg-5 mb-0 mr-0 bottom-list'>
               <LinkContainer to='/about'>
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
@@ -59,20 +70,11 @@ const Header = () => {
                 </LinkContainer>
               </NavDropdown>
               {/* Container for admission */}
+              <LinkContainer to='/campus-life'>
+                <Nav.Link>Campus Life</Nav.Link>
+              </LinkContainer>
               <LinkContainer to='/admission'>
                 <Nav.Link>Admission</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/contact'>
-                <Nav.Link>Contact</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/faculty'>
-                <Nav.Link>Faculty</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/tpc'>
-                <Nav.Link>Training and Placement</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/student'>
-                <Nav.Link>Student Corner</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

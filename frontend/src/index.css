@@ -19,20 +19,42 @@ main {
   color: inherit !important;
   line-height: 1.2;
 }
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    position: absolute;
+    top: 5px;
+    right: 120px;
+  }
+  .bottom-list a.nav-link {
+    font-weight: 900 !important;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+  .top-list {
+    border-bottom: gray 1px solid;
+  }
+}
 @media only screen and (max-width: 768px) {
   .navbar-brand {
     font-size: 1.25em !important;
   }
 }
+
 .navbar-toggler {
   display: flex;
   align-items: center;
   border: none !important;
   outline-width: 0 !important;
 }
+/* Carousel Styling */
 .carousel-img {
   max-height: 690px;
 }
+/* HomeScreen Section Styling */
 .section-underline {
   border-top: solid 5px #fd2d34;
   margin-top: 0px;
@@ -68,7 +90,16 @@ main {
   font-weight: 700 !important;
   color: var(--blue-text);
 }
-
+@media only screen and (max-width: 576px) and (min-width: 333px) {
+  .cardList div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .departmentCard {
+    max-width: 200px;
+  }
+}
 /* Footer Styling */
 footer {
   background-color: #34393c;
