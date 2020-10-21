@@ -57,7 +57,7 @@ const DepartmentCard = () => {
             </Card>
           </LinkContainer>
         </Col>
-        <Col>
+        <Col className='last-col'>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={me} />

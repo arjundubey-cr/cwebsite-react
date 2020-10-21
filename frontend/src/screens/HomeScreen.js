@@ -11,7 +11,6 @@ const HomeScreen = () => {
         <Row>
           <AboutHome />
         </Row>
-        <Row></Row>
         <Row>
           <DepartmentCard />
         </Row>

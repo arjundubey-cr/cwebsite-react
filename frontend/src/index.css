@@ -35,7 +35,7 @@ main {
     margin-left: 0 !important;
   }
   .top-list {
-    border-bottom: red 1px solid;
+    border-bottom: gray 1px solid;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -43,15 +43,18 @@ main {
     font-size: 1.25em !important;
   }
 }
+
 .navbar-toggler {
   display: flex;
   align-items: center;
   border: none !important;
   outline-width: 0 !important;
 }
+/* Carousel Styling */
 .carousel-img {
   max-height: 690px;
 }
+/* HomeScreen Section Styling */
 .section-underline {
   border-top: solid 5px #fd2d34;
   margin-top: 0px;
@@ -87,7 +90,11 @@ main {
   font-weight: 700 !important;
   color: var(--blue-text);
 }
-
+@media only screen and (max-width: 504px) and (min-width: 333px) {
+  .last-col {
+    display: flex;
+  }
+}
 /* Footer Styling */
 footer {
   background-color: #34393c;
