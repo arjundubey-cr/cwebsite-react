@@ -34,6 +34,9 @@ main {
   .navbar-nav {
     margin-left: 0 !important;
   }
+  .top-list {
+    border-bottom: red 1px solid;
+  }
 }
 @media only screen and (max-width: 768px) {
   .navbar-brand {
