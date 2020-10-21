@@ -90,9 +90,14 @@ main {
   font-weight: 700 !important;
   color: var(--blue-text);
 }
-@media only screen and (max-width: 504px) and (min-width: 333px) {
-  .last-col {
+@media only screen and (max-width: 576px) and (min-width: 333px) {
+  .cardList div {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .departmentCard {
+    max-width: 200px;
   }
 }
 /* Footer Styling */

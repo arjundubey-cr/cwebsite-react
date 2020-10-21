@@ -19,8 +19,8 @@ const DepartmentCard = () => {
           for solving the hardest problems in service to society.
         </div>
       </Row>
-      <Row className='pt-5'>
-        <Col>
+      <Row className='pt-5 cardList'>
+        <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={cse} />
@@ -38,7 +38,7 @@ const DepartmentCard = () => {
             </Card>
           </LinkContainer>
         </Col>
-        <Col>
+        <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ece} />
@@ -47,7 +47,6 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ee} />
@@ -57,7 +56,7 @@ const DepartmentCard = () => {
             </Card>
           </LinkContainer>
         </Col>
-        <Col className='last-col'>
+        <Col xs={12} sm={4} md={4} lg={4} className='last-col'>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={me} />
@@ -66,11 +65,13 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-          <LinkContainer to='/'>
-            <Card className='departmentCard' style={{ width: '15rem' }}>
+          <LinkContainer to='/cse'>
+            <Card
+              className='departmentCard last-card'
+              style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ash} />
               <Card.Body>
-                <Card.Title>Applied Science and Humanities</Card.Title>
+                <Card.Title>Applied Science &amp; Humanities</Card.Title>
               </Card.Body>
             </Card>
           </LinkContainer>

@@ -14,6 +14,7 @@ const HomeScreen = () => {
         <Row>
           <DepartmentCard />
         </Row>
+        <Row></Row>
       </Container>
     </div>
   )
