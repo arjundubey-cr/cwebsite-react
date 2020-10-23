@@ -19,9 +19,47 @@ main {
   color: inherit !important;
   line-height: 1.2;
 }
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    position: absolute;
+    top: 5px;
+    right: 120px;
+  }
+  .bottom-list a.nav-link {
+    font-weight: 900 !important;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+  .top-list {
+    border-bottom: gray 1px solid;
+  }
+}
 @media only screen and (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.25em !important;
+    font-size: 1.2em !important;
+  }
+  .navbar-brand img {
+    height: 48px;
+    padding-right: 8px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .navbar-brand {
+    font-size: 1em !important;
+  }
+  .navbar-brand img {
+    height: 38px;
+    padding-right: 2px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-brand img {
+    height: 75px;
+    padding-right: 10px;
   }
 }
 .navbar-toggler {
@@ -30,9 +68,13 @@ main {
   border: none !important;
   outline-width: 0 !important;
 }
+
+/* Carousel Styling */
 .carousel-img {
   max-height: 690px;
 }
+
+/* HomeScreen Section Styling */
 .section-underline {
   border-top: solid 5px #fd2d34;
   margin-top: 0px;
@@ -53,7 +95,7 @@ main {
   cursor: pointer !important;
   border: none !important;
 }
-.card:hover .card-img-top {
+.departmentCard:hover .card-img-top {
   background-color: rgba(151, 63, 63, 0.2);
 }
 .card-img-top {
@@ -68,6 +110,31 @@ main {
   font-weight: 700 !important;
   color: var(--blue-text);
 }
+@media only screen and (max-width: 576px) and (min-width: 333px) {
+  .cardList div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .departmentCard {
+    max-width: 200px;
+  }
+}
+
+/* campuslife css */
+.campuslife-card .card-img-top {
+  width: 12rem !important;
+  height: 312px;
+  border: none;
+  padding: 0;
+  display: block;
+  margin: auto 0;
+}
+div.card-description {
+  width: 60%;
+  margin: 0;
+}
+/* campus life css ends */
 
 /* Footer Styling */
 footer {

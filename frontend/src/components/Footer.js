@@ -11,7 +11,7 @@ const Footer = () => {
       <footer>
         <Container className='pt-3'>
           <Row className='space-around'>
-            <Col>
+            <Col xl={3} lg={3} md={12} className='text-center'>
               <img src={logo} alt='Logo' className='footer-logo' />
               <address>
                 Faculty Of Engineering & Technology <br />
@@ -26,7 +26,7 @@ const Footer = () => {
                 <Twitter />
               </div>
             </Col>
-            <Col>
+            <Col xl={3} lg={3} md={4} sm={4} sm={3}>
               <div className='footer-section-heading'>ADMISSION</div>
               <ul className='footer-section-details'>
                 <Link to='/admission' className='footer-link'>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </Link>
               </ul>
             </Col>
-            <Col>
+            <Col xl={3} lg={3} md={4} sm={4}>
               <div className='footer-section-heading'>QUICK LINKS</div>
               <ul className='footer-section-details'>
                 <Link to='/admission' className='footer-link'>
@@ -60,7 +60,7 @@ const Footer = () => {
                 </Link>
               </ul>
             </Col>
-            <Col>
+            <Col xl={3} lg={3} md={4} sm={4}>
               <div className='footer-section-heading'>RESOURCES</div>
               <ul className='footer-section-details'>
                 <Link to='/admission' className='footer-link'>

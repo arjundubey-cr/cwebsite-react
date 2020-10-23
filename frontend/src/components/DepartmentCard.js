@@ -9,9 +9,9 @@ import ash from '../assets/logo/ash.png'
 import ee from '../assets/logo/ee.png'
 const DepartmentCard = () => {
   return (
-    <Col className='text-center'>      
-      <h1 class='section-heading'>Departments We have</h1>
-      <hr class='section-underline' />
+    <Col className='text-center'>
+      <h1 className='section-heading'>Departments We have</h1>
+      <hr className='section-underline' />
       <Row>
         <div className='description'>
           We offer course in following 5 departments, our students combine
@@ -19,8 +19,8 @@ const DepartmentCard = () => {
           for solving the hardest problems in service to society.
         </div>
       </Row>
-      <Row>
-        <Col className='justify-content-space-between'>
+      <Row className='pt-5 cardList'>
+        <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={cse} />
@@ -37,28 +37,16 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-
-          <LinkContainer to='/cse'>
-            <Card className='departmentCard' style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={me} />
-              <Card.Body>
-                <Card.Title>Mechanical Engineering</Card.Title>
-              </Card.Body>
-            </Card>
-          </LinkContainer>
         </Col>
-        <Col>
+        <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ece} />
               <Card.Body>
-                <Card.Title>
-                  Electronics &amp; Communication Engineering
-                </Card.Title>
+                <Card.Title>Electronics &amp; Comm. Engineering</Card.Title>
               </Card.Body>
             </Card>
           </LinkContainer>
-
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ee} />
@@ -67,12 +55,23 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-
-          <LinkContainer to='/'>
+        </Col>
+        <Col xs={12} sm={4} md={4} lg={4} className='last-col'>
+          <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
+              <Card.Img variant='top' src={me} />
+              <Card.Body>
+                <Card.Title>Mechanical Engineering</Card.Title>
+              </Card.Body>
+            </Card>
+          </LinkContainer>
+          <LinkContainer to='/cse'>
+            <Card
+              className='departmentCard last-card'
+              style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ash} />
               <Card.Body>
-                <Card.Title>Applied Science and Humanities</Card.Title>
+                <Card.Title>Applied Science &amp; Humanities</Card.Title>
               </Card.Body>
             </Card>
           </LinkContainer>

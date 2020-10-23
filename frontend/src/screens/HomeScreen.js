@@ -1,9 +1,7 @@
 import React from 'react'
-// import { LinkContainer } from 'react-router-bootstrap'
 import { Row, Container } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
 import AboutHome from '../components/AboutHome'
-// importing all the branch logos
 import DepartmentCard from '../components/DepartmentCard'
 const HomeScreen = () => {
   return (
@@ -13,10 +11,10 @@ const HomeScreen = () => {
         <Row>
           <AboutHome />
         </Row>
-        <Row></Row>
         <Row>
           <DepartmentCard />
         </Row>
+        <Row></Row>
       </Container>
     </div>
   )
