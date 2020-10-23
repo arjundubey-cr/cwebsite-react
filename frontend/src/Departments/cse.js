@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './commondesign.css'
 import About from './mainContent/cse/About'
 import Faculty from './mainContent/cse/Faculty'
+import Achievement from './mainContent/cse/Achievement'
 
 const Cse = (props) => {
 
@@ -14,10 +15,13 @@ const Cse = (props) => {
             return <About />
         }
         else if (ContentName === '') {
-            return <About />
+            return <Achievement />
         }
         else if (ContentName === 'Faculty') {
             return <Faculty />
+        }
+        else if (ContentName === 'Achievement') {
+            return <Achievement />
         }
         else {
             return <div>content not found</div>
@@ -45,7 +49,7 @@ const Cse = (props) => {
                 <button className="navbar-toggler collapsed mr-auto " type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                
+
                 <div className="navbar-collapse collapse item-nav" id="navbarsExample05" style={{}}>
                     <ul className="navbar-nav mr-auto">
 
