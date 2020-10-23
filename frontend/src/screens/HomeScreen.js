@@ -42,7 +42,7 @@ const HomeScreen = () => {
             </Card>
           </Row>
 
-          <Row className='pt-3 justify-content-around'>
+          <Row className='pt-3 pl-3 justify-content-around'>
             <div className='card-description'>
               <h1>Art and Culture</h1>
               <h5>

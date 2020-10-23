@@ -15,15 +15,18 @@ main {
   display: flex !important;
   align-items: center;
   font-weight: 1000 !important;
-  font-size: 2em !important;
-  color: inherit !important;
+  font-size: 2.5em !important;
+  color: var(--blue-text) !important;
   line-height: 1.2;
 }
+
 @media only screen and (min-width: 992px) {
   .navbar-nav {
     position: absolute;
-    top: 5px;
-    right: 120px;
+    top: 25px;
+    right: 00px;
+    width: 550px;
+    height: 38px;
   }
   .bottom-list a.nav-link {
     font-weight: 900 !important;
@@ -36,6 +39,31 @@ main {
   }
   .top-list {
     border-bottom: gray 1px solid;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  div.bottom-list {
+    margin-top: 35px !important;
+  }
+  .navbar-nav {
+    padding-left: 5em !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 2em !important;
+  }
+
+  div.top-list .nav-link {
+    font-size: 0.8em !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  div.top-list .nav-link {
+    font-size: 0.8em !important;
+  }
+  .navbar-nav {
+    font-size: 1.3em;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -56,6 +84,7 @@ main {
     padding-right: 2px;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .navbar-brand img {
     height: 75px;
