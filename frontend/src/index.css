@@ -21,7 +21,8 @@ main {
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar-nav {
+  .top-list,
+  .bottom-list {
     position: absolute;
     top: 25px;
     right: 00px;
@@ -34,7 +35,8 @@ main {
   }
 }
 @media only screen and (max-width: 992px) {
-  .navbar-nav {
+  .top-list,
+  .bottom-list {
     margin-left: 0 !important;
   }
   .top-list {
@@ -45,7 +47,8 @@ main {
   div.bottom-list {
     margin-top: 35px !important;
   }
-  .navbar-nav {
+  .top-list,
+  .bottom-list {
     padding-left: 5em !important;
   }
 }
@@ -62,7 +65,7 @@ main {
   div.top-list .nav-link {
     font-size: 0.8em !important;
   }
-  .navbar-nav {
+  .top-list {
     font-size: 1.3em;
   }
 }
