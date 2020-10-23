@@ -38,7 +38,7 @@ const Header = () => {
                 <Nav.Link>Contact Us</Nav.Link>
               </LinkContainer>
             </Nav>
-            <Nav className='ml-auto mt-xl-5 mt-lg-5 mb-0 mr-0 bottom-list'>
+            <Nav className='ml-auto mt-xl-5 mt-lg-4 mb-0 mr-0 bottom-list'>
               <LinkContainer to='/about'>
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>

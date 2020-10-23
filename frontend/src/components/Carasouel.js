@@ -19,8 +19,7 @@ const Carasouel = () => {
           alt='First slide'
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Grooming the future of the world with education</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,8 +29,7 @@ const Carasouel = () => {
           alt='Second slide'
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Join to reinvent yourself</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -41,10 +39,7 @@ const Carasouel = () => {
           alt='Third slide'
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Your Growth is our aim</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
