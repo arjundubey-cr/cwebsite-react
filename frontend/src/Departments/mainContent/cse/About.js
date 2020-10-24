@@ -9,8 +9,8 @@ import NetworkLab from '../../images/cse/network-lab.png'
 const About = (props) => {
     return (
 
-        <div className="about">
-            <div className="social-handle mb-2 p-2">
+        <div className="about px-3 py-1">
+            <div className="social-handle mb-2 p-2 ">
                 <div className="youtube">
                     <a className="a-text-none" href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos" alt="Computer Science youtube Channel" target="_blank">
                     <i className="fab fa-youtube text-danger font-awsome"></i>

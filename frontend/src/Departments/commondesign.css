@@ -138,6 +138,53 @@
     box-shadow: 1px 1px 10px 8px #98978b;
 }
 
+.button-top
+{
+    left: auto;
+}
+
+.list-item{
+    font-family:auto;
+    font-size: 1rem;
+}
+.csi-image
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:6px;
+}
+.csi-image img{
+    position: relative;
+    width:95%;
+    height:auto;
+    margin:6px;
+    border:2px solid grey;
+    border-radius: 5px;
+
+}
+
+.student-activities-images
+{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:6px;
+
+}
+
+.student-activities-images img{
+    position: relative;
+    width:44%;
+    height:auto;
+    margin:6px;
+    border:2px solid grey;
+    border-radius: 5px;
+
+}
+
 /* table content at mobile view */
 @media 
 only screen and (max-width: 760px),
@@ -151,29 +198,29 @@ only screen and (max-width: 760px),
        padding-right: 0rem!important;
     }
 
-	table, thead, tbody, th, td, tr { 
+	.mobile-table, .mobile-thead, .mobile-tbody, .mobile-th, .mobile-td, .mobile-tr { 
 		display: block; 
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
+	.mobile-thead .mobile-tr { 
         /* display: none; */
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
     }
     
-    tbody tr
+    .mobile-tbody .mobile-tr
     {
         margin-bottom: 2px; 
-        border:3px solid black;
+        border:3px solid black!important;
         border-radius:4%;
         padding: 8px;
     }
 	
-	/* tr { border: 1px solid #ccc; } */
+	/* .mobile-tr { border: 1px solid #ccc; } */
 	
-	td { 
+	.mobile-td { 
 		/* Behave  like a "row" */
         border-bottom: 2px solid black!important;
         border-top: none!important;
@@ -185,9 +232,9 @@ only screen and (max-width: 760px),
         text-align: left!important;
     }
 
-    td:nth-of-type(4){border-bottom: none!important;}
+    .mobile-td:nth-of-type(4){border-bottom: none!important;}
 	
-	td:before { 
+	.mobile-td:before { 
 		/* Now like a table header */
 		position: absolute;
         top: 16px;
@@ -201,12 +248,17 @@ only screen and (max-width: 760px),
 	}
 	
 	/*
-	Label the data
+	Label .mobile-the data
 	*/
-	td:nth-of-type(1):before { content: "SN"; }
-	td:nth-of-type(2):before { content: "ORGANISATION"; }
-	td:nth-of-type(3):before { content: "Job Title"; }
-	td:nth-of-type(4):before { content: "Date"; }
+	.mobile-td:nth-of-type(1):before { content: "SN"; }
+	.mobile-td:nth-of-type(2):before { content: "ORGANISATION"; }
+	.mobile-td:nth-of-type(3):before { content: "Job Title"; }
+    .mobile-td:nth-of-type(4):before { content: "Date"; }
+    
+    .student-activities-images img
+    {
+        width:67%;
+    }
 	
 }
 
