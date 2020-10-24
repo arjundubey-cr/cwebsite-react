@@ -130,14 +130,14 @@ main {
 .departmentCard:hover .card-img-top {
   background-color: rgba(151, 63, 63, 0.2);
 }
-.card-img-top {
+div.departmentCard .card-img-top {
   width: 100px !important;
   border: solid 1px red;
   padding: 10px;
   border-radius: 25px !important;
   margin: 0 auto !important;
 }
-.card-title {
+div.departmentCard .card-body .card-title {
   font-size: 1.3em !important;
   font-weight: 700 !important;
   color: var(--blue-text);
@@ -155,15 +155,15 @@ main {
 
 /* campuslife css */
 .campuslife-card .card-img-top {
-  width: 12rem !important;
-  height: 312px;
+  width: 312px !important;
+  height: 12rem;
   border: none;
   padding: 0;
   display: block;
   margin: auto 0;
 }
 div.card-description {
-  width: 70%;
+  width: 40%;
   margin: 0;
 }
 @media only screen and (max-width: 768px) {
