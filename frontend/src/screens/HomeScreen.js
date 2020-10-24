@@ -19,7 +19,7 @@ const HomeScreen = () => {
             <h1 className='section-heading'>Campus Life</h1>
             <hr className='section-underline' />
           </Col>
-          <Row className='pt-3 pb-2 pl-2 justify-content-around'>
+          <Row className='pt-3 pb-2 pl-md-3 justify-content-around'>
             <div className='card-description'>
               <h1>Sports and Athletics</h1>
               <h5>
@@ -38,7 +38,7 @@ const HomeScreen = () => {
             </Card>
           </Row>
 
-          <Row className='pt-3 pb-2 pl-2 justify-content-around'>
+          <Row className='pt-3 pb-2 pl-md-3 justify-content-around'>
             <div className='card-description'>
               <h1>Art and Culture</h1>
               <h5>
