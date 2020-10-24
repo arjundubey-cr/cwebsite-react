@@ -142,7 +142,7 @@ div.departmentCard .card-body .card-title {
   font-weight: 700 !important;
   color: var(--blue-text);
 }
-@media only screen and (max-width: 576px) and (min-width: 333px) {
+@media only screen and (max-width: 575px) and (min-width: 333px) {
   .cardList div {
     display: flex;
     justify-content: space-between;
@@ -163,7 +163,7 @@ div.departmentCard .card-body .card-title {
   margin: auto 0;
 }
 div.card-description {
-  width: 40%;
+  width: 50%;
   margin: 0;
 }
 @media only screen and (max-width: 768px) {
