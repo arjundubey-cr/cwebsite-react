@@ -179,49 +179,7 @@ Appreciation certificate</td>
                 <img src={require('../../images/cse/Achievements/certificate.png')} alt="certificate" />
                 <img src={require('../../images/cse/Achievements/image-2.png')} alt="certificate distribution" />
             </div>
-            <div className="student-activities">
-                <h4 className="intro text-uppercase tx-blue mt-4 bold">
-                    COUNCIL OF STUDENTS ACTIVITIES
-                </h4>
-                <hr />
-                <p>The job market is one of the most competitive we have ever known.
-                Very often employers tell us that a degree alone is not indicative of a well-rounded graduate.
-                It is very strongly felt that during graduation effort should be made to help the students to develop
-                all round personality. To achieve this goal we should not just provide the opportunities for students
-                to achieve good academic results but actively promote the benefits of a wider curriculum to the students.
-                The Council will provide opportunities through which students can prepare themselves to succeed in the many and
-                varied roles they will have to undertake in their future life. To recognise the importance and value of both academic
-                    curriculum and co-curricular activities in developing the range of skills and attributes that are important for graduates.</p>
-                <div className="student-activities-images">
-                    <img src={require('../../images/cse/Achievements/image3.jpg')} alt="" />
-                    <img src={require('../../images/cse/Achievements/image4.jpg')} alt="" />
-                </div>
-                <hr />
-                <p>
-                    Introduction of a new course structure in 2017 have provided an opportunity to the
-                    undergraduate students to build a carrier to suit their interests and aspirations.
-                    The curriculum enables students to develop their subject knowledge, academic literacy
-                    and a range of complementary capabilities. Apart from academic curriculum there is
-                    co-curricular and extra-curricular activities which means any activity that falls outside
-                    the academic curriculum but it is part of Engineering curriculum.
-                    To keep the programme functional various councils have been formed. These councils are as under:
-                </p>
-                <ul>
-                    <li><span className='list-item'>Literary Council</span></li>
-                    <li><span className='list-item'>Technical Council</span></li>
-                    <li><span className='list-item'>Fine Arts and Photography Council</span></li>
-                    <li><span className='list-item'>Cultural Council</span></li>
-                    <li><span className='list-item'>Sports Council</span></li>
-                </ul>
-                <p>
-                All the councils have one faculty member as convener and five students one from each branch nominated 
-                by the convener as member. Moreover all the councils will work under Chairman, Council of 
-                Students Activities (CSA). All the students are required to participate at least in any two 
-                activities of the council according to their interest and liking. There are 50 marks on the 
-                performance of these activities as General Proficiency (GP). These marks are awarded in the 
-                form of grade and not counted in the academic grade.
-                </p>
-            </div>
+           
         </div>
     )
 }
