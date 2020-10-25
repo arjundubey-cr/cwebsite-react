@@ -76,7 +76,7 @@ const Cse = (props) => {
                 </div>
 
                 <div>
-                    <button className="btn goback btn-success ml-auto text-dark p-2 rounded" onClick={goback}>Go Back</button>
+                    <button className="btn goback btn-success ml-auto text-dark p-1 rounded" onClick={goback}>Home</button>
                 </div>
             </nav>
             <div className="content pl-5 pr-5 pt-3 pb-5 position-realtive">
