@@ -3,7 +3,6 @@
   --blue-text: #2a2a53;
   --gray-text: #9a9999;
 }
-
 main {
   min-height: 80vh;
 }
@@ -19,7 +18,16 @@ main {
   color: var(--blue-text) !important;
   line-height: 1.2;
 }
-
+@media only screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 100px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 80px;
+  }
+}
 @media only screen and (min-width: 992px) {
   .top-list,
   .bottom-list {
@@ -153,25 +161,12 @@ div.departmentCard .card-body .card-title {
   }
 }
 
-/* campuslife css */
-.campuslife-card .card-img-top {
-  width: 312px !important;
-  height: 12rem;
-  border: none;
-  padding: 0;
-  display: block;
-  margin: auto 0;
+/* Life @FOET */
+.insti-life {
+  height: 55vh !important;
+  width: 100vw !important;
 }
-div.card-description {
-  width: 50%;
-  margin: 0;
-}
-@media only screen and (max-width: 768px) {
-  div.card-description {
-    width: 100%;
-  }
-}
-/* campus life css ends */
+/* Life @FOET Ends */
 
 /* Footer Styling */
 footer {
