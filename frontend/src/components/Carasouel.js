@@ -9,39 +9,35 @@ const Carasouel = () => {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex)
   }
-  // const prevIcon = <span aria-hidden='true' className='fa d-xl fa-arrow-left' />
+  const data = [
+    {
+      image: img1,
+      title: 'Grooming the future of the world with education',
+    },
+    {
+      image: img2,
+      title: 'Join to reinvent yourself',
+    },
+    {
+      image: img3,
+      title: 'Your Growth is our aim',
+    },
+  ]
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className='d-block carousel-img w-100'
-          src={img1}
-          alt='First slide'
-        />
-        <Carousel.Caption>
-          <h3>Grooming the future of the world with education</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className='d-block carousel-img w-100'
-          src={img2}
-          alt='Second slide'
-        />
-        <Carousel.Caption>
-          <h3>Join to reinvent yourself</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className='d-block carousel-img w-100'
-          src={img3}
-          alt='Third slide'
-        />
-        <Carousel.Caption>
-          <h3>Your Growth is our aim</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
+      {data.map((data, index) => (
+        <Carousel.Item interval={1000} key={index}>
+          <img
+            className='d-block carousel-img w-100'
+            src={data.image}
+            alt='Slide'
+          />
+          <Carousel.Caption>
+            <h3>{data.title}</h3>
+            <p>{data.t}</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ))}
     </Carousel>
   )
 }
