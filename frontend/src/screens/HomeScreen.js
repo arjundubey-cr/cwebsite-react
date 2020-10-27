@@ -3,7 +3,6 @@ import { Row, Container, Col, Card, Button, Image } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
 import AboutHome from '../components/AboutHome'
 import DepartmentCard from '../components/DepartmentCard'
-import imgshowcase from '../assets/images/img-showcase.jpg'
 const HomeScreen = () => {
   return (
     <div>

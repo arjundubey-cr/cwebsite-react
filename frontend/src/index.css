@@ -3,6 +3,9 @@
   --blue-text: #2a2a53;
   --gray-text: #9a9999;
 }
+html {
+  overflow-x: hidden;
+}
 main {
   min-height: 80vh;
 }
@@ -168,7 +171,7 @@ div.departmentCard .card-body .card-title {
   position: relative;
   padding: 50px;
   justify-content: center;
-  height: 30vh !important;
+  height: 300px !important;
   width: 100vw !important;
   background-image: url(./assets/images/img-showcase.jpg);
   background-size: cover;
