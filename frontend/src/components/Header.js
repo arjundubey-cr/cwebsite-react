@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <Navbar collapseOnSelect expand='lg'>
-        <Container>
+        <Container fluid>
           {/*brand name & logo*/}
           <LinkContainer to='/'>
             <Navbar.Brand>

@@ -5,7 +5,6 @@ import img2 from '../assets/images/faculty-front1.jpg'
 import img3 from '../assets/images/faculty-img3.jpg'
 const Carasouel = () => {
   const [index, setIndex] = useState(0)
-
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex)
   }

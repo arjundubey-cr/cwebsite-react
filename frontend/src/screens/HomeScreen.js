@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Container, Col, Card, Button } from 'react-bootstrap'
+import { Row, Container, Col, Card, Button, Image } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
 import AboutHome from '../components/AboutHome'
 import DepartmentCard from '../components/DepartmentCard'
@@ -11,55 +11,18 @@ const HomeScreen = () => {
         <Row>
           <AboutHome />
         </Row>
+      </Container>
+      <div className='insti-life my-3'>
+        <div className='content'>
+          <h1>Life at FOET</h1>
+          <h2>We Impact Society to make it a better world to live</h2>
+          <h3>You can be part too</h3>
+          <Button>Learn More</Button>
+        </div>
+      </div>
+      <Container>
         <Row>
           <DepartmentCard />
-        </Row>
-        <Row>
-          <Container>
-            <Col className='text-center'>
-              <h1 className='section-heading'>Campus Life</h1>
-              <hr className='section-underline' />
-            </Col>
-            <Row className='pt-3 pb-2 pl-3 container justify-content-around'>
-              <div className='card-description'>
-                <h1>Sports and Athletics</h1>
-                <h5>
-                  MIT’s Department of Athletics and offers sports instruction
-                  and participation at all levels.We also work to foster
-                  community, inspire leadership, and promote wellness through
-                  physical education, recreation programs etc.
-                </h5>
-                <Button className='pt-2'>View More</Button>
-              </div>
-              <Card className='campuslife-card'>
-                <Card.Img
-                  variant='top'
-                  src='https://source.unsplash.com/featured/?athletics'
-                />
-              </Card>
-            </Row>
-
-            <Row className='pt-3 pb-2 pl-3 container justify-content-around'>
-              <div className='card-description pr-3'>
-                <h1>Art and Culture</h1>
-                <h5>
-                  The arts thrive naturally in our Faculty’s creative culture of
-                  experimentation and innovation that crosses every discipline.
-                  With cultural club and CSA(Council of Student Activities) in
-                  place, students are regularly offered with various extra
-                  curricular and recreational activities to explore their
-                  interests, rejunevate themselves.
-                </h5>
-                <Button className='pt-2'>View More</Button>
-              </div>
-              <Card className='campuslife-card'>
-                <Card.Img
-                  variant='top'
-                  src='https://source.unsplash.com/featured/?arts,culture'
-                />
-              </Card>
-            </Row>
-          </Container>
         </Row>
       </Container>
     </div>
