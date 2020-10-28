@@ -124,12 +124,12 @@ main {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(21, 21, 58, 0.37);
+  background-color: rgba(62, 94, 131, 0.425);
 }
 .carousel-img {
   max-height: 690px;
 }
-
+/* Carousel Styling Ends */
 /* HomeScreen Section Styling */
 .section-underline {
   border-top: solid 5px #fd2d34;
@@ -225,7 +225,6 @@ address {
   font-weight: 400;
   font-size: 1.2em;
 }
-
 .footer-section-details {
   list-style-type: none;
   padding: 0;

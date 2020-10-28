@@ -93,7 +93,7 @@ const Faculty = () => {
                 focusable='false'
                 role='img'
                 aria-label='Placeholder: 140x140'
-                alt='Himanshu Pandey'></img>
+                alt={`${data.name}'s Image`}></img>
               <h2 className='font-weight-bold'>{data.name}</h2>
               <table className='mobile-table'>
                 <tbody className='mobile-tbody'>
