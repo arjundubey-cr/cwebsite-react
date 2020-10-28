@@ -17,7 +17,7 @@ const HomeScreen = () => {
           <h1>Life at FOET</h1>
           <h2>We Impact Society to make it a better world to live</h2>
           <h3>You can be part too</h3>
-          <Button>Learn More</Button>
+          <Button variant='danger'>Learn More</Button>
         </div>
       </div>
       <Container>

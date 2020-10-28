@@ -13,7 +13,7 @@ const Footer = () => {
           <Row xl={12} md={12} sm={12} className='justify-content-center'>
             <Image src={logo} className='footer-logo' />
           </Row>
-          <Row className='justify-content-between align-content-between align-content-sm-center'>
+          <Row className='pt-2 justify-content-between align-content-between align-content-sm-center'>
             <Col xl={4} lg={4} md={4} sm={4} className='footer-stacked-columns'>
               <Col>
                 <div className='footer-section-heading'>ADMISSION</div>
