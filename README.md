@@ -18,7 +18,7 @@ This project is a website for Faculty of Engineering and Technology, University 
 
 ### Built With
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses React Bootstrap Components.
 
 ### Prerequisites
 
@@ -44,24 +44,18 @@ npm install&&start
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+After completing local setup once, you can run react-app from main directory of project by using:
+
+```
+npm run client
+```
+
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### Deploying / Publishing
+### Contributing
 
-give instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
-
-```shell
-packagemanager deploy your-project -s server.com -u username -p password
-```
-
-And again you'd need to tell what the previous code actually does.
-
-## Versioning
-
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
+If you want to make contributions to this project, check out Contributing.md before making any pull requests.
 
 ## Configuration
 
@@ -78,17 +72,8 @@ Give an example
 
 ## Style guide
 
-Explain your code style and show how to check it.
-
-## Api Reference
-
-If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
-
-## Database
-
-Explaining what database (and version) has been used. Provide download links.
-Documents your database design and schemas, relations etc...
+The code follows ES-Lint style guide, you can learn more about it [here](https://eslint.org/).
 
 ## Licensing
 
-State what the license is and how to find the text version of the license.
+The project is licensed with GNU Affero General Public License v3.0. You can find the text version of license above in LICENSE or you can find detailed version [here](https://choosealicense.com/licenses/agpl-3.0/)
