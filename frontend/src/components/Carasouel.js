@@ -33,7 +33,6 @@ const Carasouel = () => {
           />
           <Carousel.Caption>
             <h3>{data.title}</h3>
-            <p>{data.t}</p>
           </Carousel.Caption>
         </Carousel.Item>
       ))}
