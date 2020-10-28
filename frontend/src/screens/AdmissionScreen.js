@@ -1,5 +1,4 @@
 import React from 'react'
-import Carasouel from '../components/Carasouel'
 
 const AdmissionScreen = () => {
   return (
