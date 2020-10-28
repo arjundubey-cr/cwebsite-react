@@ -218,6 +218,12 @@ footer {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
 }
+.footer-container {
+  max-width: 1280px !important;
+}
+.footer-stacked-columns div.col {
+  padding: 0;
+}
 .footer-logo {
   width: 150px;
 }
