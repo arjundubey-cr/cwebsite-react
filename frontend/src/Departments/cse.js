@@ -5,6 +5,8 @@ import './commondesign.css'
 import About from './mainContent/cse/About'
 import Faculty from './mainContent/cse/Faculty'
 import Achievement from './mainContent/cse/Achievement'
+import CourseSyllabus from './mainContent/cse/syllabus'
+
 
 const Cse = (props) => {
 
@@ -15,13 +17,16 @@ const Cse = (props) => {
             return <About />
         }
         else if (ContentName === '') {
-            return <About />
+            return <CourseSyllabus />
         }
         else if (ContentName === 'Faculty') {
             return <Faculty />
         }
         else if (ContentName === 'Achievement') {
             return <Achievement />
+        }
+        else if (ContentName === 'CourseSyllabus') {
+            return <CourseSyllabus />
         }
         else {
             return <div>content not found</div>

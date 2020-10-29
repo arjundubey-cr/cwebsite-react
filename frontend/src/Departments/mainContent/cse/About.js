@@ -9,7 +9,7 @@ import NetworkLab from '../../images/cse/network-lab.png'
 const About = (props) => {
     return (
 
-        <div className="about px-3 py-1">
+        <div className="about pl-2 pr-3 py-1">
             <div className="social-handle mb-2 p-2 ">
                 <div className="youtube">
                     <a className="a-text-none" href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos" alt="Computer Science youtube Channel" target="_blank">
@@ -18,11 +18,11 @@ const About = (props) => {
                     </a>
                 </div>
             </div>
-            <div className="intro">
+            <div className="introduction">
                 <h2 className="intro text-uppercase tx-blue">
                     DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
                 </h2>
-                <p>
+                <p className='pl-3'>
                     Department of Computer Science & Engineering is the largest department in Faculty of Engineering and Technology. The Department offers a 4 years course, B.Tech.in Computer Sc. & Engineering, with an intake of 90 students and 3 Year MCA course with an intake of 30 students. Now-a-days Computer Science & Engineering is the most sought-after branch in the country. The Department has very experienced and well qualified faculty members and several well equipped laboratories. All computer laboratories have LAN connectivity which facilitates internet usage. The department works with a mission to provide state of art facilities for high quality academic practices.
                 </p>
 

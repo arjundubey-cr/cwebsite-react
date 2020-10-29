@@ -4,8 +4,8 @@ import '../../commondesign.css'
 const Achievement = (props) => {
     return (
         <div className="container-fluid pl-3 pr-3">
-            <div className="in tro">
-                <h2 className="in tro text-uppercase tx-blue">
+            <div className="intro">
+                <h2 className="intro text-uppercase tx-blue">
                     Achievement
             </h2>
                 <ol>

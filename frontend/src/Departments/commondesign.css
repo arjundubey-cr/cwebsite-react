@@ -65,6 +65,10 @@
     height:100%;
 } */
 
+.intro{
+  padding: 0px 10px;
+}
+
 .sidebar-item {
   font-size: 0.9em !important;
   font-family: 'Roboto', sans-serif;
@@ -185,6 +189,11 @@
 
 }
 
+.hr1
+{
+  border-top: 1px dashed grey;
+}
+
 /* table content at mobile view */
 @media 
 only screen and (max-width: 760px),
@@ -260,5 +269,14 @@ only screen and (max-width: 760px),
         width:67%;
     }
 	
+}
+
+@media 
+only screen and (max-width: 600px),
+(min-device-width: 768px) and (max-device-width: 1024px)
+{
+  .intro{
+    font-size: 1.5rem;
+  }
 }
 
