@@ -12,7 +12,7 @@ function App() {
       <main>
         <Route path='/' component={HomeScreen} exact />
         <Route path='/cse' component={Cse} exact />
-        <Route path='/admission' component={AdmissionScreen} />
+        <Route path='/admission' component={AdmissionScreen} exact />
       </main>
       <Footer />
     </Router>

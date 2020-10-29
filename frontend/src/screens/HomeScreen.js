@@ -25,6 +25,23 @@ const HomeScreen = () => {
           <DepartmentCard />
         </Row>
       </Container>
+      <Container>
+        <Row>
+          <Col className='text-center col'>
+            <h1 className='section-heading'>Admissions</h1>
+            <hr className='section-underline' />
+
+            <div className='description'>
+              Discover what makes Harvard the standard for liberal arts and
+              sciences education. From our unparalleled academics to our
+              revolutionary financial aid, we strive to offer the best resources
+              to the next generation of leaders.
+            </div>
+
+            <Button variant='danger'>Learn about Admission</Button>
+          </Col>
+        </Row>
+      </Container>
     </div>
   )
 }
