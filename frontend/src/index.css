@@ -3,7 +3,9 @@
   --blue-text: #2a2a53;
   --gray-text: #9a9999;
 }
-
+html {
+  overflow-x: hidden;
+}
 main {
   min-height: 80vh;
 }
@@ -15,15 +17,28 @@ main {
   display: flex !important;
   align-items: center;
   font-weight: 1000 !important;
-  font-size: 2em !important;
-  color: inherit !important;
+  font-size: 2.5em !important;
+  color: var(--blue-text) !important;
   line-height: 1.2;
 }
+@media only screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 100px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 80px;
+  }
+}
 @media only screen and (min-width: 992px) {
-  .navbar-nav {
+  .top-list,
+  .bottom-list {
     position: absolute;
-    top: 5px;
-    right: 120px;
+    top: 25px;
+    right: 00px;
+    width: 550px;
+    height: 38px;
   }
   .bottom-list a.nav-link {
     font-weight: 900 !important;
@@ -31,11 +46,38 @@ main {
   }
 }
 @media only screen and (max-width: 992px) {
-  .navbar-nav {
+  .top-list,
+  .bottom-list {
     margin-left: 0 !important;
   }
   .top-list {
     border-bottom: gray 1px solid;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  div.bottom-list {
+    margin-top: 35px !important;
+  }
+  .top-list,
+  .bottom-list {
+    padding-left: 5em !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 2em !important;
+  }
+
+  div.top-list .nav-link {
+    font-size: 0.8em !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  div.top-list .nav-link {
+    font-size: 0.8em !important;
+  }
+  .top-list {
+    font-size: 1.3em;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -56,6 +98,7 @@ main {
     padding-right: 2px;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .navbar-brand img {
     height: 75px;
@@ -70,10 +113,23 @@ main {
 }
 
 /* Carousel Styling */
+.carousel-inner {
+  position: relative;
+}
+.carousel-inner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(10, 35, 81, 0.2);
+}
 .carousel-img {
   max-height: 690px;
 }
-
+/* Carousel Styling Ends */
 /* HomeScreen Section Styling */
 .section-underline {
   border-top: solid 5px #fd2d34;
@@ -98,19 +154,19 @@ main {
 .departmentCard:hover .card-img-top {
   background-color: rgba(151, 63, 63, 0.2);
 }
-.card-img-top {
+div.departmentCard .card-img-top {
   width: 100px !important;
   border: solid 1px red;
   padding: 10px;
   border-radius: 25px !important;
   margin: 0 auto !important;
 }
-.card-title {
+div.departmentCard .card-body .card-title {
   font-size: 1.3em !important;
   font-weight: 700 !important;
   color: var(--blue-text);
 }
-@media only screen and (max-width: 576px) and (min-width: 333px) {
+@media only screen and (max-width: 575px) and (min-width: 333px) {
   .cardList div {
     display: flex;
     justify-content: space-between;
@@ -121,28 +177,52 @@ main {
   }
 }
 
-/* campuslife css */
-.campuslife-card .card-img-top {
-  width: 12rem !important;
-  height: 312px;
-  border: none;
-  padding: 0;
-  display: block;
-  margin: auto 0;
+/* Life @FOET */
+.insti-life {
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 50px;
+  justify-content: center;
+  height: 300px !important;
+  width: 100vw !important;
+  background-image: url(./assets/images/img-showcase.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
-div.card-description {
-  width: 60%;
-  margin: 0;
+.insti-life div.content {
+  position: relative;
+  z-index: 3;
 }
-/* campus life css ends */
+.insti-life div.content .btn {
+  align-items: center;
+}
+.insti-life::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #2a2a538f;
+}
+/* Life @FOET Ends */
 
 /* Footer Styling */
 footer {
-  background-color: #34393c;
+  background-color: #2b2a54;
   min-height: 500px !important;
   color: white;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+}
+.footer-container {
+  max-width: 1280px !important;
+}
+.footer-stacked-columns div.col {
+  padding: 0;
 }
 .footer-logo {
   width: 150px;
@@ -151,7 +231,6 @@ address {
   font-weight: 400;
   font-size: 1.2em;
 }
-
 .footer-section-details {
   list-style-type: none;
   padding: 0;

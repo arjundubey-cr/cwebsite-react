@@ -9,16 +9,16 @@ import ash from '../assets/logo/ash.png'
 import ee from '../assets/logo/ee.png'
 const DepartmentCard = () => {
   return (
-    <Col className='text-center'>
+    <Col className='text-center col'>
       <h1 className='section-heading'>Departments We have</h1>
       <hr className='section-underline' />
-      <Row>
-        <div className='description'>
-          We offer course in following 5 departments, our students combine
-          analytical rigor with curiosity, playful imagination, and an appetite
-          for solving the hardest problems in service to society.
-        </div>
-      </Row>
+
+      <div className='description'>
+        We offer course in following 5 departments, our students combine
+        analytical rigor with curiosity, playful imagination, and an appetite
+        for solving the hardest problems in service to society.
+      </div>
+
       <Row className='pt-5 cardList'>
         <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/cse'>
