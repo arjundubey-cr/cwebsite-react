@@ -65,7 +65,7 @@
     height:100%;
 } */
 
-.intro{
+.intro {
   padding: 0px 10px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .tx-blue {
-  color: #0f0f61;
+  color: #2a2a53;
 }
 
 .li-none {
@@ -132,151 +132,148 @@
   justify-content: space-between;
 }
 
-.img-shadow
-{
-   box-shadow: 1px 1px 10px 8px #98978b;
+.img-shadow {
+  box-shadow: 1px 1px 10px 8px #98978b;
 }
 
-.table-shadow
-{
-    box-shadow: 1px 1px 10px 8px #98978b;
+.table-shadow {
+  box-shadow: 1px 1px 10px 8px #98978b;
 }
 
-.button-top
-{
-    left: auto;
+.button-top {
+  left: auto;
 }
 
-.list-item{
-    font-family:auto;
-    font-size: 1rem;
+.list-item {
+  font-family: auto;
+  font-size: 1rem;
 }
-.csi-image
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding:6px;
+.csi-image {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 6px;
 }
-.csi-image img{
-    position: relative;
-    width:95%;
-    height:auto;
-    margin:6px;
-    border:2px solid grey;
-    border-radius: 5px;
-
+.csi-image img {
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: 6px;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
 
-.student-activities-images
-{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding:6px;
-
+.student-activities-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 6px;
 }
 
-.student-activities-images img{
-    position: relative;
-    width:44%;
-    height:auto;
-    margin:6px;
-    border:2px solid grey;
-    border-radius: 5px;
-
+.student-activities-images img {
+  position: relative;
+  width: 44%;
+  height: auto;
+  margin: 6px;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
 
-.hr1
-{
+.hr1 {
   border-top: 1px dashed grey;
 }
 
 /* table content at mobile view */
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
 
-    /* Force table to not be like tables anymore */
-    
-    .content
-    {
-       padding-left: 0rem!important;
-       padding-right: 0rem!important;
-    }
+  .content {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
 
-	.mobile-table, .mobile-thead, .mobile-tbody, .mobile-th, .mobile-td, .mobile-tr { 
-		display: block; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	.mobile-thead .mobile-tr { 
-        /* display: none; */
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-    }
-    
-    .mobile-tbody .mobile-tr
-    {
-        margin-bottom: 2px; 
-        border:3px solid black!important;
-        border-radius:4%;
-        padding: 8px;
-    }
-	
-	/* .mobile-tr { border: 1px solid #ccc; } */
-	
-	.mobile-td { 
-		/* Behave  like a "row" */
-        border-bottom: 2px solid black!important;
-        border-top: none!important;
-        border-left: none!important;
-        border-right: none!important;
-		/* border-bottom: 1px solid #eee;  */
-		position: relative;
-        padding-left: 50%!important; 
-        text-align: left!important;
-    }
+  .mobile-table,
+  .mobile-thead,
+  .mobile-tbody,
+  .mobile-th,
+  .mobile-td,
+  .mobile-tr {
+    display: block;
+  }
 
-    .mobile-td:nth-of-type(4){border-bottom: none!important;}
-	
-	.mobile-td:before { 
-		/* Now like a table header */
-		position: absolute;
-        top: 16px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        padding-left: 6px;
-        white-space: nowrap;
-        font-weight: bold;
-        text-align: justify;
-	}
-	
-	/*
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mobile-thead .mobile-tr {
+    /* display: none; */
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .mobile-tbody .mobile-tr {
+    margin-bottom: 2px;
+    border: 3px solid black !important;
+    border-radius: 4%;
+    padding: 8px;
+  }
+
+  /* .mobile-tr { border: 1px solid #ccc; } */
+
+  .mobile-td {
+    /* Behave  like a "row" */
+    border-bottom: 2px solid black !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    /* border-bottom: 1px solid #eee;  */
+    position: relative;
+    padding-left: 50% !important;
+    text-align: left !important;
+  }
+
+  .mobile-td:nth-of-type(4) {
+    border-bottom: none !important;
+  }
+
+  .mobile-td:before {
+    /* Now like a table header */
+    position: absolute;
+    top: 16px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    padding-left: 6px;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  /*
 	Label .mobile-the data
 	*/
-	.mobile-td:nth-of-type(1):before { content: "SN"; }
-	.mobile-td:nth-of-type(2):before { content: "ORGANISATION"; }
-	.mobile-td:nth-of-type(3):before { content: "Job Title"; }
-    .mobile-td:nth-of-type(4):before { content: "Date"; }
-    
-    .student-activities-images img
-    {
-        width:67%;
-    }
-	
-}
+  .mobile-td:nth-of-type(1):before {
+    content: 'SN';
+  }
+  .mobile-td:nth-of-type(2):before {
+    content: 'ORGANISATION';
+  }
+  .mobile-td:nth-of-type(3):before {
+    content: 'Job Title';
+  }
+  .mobile-td:nth-of-type(4):before {
+    content: 'Date';
+  }
 
-@media 
-only screen and (max-width: 600px),
-(min-device-width: 768px) and (max-device-width: 1024px)
-{
-  .intro{
-    font-size: 1.5rem;
+  .student-activities-images img {
+    width: 67%;
   }
 }
 
+@media only screen and (max-width: 600px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  .intro {
+    font-size: 1.5rem;
+  }
+}
