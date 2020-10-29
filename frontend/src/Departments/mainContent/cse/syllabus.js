@@ -7,7 +7,7 @@ const CourseSyllabus = (props) => {
             <h2 className="intro text-uppercase tx-blue underline">
                 COURSE CONTENTS OR COURSE OUTLINES
            </h2>
-            <hr className="hr1" />
+            <hr className="hr1 mx-2" />
             <div className="table-content pr-2 mx-2">
                 <div className="table-responsive table-shadow mt-2 p-3 mt-4"><table class="table table-condensed table-bordered pub table-striped">
                     <thead>
