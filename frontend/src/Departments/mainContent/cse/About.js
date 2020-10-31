@@ -23,7 +23,7 @@ const About = (props) => {
           </a>
         </div>
       </div>
-      <div className='intro'>
+      <div className='introduction'>
         <h2 className='intro text-uppercase tx-blue'>
           DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
         </h2>
