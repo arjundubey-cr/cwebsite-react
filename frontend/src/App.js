@@ -10,6 +10,7 @@ import Ee from './Departments/ee.js'
 import Me from './Departments/me.js'
 import Ash from './Departments/ash.js'
 
+import AdmissionScreen from './screens/AdmissionScreen'
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Me' component={Me} exact />
         <Route path='/Ee' component={Ee} exact />
         <Route path='/Ash' component={Ash} exact />
+        <Route path='/admission' component={AdmissionScreen} exact />
       </main>
       <Footer />
     </Router>

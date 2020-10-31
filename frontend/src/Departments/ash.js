@@ -75,13 +75,13 @@ const Ash = (props) => {
                         <li className="nav-item">
                             <Link to='/Ash' className="nav-link sidebar-item" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
                         <li className="nav-item">
-                            <Link to='/Ash' className="nav-link sidebar-item" onClick={handlediv} value='ResourAshs' >ResourAshs</Link>
+                            <Link to='/Ash' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
                         </li>
                     </ul>
                 </div>
 
                 <div>
-                    <button className="btn goback btn-sucAshss ml-auto text-dark p-1 rounded" onClick={goback}>Home</button>
+                    <button className="btn goback btn-success ml-auto text-dark p-1 rounded" onClick={goback}>Home</button>
                 </div>
             </nav>
             <div className="content pl-5 pr-5 pt-3 pb-5 position-realtive">
