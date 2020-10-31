@@ -208,6 +208,16 @@ div.departmentCard .card-body .card-title {
   z-index: 1;
   background-color: #2a2a538f;
 }
+@media only screen and (max-width: 375px) {
+  .insti-life {
+    height: 320px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .insti-life {
+    height: 350px !important;
+  }
+}
 /* Life @FOET Ends */
 
 /* Footer Styling */
