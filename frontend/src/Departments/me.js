@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 //import ReactDOM from "react-dom"
 import './commondesign.css'
-import About from './mainContent/Cse/About'
-import Faculty from './mainContent/Cse/Faculty'
-import Achievement from './mainContent/Cse/Achievement'
-import CourseSyllabus from './mainContent/Cse/syllabus'
+import About from './mainContent/Me/About'
+import Faculty from './mainContent/Me/Faculty'
+import Achievement from './mainContent/Me/Achievement'
+import CourseSyllabus from './mainContent/Me/syllabus'
 
 
-const Cse = (props) => {
+const Me = (props) => {
 
     const [mainContent, setContent] = useState('')
 
@@ -59,23 +59,23 @@ const Cse = (props) => {
                     <ul className="navbar-nav mr-auto">
 
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item active" onClick={handlediv} value='About'>About</Link>
+                            <Link to='/Me' className="nav-link sidebar-item active" onClick={handlediv} value='About'>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
+                            <Link to='/Me' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value="Faculty" >Faculty</Link>
+                            <Link to='/Me' className="nav-link sidebar-item" onClick={handlediv} value="Faculty" >Faculty</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link></li>
+                            <Link to='/Me' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link></li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Achievement' >Achievements</Link>
+                            <Link to='/Me' className="nav-link sidebar-item" onClick={handlediv} value='Achievement' >Achievements</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
+                            <Link to='/Me' className="nav-link sidebar-item" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
                         <li className="nav-item">
-                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
+                            <Link to='/Me' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
                         </li>
                     </ul>
                 </div>
@@ -97,4 +97,4 @@ const Cse = (props) => {
     )
 }
 
-export default Cse;
+export default Me;

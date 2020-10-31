@@ -194,6 +194,18 @@
   border-top: 1px dashed grey;
 }
 
+.table-header-background
+    {
+      background-color: black;
+    }
+
+.table-header-text
+{
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 /* table content at mobile view */
 @media 
 only screen and (max-width: 760px),
@@ -226,6 +238,8 @@ only screen and (max-width: 760px),
         border-radius:4%;
         padding: 8px;
     }
+
+    
 	
 	/* .mobile-tr { border: 1px solid #ccc; } */
 	
