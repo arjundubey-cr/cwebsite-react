@@ -59,24 +59,25 @@ const Ece = (props) => {
                     <ul className="navbar-nav mr-auto">
 
                         <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item active" onClick={handlediv} value='About'>About</Link>
+                            <Link to='/cse' className="nav-link sidebar-item active" onClick={handlediv} value='About'>About</Link>
+                        </li>
+                        {/* <li className="nav-item">
+    <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
+</li> */}
+                        <li className="nav-item">
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value="Faculty" >Faculty</Link>
+                        </li>
+                        {/* <li className="nav-item">
+    <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link>
+</li> */}
+                        <li className="nav-item">
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Achievement' >Achievements</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item" onClick={handlediv} value="Faculty" >Faculty</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link></li>
-                        <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item" onClick={handlediv} value='Achievement' >Achievements</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
-                        <li className="nav-item">
-                            <Link to='/Ece' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
-                        </li>
+                            <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseSyllabus' >Course Syllabus</Link></li>
+                        {/* <li className="nav-item">
+    <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
+</li> */}
                     </ul>
                 </div>
 

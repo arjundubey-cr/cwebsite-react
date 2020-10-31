@@ -44,7 +44,7 @@ const About = (props) => {
         </ul>
       </div>
       <div className="focus-list">
-        <p>The department covers all recent trends in Computer Technology with prime focuses on:</p>
+        <p className="px-3">The department covers all recent trends in Computer Technology with prime focuses on:</p>
         <ul >
           <li><strong>Artificial Intelligence</strong></li>
           <li><strong>Digital Image Processing</strong></li>
@@ -59,7 +59,7 @@ const About = (props) => {
           <li><strong>Information &amp; Cyber Security</strong></li>
           <li><strong>Internet of Things (IoT)</strong></li>
         </ul>
-        <p>While maintaining its ancient, traditional bonds to electrical engineering and mathematics,
+        <p className="px-3">While maintaining its ancient, traditional bonds to electrical engineering and mathematics,
         the department has gradually collaborated with other disciplines.
         The true significance of computer science and Engineering is best
                      appreciated through such associations.</p>
@@ -89,7 +89,7 @@ const About = (props) => {
         <h2 className="intro text-uppercase tx-blue">
           COMPUTER CENTRE
                 </h2>
-        <p className="computer-center-description">
+        <p className="computer-center-description px-2">
           This centre has two servers, 70 nodes with latest configurations along with necessary software and printers etc to meet the needs of the students from all other branches. All the computers are connected through LAN. There is internet facility in the centre.
                 </p>
         <div className="commputer-center-images">
