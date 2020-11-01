@@ -126,9 +126,7 @@ main {
   z-index: 1;
   background-color: rgba(10, 35, 81, 0.2);
 }
-.carousel-img {
-  max-height: 690px;
-}
+
 /* Carousel Styling Ends */
 /* HomeScreen Section Styling */
 .section-underline {

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Image } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
 import img1 from '../assets/images/faculty-back1.jpg'
 import img2 from '../assets/images/faculty-front1.jpg'
@@ -26,10 +27,11 @@ const Carasouel = () => {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {data.map((data, index) => (
         <Carousel.Item interval={1000} key={index}>
-          <img
+          <Image
             className='d-block carousel-img w-100'
             src={data.image}
             alt='Slide'
+            fluid
           />
           <Carousel.Caption>
             <h3>{data.title}</h3>

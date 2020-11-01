@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Container, Col, Card, Button, Image } from 'react-bootstrap'
+import { Row, Container, Col, Button } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
 import AboutHome from '../components/AboutHome'
 import DepartmentCard from '../components/DepartmentCard'
