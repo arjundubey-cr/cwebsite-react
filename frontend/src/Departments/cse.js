@@ -6,10 +6,11 @@ import About from './mainContent/cse/About'
 import Faculty from './mainContent/cse/Faculty'
 import Achievement from './mainContent/cse/Achievement'
 import CourseSyllabus from './mainContent/cse/syllabus'
+import { Button } from 'react-bootstrap'
 
 const Cse = (props) => {
   const [mainContent, setContent] = useState('')
-
+  const [showScroll, setShowScroll] = useState(false)
   const ChangeContent = (ContentName) => {
     if (ContentName === 'About') {
       return <About />
@@ -39,6 +40,9 @@ const Cse = (props) => {
 
   const goback = () => {
     props.history.push('/')
+  }
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
   return (
     <div className='screen'>
@@ -135,11 +139,12 @@ const Cse = (props) => {
       </nav>
       <div className='content pl-5 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
-        <button
-          className='btn btn-dark rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top '
+        <Button
+          onClick={scrollToTop}
+          className='btn btn-dark rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top'
           href='#'>
           <i className='fas fa-arrow-up'></i>
-        </button>
+        </Button>
       </div>
     </div>
   )
