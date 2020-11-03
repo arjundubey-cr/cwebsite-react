@@ -113,8 +113,11 @@ main {
 }
 
 /* Carousel Styling */
-.carousel-inner {
+/* .carousel-inner {
   position: relative;
+} */
+.carousel-img {
+  height: 75vh !important;
 }
 .carousel-inner::after {
   content: '';

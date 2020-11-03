@@ -10,7 +10,6 @@ import { Button } from 'react-bootstrap'
 
 const Cse = (props) => {
   const [mainContent, setContent] = useState('')
-  const [showScroll, setShowScroll] = useState(false)
   const ChangeContent = (ContentName) => {
     if (ContentName === 'About') {
       return <About />
