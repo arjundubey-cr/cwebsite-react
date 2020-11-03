@@ -45,7 +45,7 @@ main {
     font-size: 1em;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .top-list,
   .bottom-list {
     margin-left: 0 !important;
@@ -117,7 +117,7 @@ main {
   position: relative;
 } */
 .carousel-img {
-  height: 75vh !important;
+  max-height: 75vh !important;
 }
 .carousel-inner::after {
   content: '';
@@ -127,7 +127,7 @@ main {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(10, 35, 81, 0.2);
+  background-color: rgba(10, 35, 81, 0.5);
 }
 
 /* Carousel Styling Ends */

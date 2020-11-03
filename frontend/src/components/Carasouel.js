@@ -30,7 +30,6 @@ const Carasouel = () => {
             className='d-block w-100 carousel-img'
             src={data.image}
             alt='Slide'
-            thumbnail
           />
           <Carousel.Caption>
             <h3 className='carousel-caption font-weight-bolder'>
