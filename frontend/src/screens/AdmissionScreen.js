@@ -12,7 +12,7 @@ const AdmissionScreen = () => {
         professional colleges (UPSEE) being carried out by Dr. A.P.J. Abdul
         Kalam Technical University Uttar Pradesh, Lucknow. Interested candidate
         have to apply and appear for UPSEE. Applicants can apply at{' '}
-        <a className=' text-black-50' href='https://upsee.nic.in/'>
+        <a className='external-link' href='https://upsee.nic.in/'>
           UPSEE Home
         </a>{' '}
         for their interested programs in University of Lucknow, Lucknow.
@@ -51,7 +51,7 @@ const AdmissionScreen = () => {
             </tr>
             <tr>
               <td>Masters in Computer Application(MCA)</td>
-              <td>66</td>
+              <td>33</td>
             </tr>
           </tbody>
         </Table>
@@ -83,7 +83,7 @@ const AdmissionScreen = () => {
             <tr>
               <td>
                 Press Release regarding MBA, B.Tech. and MCA Admissions being
-                done through UPSEE 2020 counselling{' '}
+                done through UPSEE 2020 counselling
               </td>
               <td>
                 <Button block>
@@ -97,6 +97,21 @@ const AdmissionScreen = () => {
             </tr>
           </tbody>
         </Table>
+      </Container>
+      <div className='section-sub-heading container-fluid text-center my-3'>
+        Help Desk
+      </div>
+      <Container className='mb-3 h5'>
+        For, any query reach out to us at <br />
+        Phone Num:{' '}
+        <a className='external-link' href='tel:+917991200653'>
+          +91-799120 0653
+        </a>{' '}
+        <br />
+        Email:{' '}
+        <a className='external-link' href='mailto:profrsgupta@rediffmail.com'>
+          profrsgupta@rediffmail.com
+        </a>
       </Container>
     </div>
   )

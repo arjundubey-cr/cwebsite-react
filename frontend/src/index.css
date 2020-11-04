@@ -207,7 +207,7 @@ div.departmentCard .card-body .card-title {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: #2a2a538f;
+  background-color: rgba(42, 42, 83, 0.5);
 }
 @media only screen and (max-width: 375px) {
   .insti-life {
@@ -227,6 +227,13 @@ div.departmentCard .card-body .card-title {
   color: var(--blue-text);
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
+}
+.external-link {
+  color: var(--blue-text);
+  font-weight: bolder;
+}
+.external-link:hover {
+  color: var(--blue-text);
 }
 /* Admission Section CSS Ends */
 /* Footer Styling */
