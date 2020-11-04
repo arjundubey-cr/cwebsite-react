@@ -14,40 +14,18 @@ const Footer = () => {
             <Image src={logo} className='footer-logo' />
           </Row>
           <Row className='pt-2 justify-content-between align-content-between align-content-sm-center'>
-            <Col xl={4} lg={4} md={4} sm={4}>
-              <div className='footer-section-heading'>ADMISSION</div>
-              <ul className='footer-section-details'>
-                <Link to='/admission' className='footer-link'>
-                  <li>Admission Procedure </li>
-                </Link>
-                <Link to='/admission' className='footer-link'>
-                  <li>Eligibility </li>
-                </Link>
-                <Link to='/admission' className='footer-link'>
-                  <li>Fee Structure</li>
-                </Link>
-                <Link to='/admission' className='footer-link'>
-                  <li>Scholarship</li>
-                </Link>
-              </ul>
-            </Col>
-            <Col
-              xl={4}
-              lg={4}
-              md={4}
-              sm={4}
-              className='footer-stacked-columns text-left text-sm-center text-md-center'>
+            <Col xl={4} lg={4} md={4} sm={4} className='footer-stacked-columns'>
               <Col>
-                <div className='footer-section-heading'>QUICK LINKS</div>
+                <div className='footer-section-heading'>ADMISSION</div>
                 <ul className='footer-section-details'>
                   <Link to='/admission' className='footer-link'>
-                    <li>University of Lucknow</li>
+                    <li>Admission Procedure </li>
                   </Link>
                   <Link to='/admission' className='footer-link'>
-                    <li>UDRC Student Login</li>
+                    <li>Eligibility </li>
                   </Link>
                   <Link to='/admission' className='footer-link'>
-                    <li></li>
+                    <li>Fee Structure</li>
                   </Link>
                   <Link to='/admission' className='footer-link'>
                     <li>Scholarship</li>
@@ -68,6 +46,28 @@ const Footer = () => {
                   </Link>
                 </ul>
               </Col>
+            </Col>
+            <Col
+              xl={4}
+              lg={4}
+              md={4}
+              sm={4}
+              className=' text-left text-md-center'>
+              <div className='footer-section-heading'>QUICK LINKS</div>
+              <ul className='footer-section-details'>
+                <Link to='/admission' className='footer-link'>
+                  <li>University of Lucknow</li>
+                </Link>
+                <Link to='/admission' className='footer-link'>
+                  <li>UDRC Student Login</li>
+                </Link>
+                <Link to='/admission' className='footer-link'>
+                  <li></li>
+                </Link>
+                <Link to='/admission' className='footer-link'>
+                  <li>Scholarship</li>
+                </Link>
+              </ul>
             </Col>
             <Col xl={4} lg={4} md={4} sm={4} className='text-center'>
               <address>

@@ -15,8 +15,7 @@ const About = (props) => {
             className='a-text-none d-flex align-items-center'
             href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos'
             alt='Computer Science youtube Channel'
-            target='_blank'
-            rel='noopener noreferrer'>
+            target='_blank'>
             <i className='fab fa-youtube text-danger font-awsome'></i>
             <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
               Youtube Channel
