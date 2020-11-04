@@ -5,14 +5,17 @@ import Footer from './components/Footer'
 import HomeScreen from './screens/HomeScreen'
 import Cse from './Departments/cse.js'
 import AdmissionScreen from './screens/AdmissionScreen'
+import ScrollToTop from './ScrollToTop'
 function App() {
   return (
     <Router>
       <Header />
       <main>
-        <Route path='/' component={HomeScreen} exact />
-        <Route path='/cse' component={Cse} exact />
-        <Route path='/admission' component={AdmissionScreen} exact />
+        <ScrollToTop>
+          <Route path='/' component={HomeScreen} exact />
+          <Route path='/cse' component={Cse} exact />
+          <Route path='/admission' component={AdmissionScreen} exact />
+        </ScrollToTop>
       </main>
       <Footer />
     </Router>

@@ -1,8 +1,9 @@
 import React from 'react'
-import { Row, Container, Col, Card, Button, Image } from 'react-bootstrap'
+import { Row, Container, Col, Button } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
 import AboutHome from '../components/AboutHome'
 import DepartmentCard from '../components/DepartmentCard'
+import { LinkContainer } from 'react-router-bootstrap'
 const HomeScreen = () => {
   return (
     <div>
@@ -14,10 +15,12 @@ const HomeScreen = () => {
       </Container>
       <div className='insti-life my-3'>
         <div className='content'>
-          <h1>Life at FOET</h1>
+          <h1 className='h2 font-weight-bolder'>Life at FOET</h1>
           <h2>We Impact Society to make it a better world to live</h2>
           <h3>You can be part too</h3>
-          <Button variant='danger'>Learn More</Button>
+          <Button variant='danger' className='my-3'>
+            Learn More
+          </Button>
         </div>
       </div>
       <Container>
@@ -37,8 +40,11 @@ const HomeScreen = () => {
               revolutionary financial aid, we strive to offer the best resources
               to the next generation of leaders.
             </div>
-
-            <Button variant='danger'>Learn about Admission</Button>
+            <LinkContainer to='/admission'>
+              <Button variant='danger' className='my-3'>
+                Learn about Admission
+              </Button>
+            </LinkContainer>
           </Col>
         </Row>
       </Container>
