@@ -221,6 +221,14 @@ div.departmentCard .card-body .card-title {
 }
 /* Life @FOET Ends */
 
+/* Admission Section CSS Starts */
+.section-sub-heading {
+  font-weight: 900;
+  color: var(--blue-text);
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+/* Admission Section CSS Ends */
 /* Footer Styling */
 footer {
   background-color: #2b2a54;
