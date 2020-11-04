@@ -26,18 +26,19 @@ const Header = () => {
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
             <i className='fa fa-bars fa-lg' aria-hidden='true' />
           </Navbar.Toggle>
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Collapse id='basic-navbar-nav myDiv'>
             <Nav className='ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
-              <LinkContainer to='/about'>
+              <LinkContainer to='/faculty'>
                 <Nav.Link>Faculty</Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/campus-life'>
+              <LinkContainer to='/tpc'>
                 <Nav.Link>Training &amp; Placement </Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/admission'>
+              <LinkContainer to='/contact-us'>
                 <Nav.Link>Contact Us</Nav.Link>
               </LinkContainer>
             </Nav>
+            <br />
             <Nav className='ml-auto mt-xl-5 mt-lg-4 mb-0 mr-0 bottom-list'>
               <LinkContainer to='/about'>
                 <Nav.Link>About</Nav.Link>
