@@ -211,7 +211,7 @@ div.departmentCard .card-body .card-title {
 }
 @media only screen and (max-width: 375px) {
   .insti-life {
-    height: 320px !important;
+    height: 340px !important;
   }
 }
 @media only screen and (max-width: 320px) {
