@@ -91,9 +91,8 @@ const Faculty = () => {
                 height='140'
                 preserveAspectRatio='xMidYMid slice'
                 focusable='false'
-                role='img'
                 aria-label='Placeholder: 140x140'
-                alt={`${data.name}'s Image`}></img>
+                alt={`${data.name}`}></img>
               <h2 className='font-weight-bold'>{data.name}</h2>
               <table className='mobile-table'>
                 <tbody className='mobile-tbody'>
