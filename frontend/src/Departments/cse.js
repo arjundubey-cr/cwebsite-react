@@ -70,7 +70,7 @@ const Cse = (props) => {
               className='navbar-collapse collapse item-nav'
               id='navbarsExample05'
               style={{}}>
-              <ul className='navbar-nav mr-auto'>
+              <ul className='navbar-nav mr-auto ml-3'>
                 <li className='nav-item'>
                   <Link
                     to='/cse'
