@@ -11,19 +11,22 @@ import Me from './Departments/me.js'
 import Ash from './Departments/ash.js'
 
 import AdmissionScreen from './screens/AdmissionScreen'
+import ScrollToTop from './ScrollToTop'
 function App() {
   return (
     <Router>
       <Header />
       <main>
-        <Route path='/' component={HomeScreen} exact />
-        <Route path='/cse' component={Cse} exact />
-        <Route path='/Ece' component={Ece} exact />
-        <Route path='/Ce' component={Ce} exact />
-        <Route path='/Me' component={Me} exact />
-        <Route path='/Ee' component={Ee} exact />
-        <Route path='/Ash' component={Ash} exact />
-        <Route path='/admission' component={AdmissionScreen} exact />
+        <ScrollToTop>
+          <Route path='/' component={HomeScreen} exact />
+          <Route path='/cse' component={Cse} exact />
+          <Route path='/Ece' component={Ece} exact />
+          <Route path='/Ce' component={Ce} exact />
+          <Route path='/Me' component={Me} exact />
+          <Route path='/Ee' component={Ee} exact />
+          <Route path='/Ash' component={Ash} exact />
+          <Route path='/admission' component={AdmissionScreen} exact />
+        </ScrollToTop>
       </main>
       <Footer />
     </Router>

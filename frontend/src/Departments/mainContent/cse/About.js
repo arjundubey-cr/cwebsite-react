@@ -8,18 +8,24 @@ import NetworkLab from '../../images/cse/network-lab.png'
 
 const About = (props) => {
   return (
-
-    <div className="about pl-2 pr-3 py-1">
-      <div className="social-handle mb-2 p-2 ">
-        <div className="youtube">
-          <a className="a-text-none" href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos" alt="Computer Science youtube Channel" target="_blank">
-            <i className="fab fa-youtube text-danger font-awsome"></i>
-            <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>Youtube Channel</span>
+    <div className='about px-3 py-1'>
+      <div className='social-handle mb-2 p-2'>
+        <div className='youtube align-items-center'>
+          <a
+            className='a-text-none d-flex align-items-center'
+            href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos'
+            alt='Computer Science youtube Channel'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <i className='fab fa-youtube text-danger font-awsome'></i>
+            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
+              Youtube Channel
+            </span>
           </a>
         </div>
       </div>
-      <div className="introduction">
-        <h2 className="intro text-uppercase tx-blue">
+      <div className='introduction'>
+        <h2 className='intro text-uppercase tx-blue'>
           DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
                 </h2>
         <p className='pl-3'>

@@ -15,7 +15,7 @@
 }
 
 .tx-blue {
-  color: #0f0f61;
+  color: #2a2a53;
 }
 
 .li-none {
@@ -68,65 +68,56 @@
   justify-content: space-between;
 }
 
-.img-shadow
-{
-   box-shadow: 1px 1px 10px 8px #98978b;
+.img-shadow {
+  box-shadow: 1px 1px 10px 8px #98978b;
 }
 
-.table-shadow
-{
-    box-shadow: 1px 1px 10px 8px #98978b;
+.table-shadow {
+  box-shadow: 1px 1px 10px 8px #98978b;
 }
 
-.button-top
-{
-    left: auto;
+.button-top {
+  left: auto;
 }
 
-.list-item{
-    font-family:auto;
-    font-size: 1rem;
+.list-item {
+  font-family: auto;
+  font-size: 1rem;
 }
-.csi-image
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding:6px;
+.csi-image {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 6px;
 }
-.csi-image img{
-    position: relative;
-    width:95%;
-    height:auto;
-    margin:6px;
-    border:2px solid grey;
-    border-radius: 5px;
-
+.csi-image img {
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: 6px;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
 
-.student-activities-images
-{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding:6px;
-
+.student-activities-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 6px;
 }
 
-.student-activities-images img{
-    position: relative;
-    width:44%;
-    height:auto;
-    margin:6px;
-    border:2px solid grey;
-    border-radius: 5px;
-
+.student-activities-images img {
+  position: relative;
+  width: 44%;
+  height: auto;
+  margin: 6px;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
 
-.hr1
-{
+.hr1 {
   border-top: 1px dashed grey;
 }
 
@@ -163,9 +154,9 @@
 
 
 /* table content at mobile view */
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
 
     /* Force table to not be like tables anymore */
     
@@ -229,16 +220,22 @@ only screen and (max-width: 760px),
 	/*
 	Label .mobile-the data
 	*/
-	.mobile-td:nth-of-type(1):before { content: "SN"; }
-	.mobile-td:nth-of-type(2):before { content: "ORGANISATION"; }
-	.mobile-td:nth-of-type(3):before { content: "Job Title"; }
-    .mobile-td:nth-of-type(4):before { content: "Date"; }
-    
-    .student-activities-images img
-    {
-        width:67%;
-    }
-	
+  .mobile-td:nth-of-type(1):before {
+    content: 'SN';
+  }
+  .mobile-td:nth-of-type(2):before {
+    content: 'ORGANISATION';
+  }
+  .mobile-td:nth-of-type(3):before {
+    content: 'Job Title';
+  }
+  .mobile-td:nth-of-type(4):before {
+    content: 'Date';
+  }
+
+  .student-activities-images img {
+    width: 67%;
+  }
 }
 
 @media 
@@ -250,4 +247,3 @@ only screen and (max-width: 600px),
     font-weight: 600!important;
   }
 }
-
