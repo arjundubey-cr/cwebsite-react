@@ -1,82 +1,51 @@
 import React from 'react'
 import '../../commondesign.css'
-import imghp from '../../images/cse/faculty/HimanshuPandey.jpg'
-import imgay from '../../images/cse/faculty/AkanshaYadav.jpg'
-import imgas from '../../images/cse/faculty/AnshuSingh.jpg'
-import imgcbs from '../../images/cse/faculty/ChandrabhanSingh.jpg'
-import imgpk from '../../images/cse/faculty/Pankajkumar.jpg'
-import imgpt from '../../images/cse/faculty/PriyankaTripathi.jpg'
-import imgr from '../../images/cse/faculty/Rohit.jpg'
-import imgssd from '../../images/cse/faculty/ShrutiSaxenaDas.jpg'
-import imgzas from '../../images/cse/faculty/ZeeshanAliSiddiqui.jpg'
+import imgmkj from '../../images/ece/faculty/ManojKumarJain.jpg'
+import imgss from '../../images/ece/faculty/SiddharthSingh.jpg'
+import imgakj from '../../images/ece/faculty/AvinashKumarJayank.jpg'
+import imgps from '../../images/ece/faculty/PriyankaSingh.jpg'
+import imgskg from '../../images/ece/faculty/SushilKumarGupta.jpg'
 
 const Faculty = () => {
   const data = [
     {
-      name: 'Dr. Himanshu Pandey',
-      image: imghp,
+      name: 'Dr. Manoj Kumar Jain',
+      image: imgmkj,
       post: 'Assistant Professor',
-      phoneNum: '7905287870',
-      email: 'hpandey010@gmail.com',
+      phoneNum: '8707689006',
+      email: 'mkjain71@gmail.com',
     },
     {
-      name: 'Er. Akansha Yadav',
-      image: imgay,
+      name: 'Dr. Siddharth Singh',
+      image: imgss,
       post: 'Assistant Professor',
-      phoneNum: '7524086772',
-      email: 'itsakanksha9@gmail.com',
+      phoneNum: '9559958600',
+      email: 'siddharthjnp@gmail.com',
     },
     {
-      name: 'Er.Anshu Singh',
-      image: imgas,
+      name: 'Er.Avinash Kumar Jayank',
+      image: imgakj,
       post: 'Assistant Professor',
-      phoneNum: '7376252768',
-      email: 'anshu.singh6225@gmail.com',
+      phoneNum: '9455280306',
+      email: 'a.kjayank@gmail.com',
     },
 
     {
-      name: 'Er. Chandrabhan Singh',
-      image: imgcbs,
+      name: 'Er. Priyanka Singh',
+      image: imgps,
       post: 'Assistant Professor',
-      phoneNum: '7275711509',
-      email: 'chandrabhan98@gmail.com',
+      phoneNum: '7906935636',
+      email: 'spriyanka2030@gmail.com',
     },
 
     {
-      name: 'Er. Pankaj kumar',
-      image: imgpk,
+      name: 'Er. Sushil Kumar Gupta',
+      image: imgskg,
       post: 'Assistant Professor',
-      phoneNum: '9452462043',
-      email: 'lotus_28js@yahoo.com',
+      phoneNum: '9452234325',
+      email: 'sushil.mpec@gmail.com',
     },
-    {
-      name: 'Er. Priyanka Tripathi',
-      image: imgpt,
-      post: 'Assistant Professor',
-      phoneNum: '9305595936',
-      email: 'priyankatripathiknp@gmail.com',
-    },
-    {
-      name: 'Er. Rohit',
-      image: imgr,
-      post: 'Assistant Professor',
-      phoneNum: '7007987502',
-      email: 'rohitatknit@gmail.com',
-    },
-    {
-      name: 'Er. Shruti Saxena Das',
-      image: imgssd,
-      post: 'Assistant Professor',
-      phoneNum: '8707524957',
-      email: 'shipra.shruti@gmail.com',
-    },
-    {
-      name: 'Er. Zeeshan Ali Siddiqui',
-      image: imgzas,
-      post: 'Assistant Professor',
-      phoneNum: '9810513463',
-      email: 'zeealis@gmail.com',
-    },
+    
   ]
   return (
     <div className='Faculty'>
