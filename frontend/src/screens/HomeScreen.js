@@ -35,10 +35,9 @@ const HomeScreen = () => {
             <hr className='section-underline' />
 
             <div className='description'>
-              Discover what makes Harvard the standard for liberal arts and
-              sciences education. From our unparalleled academics to our
-              revolutionary financial aid, we strive to offer the best resources
-              to the next generation of leaders.
+              Harness your curiosity. We strive to offer the best resources to
+              the next generation of engineers which makes us the standard for
+              Engineering and Technology education.
             </div>
             <LinkContainer to='/admission'>
               <Button variant='danger' className='my-3'>
