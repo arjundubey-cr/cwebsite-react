@@ -27,12 +27,14 @@ const Carasouel = () => {
       {data.map((data, index) => (
         <Carousel.Item interval={1000} key={index}>
           <img
-            className='d-block carousel-img w-100'
+            className='d-block w-100 carousel-img'
             src={data.image}
             alt='Slide'
           />
           <Carousel.Caption>
-            <h3>{data.title}</h3>
+            <h3 className='carousel-caption font-weight-bolder'>
+              {data.title}
+            </h3>
           </Carousel.Caption>
         </Carousel.Item>
       ))}
