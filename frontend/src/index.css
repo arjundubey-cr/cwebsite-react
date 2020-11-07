@@ -31,6 +31,7 @@ main {
     margin-left: 80px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .top-list,
   .bottom-list {
@@ -236,6 +237,17 @@ div.departmentCard .card-body .card-title {
   color: var(--blue-text);
 }
 /* Admission Section CSS Ends */
+/*TPC CSS STARTS*/
+.tpc-objectives-list {
+  list-style-type: square;
+  padding: 0;
+  color: var(--gray-text);
+}
+.tpc-objectives-list li {
+  font-size: 1.25em;
+  padding: 5px;
+}
+/* TPC CSS ENDS */
 /* Footer Styling */
 footer {
   background-color: #2b2a54;

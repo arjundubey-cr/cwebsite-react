@@ -1,6 +1,36 @@
 import React from 'react'
-
+import { Container, Table } from 'react-bootstrap'
 const Tpc = () => {
+  const tpcTeachers = [
+    {
+      name: 'Dr. Himanshu Pandey (In-charge)',
+      branch: 'Computer Science and Engineering',
+    },
+    {
+      name: 'Er. Pankaj Kumar',
+      branch: 'Computer Science and Engineering',
+    },
+    {
+      name: 'Er. Sushil Kumar Gupta',
+      branch: 'Electronics and Communication Engineering',
+    },
+    {
+      name: 'Er. Pawan Kumar Singh',
+      branch: 'Electrical Engineering',
+    },
+    {
+      name: 'Er. Gaurav Srivastava',
+      branch: 'Civil Engineering',
+    },
+    {
+      name: 'Er. Prashan Kr. Singh',
+      branch: 'Mechanical Engineering',
+    },
+    {
+      name: 'Ms. Isha Singh',
+      branch: 'Applied Science and Humanities',
+    },
+  ]
   return (
     <div>
       <div className='section-heading text-center'>
@@ -31,6 +61,61 @@ const Tpc = () => {
       </div>
       <div className='section-sub-heading container-fluid text-center my-3'>
         Incharge and Advisory Board
+      </div>
+      <Container>
+        <Table bordered>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Associated Branch</th>
+            </tr>
+          </thead>
+          <tbody>
+            {tpcTeachers.map((data, index) => (
+              <tr>
+                <td>{data.name}</td>
+                <td>{data.branch}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+      </Container>
+      <div className='section-sub-heading container-fluid text-center my-3'>
+        Our Objectives
+      </div>
+      <Container>
+        <ul className='tpc-objectives-list'>
+          <li>
+            To provide assistance in the employment process of final semester
+            students and place them in organisations aligned with their career
+            path
+          </li>
+          <li>
+            To help the third-year students achieve an immersive internship
+            experience that contributes towards their future employment.
+          </li>
+          <li>
+            To train and hone the skills and knowledge of the students and turn
+            them into purpose-driven candidates with a global mindset and
+            innovative thinking.
+          </li>
+          <li>
+            To advise students about diverse career pathways, functions and
+            roles within industries so that they can make an informed choice
+            about their career.
+          </li>
+          <li>
+            To organise short training sessions for students to further their
+            capabilities and prepare them for a competitive work environment.
+          </li>
+          <li>
+            To enhance the personality of students and turn them into self-aware
+            leaders, with a focus on ethical values and character development.
+          </li>
+        </ul>
+      </Container>
+      <div className='section-sub-heading container-fluid text-center my-3'>
+        Activity Log of TPC
       </div>
     </div>
   )
