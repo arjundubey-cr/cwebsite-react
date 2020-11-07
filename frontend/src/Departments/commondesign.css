@@ -62,6 +62,11 @@
   justify-content: left;
 }
 
+.margin-faculty-left
+{
+  margin-left:2.5rem!important
+}
+
 .bg-grey {
   background-color: grey;
 }
