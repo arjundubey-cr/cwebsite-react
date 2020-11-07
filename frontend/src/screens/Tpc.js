@@ -29,6 +29,9 @@ const Tpc = () => {
         students, along with internships for third-year students, personality
         development and support for diverse career goals.
       </div>
+      <div className='section-sub-heading container-fluid text-center my-3'>
+        Incharge and Advisory Board
+      </div>
     </div>
   )
 }
