@@ -4,11 +4,11 @@ import '../../commondesign.css'
 const Achievement = (props) => {
     return (
         <div className="container-fluid pl-3 pr-3">
-            <div className="intro">
+            <div className="introduction">
                 <h2 className="intro text-uppercase tx-blue">
                     Achievement
             </h2>
-                <ol className='pl-3'>
+                <ol className='pl-3 ml-3'>
                     <li className='list-item'>Number of Patent filed: <strong>01 (Machine learning based method for optimization of mobile health services and medical resources in rural and remote area)</strong></li>
                     <li className='list-item'>CSI membership</li>
                     <li className='list-item'>International Association of Engineers membership</li>

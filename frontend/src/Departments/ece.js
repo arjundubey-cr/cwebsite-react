@@ -15,7 +15,7 @@ const Ece = (props) => {
     if (ContentName === 'About') {
       return <About />
     } else if (ContentName === '') {
-      return <Faculty />
+      return <About />
     } else if (ContentName === 'Faculty') {
       return <Faculty />
     } else if (ContentName === 'Achievement') {

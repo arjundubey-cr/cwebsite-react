@@ -12,10 +12,10 @@ const CourseSyllabus = (props) => {
         <div className='table-responsive table-shadow mt-2 p-3 mt-4'>
           <table class='table table-condensed table-bordered pub table-striped'>
             <thead>
-              <tr className='bg-pink'>
-                <th width='3%'>S.No.</th>
-                <th>Description</th>
-                <th>View</th>
+              <tr className='bg-dark'>
+                <th className='text-white' width='3%'>S.No.</th>
+                <th className='text-white' >Description</th>
+                <th className='text-white' >View</th>
               </tr>
             </thead>
             <tbody id='tblTimeTable'>
