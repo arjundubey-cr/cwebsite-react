@@ -168,6 +168,10 @@
   box-shadow: 1px 1px 2px 4px #736c6c38;
 }
 
+.achieve-img .electrical-achieve-img {
+  width: 850px;
+}
+
 .content {
   font-family: sans-serif;
 }
@@ -177,6 +181,14 @@
 }
 
 /* table content at mobile view */
+
+@media only screen and (max-width: 990px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  .achieve-img .electrical-achieve-img {
+    width: 600px;
+  }
+}
+
 @media only screen and (max-width: 760px),
   (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Force table to not be like tables anymore */
@@ -263,21 +275,28 @@
   .student-activities-images img {
     width: 67%;
   }
-
 }
 
-@media only screen and (max-width: 670px),
+@media only screen and (max-width: 690px),
   (min-device-width: 768px) and (max-device-width: 1024px) {
   .intro {
     font-size: 1.5em;
     font-weight: 600 !important;
   }
 
+  .achieve-img
+  {
+      width: 465px;
+  }
   .achieve-img img {
     width: 450px;
     height: auto;
     border-radius: 10px;
     box-shadow: 1px 1px 2px 4px #736c6c38;
+  }
+
+  .achieve-img .electrical-achieve-img {
+    width: 447px;
   }
 }
 
@@ -292,7 +311,17 @@
 
   .lab-inside {
     width: 338px;
-    height:auto;
+    height: auto;
     margin-bottom: 14px;
   }
+
+  .achieve-img
+  {
+      width: 340px;
+  }
+
+  .achieve-img .electrical-achieve-img {
+    width: 324px;
+  }
 }
+
