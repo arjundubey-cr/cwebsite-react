@@ -206,9 +206,10 @@
   }
 
   .mobile-tbody .mobile-tr {
-    margin-bottom: 2px;
-    border: 3px solid black !important;
+    margin-bottom: 15px;
+    /* border: 3px solid black !important; */
     border-radius: 4%;
+    box-shadow: 1px 1px 3px 4px #e3dddd;
     padding: 8px;
   }
 
@@ -291,6 +292,7 @@
 
   .lab-inside {
     width: 338px;
+    height:auto;
     margin-bottom: 14px;
   }
 }
