@@ -46,7 +46,9 @@ const Tpc = () => {
         Faculty of Engineering and Technology aims to become a world-renowned
         institution in the field of technical education and continuously strives
         towards perfection. The faculty members work collaboratively to offer
-        excellence in teaching and research. <br />
+        excellence in teaching and research.
+      </div>
+      <div className=' description container-fluid text-center mt-1'>
         The <strong>Training and Placement Cell</strong> of FoET is centred
         around employment outcomes for the final semester students. The Training
         and Placement cell organises training sessions, talks and other
