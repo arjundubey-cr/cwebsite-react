@@ -71,9 +71,9 @@ const Header = () => {
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
-                {/* Container for admission */}
-                <LinkContainer to='/campus-life'>
-                  <Nav.Link>Campus Life</Nav.Link>
+                {/* Container for LIFE@FOET*/}
+                <LinkContainer to='/studentlife'>
+                  <Nav.Link>Life at FOET</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to='/admission'>
                   <Nav.Link>Admission</Nav.Link>
