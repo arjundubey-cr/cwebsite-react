@@ -8,7 +8,7 @@ const StudentLife = () => {
       <div className='section-sub-heading container-fluid text-center my-3'>
         Council of Student Activities
       </div>
-      <div className=' description container text-center'>
+      <div className='description container'>
         The job market is one of the most competitive we have ever known. Very
         often employers tell us that a degree alone is not indicative of a
         well-rounded graduate. It is very strongly felt that during graduation
@@ -23,7 +23,7 @@ const StudentLife = () => {
         of skills and attributes that are important for graduates.
       </div>
       <br />
-      <div className='description container text-center'>
+      <div className='description container'>
         Introduction of a new course structure in 2017 have provided an
         opportunity to the undergraduate students to build a carrier to suit
         their interests and aspirations. The curriculum enables students to
@@ -36,12 +36,12 @@ const StudentLife = () => {
       </div>
       <div className='description container'>
         These councils are as under:
-        <ul className='list-unstyled'>
-          <li>Literary Council</li>
+        <ul className='council-list'>
           <li>Technical Council</li>
-          <li>Fine Arts and Photography Council</li>
-          <li>Cultural Council</li>
           <li>Sports Council</li>
+          <li>Fine Arts and Photography Council</li>
+          <li>Literary Council</li>
+          <li>Cultural Council</li>
         </ul>
       </div>
     </div>
