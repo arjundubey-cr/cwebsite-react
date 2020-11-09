@@ -83,7 +83,7 @@ const Faculty = () => {
       <div className='container-fluid marketing'>
         <div className='row facuty-data justify-content-space-between ml-1'>
           {data.map((data, index) => (
-            <div className='col-lg-3 m-4 p-3 rounded'>
+            <div className='col-lg-3 m-4 p-3 margin-faculty-left rounded'>
               <img
                 src={data.image}
                 className='bd-placeholder-img img-shadow rounded-circle mb-2'

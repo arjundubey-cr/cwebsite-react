@@ -1,109 +1,141 @@
-import React from 'react'
-import '../../commondesign.css'
-import ComputerLab1 from '../../images/cse/computer_lab_1.png'
-import ComputerLab2 from '../../images/cse/computer_lab_2.png'
-import ComputerLab3 from '../../images/cse/computer-lab-3.png'
-import matlab from '../../images/cse/matlab.png'
-import NetworkLab from '../../images/cse/network-lab.png'
+import React from "react";
+import "../../commondesign.css";
+import imgcsl from "../../images/ee/ControlSystemLab.png";
+import imgeml1 from "../../images/ee/ElectricalMachineLab1.png";
+import imgeml2 from "../../images/ee/ElectricalMachineLab2.png";
+import imgemmil from "../../images/ee/EmmiLab.png";
+import imgpsl1 from "../../images/ee/PowerSystemLab1.png";
+import imgpsl2 from "../../images/ee/PowerSystemLab1.2.png";
+import imgpsl3 from "../../images/ee/PowerSystemLab2.png";
+import imgpsl4 from "../../images/ee/PowerSystemLab2.2.png";
 
 const About = (props) => {
+  const data = [
+    {
+      src:imgcsl,
+      alt: 'Control system lab'
+    },
+    {
+      src:imgeml1,
+      alt: 'Electrical machine lab 1'
+    },
+    {
+      src:imgeml2,
+      alt: 'Electrical machine lab 2'
+    },
+    {
+      src:imgemmil,
+      alt: 'Emmi lab'
+    },
+    {
+      src:imgpsl1,
+      alt: 'Power system lab 1'
+    },
+    {
+      src:imgpsl2,
+      alt: 'Power system lab 1.2'
+    },
+    {
+      src:imgpsl3,
+      alt: 'Power system lab 2'
+    },
+    {
+      src:imgpsl4,
+      alt: 'Power system lab 2.2'
+    },
+    
+    
+  ];
   return (
-    <div className='about pl-2 pr-3 py-1'>
-      <div className='social-handle mb-2 p-2 '>
-        <div className='youtube'>
+    <div className="about pl-2 pr-3 py-1">
+      <div className="social-handle mb-2 p-2 ">
+        <div className="youtube">
           <a
-            className='a-text-none'
-            href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos'
-            alt='Computer Science youtube Channel'
-            target='_blank'
-            rel='noopener noreferrer'>
-            <i className='fab fa-youtube text-danger font-awsome'></i>
-            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
+            className="a-text-none"
+            href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos"
+            alt="Computer Science youtube Channel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-youtube text-danger font-awsome"></i>
+            <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
               Youtube Channel
             </span>
           </a>
         </div>
       </div>
-      <div className='introduction'>
-        <h2 className='intro text-uppercase tx-blue'>
-          DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
+      <div className="introduction">
+        <h2 className="intro text-uppercase tx-blue">
+          DEPARTMENT OF ELECTRICAL ENGINEERING
         </h2>
-        <p className='pl-3'>
-          Department of Computer Science & Engineering is the largest department
-          in Faculty of Engineering and Technology. The Department offers a 4
-          years course, B.Tech.in Computer Sc. & Engineering, with an intake of
-          90 students and 3 Year MCA course with an intake of 30 students.
-          Now-a-days Computer Science & Engineering is the most sought-after
-          branch in the country. The Department has very experienced and well
-          qualified faculty members and several well equipped laboratories. All
-          computer laboratories have LAN connectivity which facilitates internet
-          usage. The department works with a mission to provide state of art
-          facilities for high quality academic practices.
+        <p className="pl-3">
+          The Department of Electrical Engineering offers 4 years undergraduate
+          B.Tech. programme in Electrical Engineering. It has an intake of 66
+          students. Besides teaching students of Electrical Engineering, the
+          department also offers basic as well as advance level courses in
+          Electrical Engineering to the students of various branches of the
+          Faculty. It has a well qualified faculty and technical supporting
+          staff. All the laboratories of the department are well equipped with
+          modern equipments.
         </p>
       </div>
-      <div className='course-offered'>
-        <h2 className='intro text-uppercase tx-blue'>Course offered</h2>
-        <ul className='course-list'>
+      <div className="course-offered">
+        <h2 className="intro text-uppercase tx-blue">Course offered</h2>
+        <ul className="course-list">
           <li>
-            <strong>
-              B.Tech in Computer Science and Engineering(Duration-4 years)
-            </strong>
+            <strong>B.Tech in Electrical Engineering(Duration- 4 years)</strong>
           </li>
           <li>
             <strong>
-              B.Tech in Computer Science and Engineering -Lateral (Duration-3
-              years)
+              B.Tech in Electrical Engineering -Lateral (Duration-3 years)
             </strong>
-          </li>
-          <li>
-            <strong>BCA (Duration-3 Years)</strong>
-          </li>
-          <li>
-            <strong>MCA-Lateral (Duration-2 Years)</strong>
           </li>
         </ul>
       </div>
-      <div className='focus-list'>
+      <div className="focus-list">
         <p>
           The department covers all recent trends in Computer Technology with
           prime focuses on:
         </p>
         <ul>
           <li>
-            <strong>Artificial Intelligence</strong>
+            <strong>Power Generation Technology</strong>
           </li>
           <li>
-            <strong>Digital Image Processing</strong>
+            <strong>Power system dynamics and stability</strong>
           </li>
           <li>
-            <strong>Computer Networking &amp; Parallel Computing</strong>
+            <strong>HVDC and FACTS</strong>
           </li>
           <li>
-            <strong>Algorithm Design</strong>
+            <strong>AI Techniques and Optimization in power system</strong>
           </li>
           <li>
-            <strong>Programming Languages and Software Engineering</strong>
+            <strong>Smart Grid Technologies and Microgrids</strong>
           </li>
           <li>
-            <strong>Computer Organization &amp; Architecture </strong>
+            <strong>SCADA and Enegy Audit</strong>
           </li>
           <li>
-            <strong>Data Analytics</strong>
+            <strong>Electrical Machines</strong>
           </li>
           <li>
-            <strong>Database Management</strong>
+            <strong>Electrical Vehicle</strong>
           </li>
           <li>
-            <strong>Web Technology</strong>
+            <strong>Power Electronics and Electrical Drives</strong>
           </li>
           <li>
-            <strong>Machine Learning</strong>
+            <strong>Advanced Control System</strong>
           </li>
           <li>
-            <strong>Information &amp; Cyber Security</strong>
+            <strong>Electrical Measurement Techniques</strong>
           </li>
           <li>
-            <strong>Internet of Things (IoT)</strong>
+            <strong>Power Quality</strong>
+          </li>
+          <li>
+            <strong>Renewable Energy Technologies</strong>
           </li>
         </ul>
         <p>
@@ -113,91 +145,103 @@ const About = (props) => {
           Engineering is best appreciated through such associations.
         </p>
       </div>
-      <div className='deparment'>
-        <h2 className='intro text-uppercase tx-blue'>
-          CONSULTANCY AREAS OF COMPUTER SCIENCE & ENGINEERING
+      <div className="deparment">
+        <h2 className="intro text-uppercase tx-blue">
+          CONSULTANCY AREAS OF ELECTRICAL ENGINEERING
         </h2>
         <div>
           <ul>
             <li>
-              <strong>A</strong>
-              <strong>rtificial Intelligence</strong>
+              <strong>
+                Design and cost estimation for Wiring of Buildings
+              </strong>
             </li>
             <li>
-              <strong>Digital Image Processing</strong>
+              <strong>Testing of Dielectric Strength of Transformer Oil</strong>
             </li>
             <li>
-              <strong>Computer Networking &amp; Parallel Computing</strong>
+              <strong>Energy Audit</strong>
             </li>
             <li>
-              <strong>Algorithm Design</strong>
+              <strong>Design &amp; Cost estimation of Solar-PV System</strong>
             </li>
             <li>
-              <strong>Programming Languages and Software Engineering</strong>
+              <strong>
+                Design &amp; Cost estimation of Solar water heating system,
+                Solar Cooker and Solar Drier
+              </strong>
             </li>
             <li>
-              <strong>Computer Organization &amp; Architecture </strong>
-            </li>
-            <li>
-              <strong>Data Analytics</strong>
-            </li>
-            <li>
-              <strong>Database Management</strong>
-            </li>
-            <li>
-              <strong>Web Technology</strong>
-            </li>
-            <li>
-              <strong>Machine Learning</strong>
-            </li>
-            <li>
-              <strong>Information &amp; Cyber Security</strong>
-            </li>
-            <li>
-              <strong>Internet of Things (IoT)</strong>
+              <strong>Calibration of Ammeter &amp; Voltmeter </strong>
             </li>
           </ul>
         </div>
       </div>
-      <div className='computer-center'>
-        <h2 className='intro text-uppercase tx-blue'>COMPUTER CENTRE</h2>
-        <p className='computer-center-description'>
-          This centre has two servers, 70 nodes with latest configurations along
-          with necessary software and printers etc to meet the needs of the
-          students from all other branches. All the computers are connected
-          through LAN. There is internet facility in the centre.
-        </p>
-        <div className='commputer-center-images'>
-          <h2 className='intro text-uppercase tx-blue font-weight-bold'>
+      <div className="computer-center">
+        <h2 className="intro text-uppercase tx-blue">
+          Laboratories in Department of ELECTRICAL ENGINEERING ENGINEERING
+        </h2>
+        <div dir="auto" className="mx-3">
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            1.Basic Electrical Engineering lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            2.Electrical Machines Lab - I
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            3.Electrical Machines Lab- II
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            4.Network Analysis and Synthesis Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            5.Electrical Measurement and Measuring Instruments Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            6.Power System Lab - I
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            7.Power System Lab - II
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            8 Control System Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            9.Electrical Design and Fabrication Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            10.Power Electronics Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            11. Switchgear and Protection Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            12. Electric Drives Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            13. Simulation Lab
+          </h4>
+          <h4 className="laboratory font-weight-bold" dir="auto">
+            14. Instrumentation and Process control Lab
+          </h4>
+        </div>
+        <div className="computer-center-images">
+          <h2 className="intro text-uppercase tx-blue font-weight-bold">
             Laboratories in Department of Computer Science & Engineering
           </h2>
-          <div className='lab-image my-3'>
-            <img
-              src={ComputerLab1}
-              alt='ComputerLab1'
-              className='lab-inside img-border'
-            />
-            <img
-              src={ComputerLab2}
-              alt='ComputerLab2'
-              className='lab-inside img-border'
-            />
-            <img
-              src={ComputerLab3}
-              alt='ComputerLab3'
-              className='lab-inside img-border'
-            />
-            <img src={matlab} alt='matlab' className='lab-inside img-border' />
-            <img
-              src={NetworkLab}
-              alt='NetworkLab'
-              className='lab-inside img-border'
-            />
+          <div className="lab-image my-3">
+            {data.map((data, index) => (
+              <img
+                src={data.src}
+                alt={`${data.alt}`}
+                className="lab-inside img-border"
+              />
+            ))}{' '}
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
