@@ -5,7 +5,7 @@ const AdmissionScreen = () => {
     <div>
       <div className='section-heading text-center'>Admission</div>
       <hr className='section-underline' />
-      <div className='admission-content description container-fluid text-center'>
+      <div className='admission-content description container text-xs-left text-md-center'>
         Admission to programs of Faculty of Engineering and Technology in the
         University of Lucknow, Lucknow is carried out through the entrance
         examination for degree level engineering institutions and other

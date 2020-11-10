@@ -9,30 +9,29 @@ const StudentLife = () => {
         Council of Student Activities
       </div>
       <div className='description container'>
-        The job market is one of the most competitive we have ever known. Very
-        often employers tell us that a degree alone is not indicative of a
-        well-rounded graduate. It is very strongly felt that during graduation
-        effort should be made to help the students to develop all round
-        personality. To achieve this goal we should not just provide the
-        opportunities for students to achieve good academic results but actively
-        promote the benefits of a wider curriculum to the students. The Council
-        will provide opportunities through which students can prepare themselves
-        to succeed in the many and varied roles they will have to undertake in
-        their future life. To recognise the importance and value of both
-        academic curriculum and co-curricular activities in developing the range
-        of skills and attributes that are important for graduates.
+        The job market is one of the most competitive ones we have ever known.
+        Very often, employers tell us that a degree alone is not indicative of a
+        well-rounded graduate. It is ardent that during graduation, efforts
+        should be to help the students develop an all-around personality. To
+        achieve this goal, we should not just provide opportunities for students
+        to achieve good academic results but actively promote the benefits of a
+        broad curriculum to students. The Council will provide opportunities
+        through which students can prepare themselves to succeed in varied roles
+        they will have to undertake in the future. To recognize the importance
+        and value of both academic curriculum and co-curricular activities in
+        developing the range of skills and attributes is crucial for graduates.
       </div>
       <br />
       <div className='description container'>
-        Introduction of a new course structure in 2017 have provided an
-        opportunity to the undergraduate students to build a carrier to suit
-        their interests and aspirations. The curriculum enables students to
-        develop their subject knowledge, academic literacy and a range of
-        complementary capabilities. Apart from academic curriculum there is
-        co-curricular and extra-curricular activities which means any activity
-        that falls outside the academic curriculum but it is part of Engineering
-        curriculum. To keep the programme functional various councils have been
-        formed.
+        The introduction of a new course structure in 2017 has provided an
+        opportunity for undergraduate students to build a career to suit their
+        interests and aspirations. The curriculum enables students to develop
+        their subject knowledge, academic literacy, and a range of complementary
+        capabilities. Apart from the academic curriculum, there are
+        co-curricular and extra-curricular activities, which means any activity
+        that falls outside the academic curriculum is part of the Engineering
+        curriculum. To keep the program functional, various councils are in
+        place.
       </div>
       <div className='description container'>
         These councils are as under:
