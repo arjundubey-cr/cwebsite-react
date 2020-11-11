@@ -153,6 +153,9 @@ main {
   cursor: pointer !important;
   border: none !important;
 }
+.departmentCard:hover {
+  transform: scale(1.05);
+}
 .departmentCard:hover .card-img-top {
   background-color: rgba(151, 63, 63, 0.2);
 }
@@ -265,6 +268,7 @@ div.departmentCard .card-body .card-title {
   display: inline-block;
   width: 1em;
 }
+
 /* student life css ends */
 /* Footer Styling */
 footer {
@@ -282,6 +286,7 @@ footer {
 }
 .footer-logo {
   width: 150px;
+  height: 140px;
 }
 address {
   font-weight: 400;
