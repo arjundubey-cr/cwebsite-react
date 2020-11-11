@@ -31,6 +31,7 @@ main {
     margin-left: 80px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .top-list,
   .bottom-list {
@@ -236,6 +237,35 @@ div.departmentCard .card-body .card-title {
   color: var(--blue-text);
 }
 /* Admission Section CSS Ends */
+/*TPC CSS STARTS*/
+.tpc-objectives-list {
+  list-style-type: square;
+  padding: 0;
+  color: var(--gray-text);
+}
+.tpc-objectives-list li {
+  font-size: 1.25em;
+  padding: 5px;
+}
+/* TPC CSS ENDS */
+/* student life css starts */
+.section-sub-sub-heading {
+  font-weight: 900;
+  color: var(--blue-text);
+  font-size: 1.25em;
+  font-family: 'Roboto', sans-serif;
+}
+.council-list {
+  list-style-type: none !important;
+}
+.council-list li::before {
+  content: '\25A0';
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+/* student life css ends */
 /* Footer Styling */
 footer {
   background-color: #2b2a54;

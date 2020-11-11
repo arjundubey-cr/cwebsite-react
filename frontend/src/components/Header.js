@@ -27,56 +27,58 @@ const Header = () => {
             <i className='fa fa-bars fa-lg' aria-hidden='true' />
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
-            <Nav className='ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
-              <LinkContainer to='/faculty'>
-                <Nav.Link>Faculty</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/tpc'>
-                <Nav.Link>Training &amp; Placement </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/contact-us'>
-                <Nav.Link>Contact Us</Nav.Link>
-              </LinkContainer>
-            </Nav>
-            <br />
-            <Nav className='ml-auto mt-xl-5 mt-lg-4 mb-0 mr-0 bottom-list'>
-              <LinkContainer to='/about'>
-                <Nav.Link>About</Nav.Link>
-              </LinkContainer>
-              {/* NavbarDropdown for Departments */}
-              <NavDropdown title='Department' id='basic-nav-dropdown'>
-                <LinkContainer to='/cse'>
-                  <NavDropdown.Item>
-                    Computer Science and Engineering
-                  </NavDropdown.Item>
+            <Nav>
+              <div className='d-lg-flex ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
+                <LinkContainer to='/faculty'>
+                  <Nav.Link>Faculty</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to='/ece'>
-                  <NavDropdown.Item>
-                    Electronics and Communication Engineering
-                  </NavDropdown.Item>
+                <LinkContainer to='/tpc'>
+                  <Nav.Link>Training &amp; Placement </Nav.Link>
                 </LinkContainer>
-                <LinkContainer to='/ce'>
-                  <NavDropdown.Item>Civil Engineering</NavDropdown.Item>
+                <LinkContainer to='/contact-us'>
+                  <Nav.Link>Contact Us</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to='/me'>
-                  <NavDropdown.Item>Mechanical Engineering</NavDropdown.Item>
+              </div>
+              <br />
+              <div className='d-lg-flex ml-lg-auto mt-xl-5 mt-lg-4 mb-lg-0 mr-lg-0 bottom-list'>
+                <LinkContainer to='/about'>
+                  <Nav.Link>About</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to='/ee'>
-                  <NavDropdown.Item>Electrical Engineering</NavDropdown.Item>
+                {/* NavbarDropdown for Departments */}
+                <NavDropdown title='Department' id='basic-nav-dropdown'>
+                  <LinkContainer to='/cse'>
+                    <NavDropdown.Item>
+                      Computer Science and Engineering
+                    </NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to='/ece'>
+                    <NavDropdown.Item>
+                      Electronics and Communication Engineering
+                    </NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to='/ce'>
+                    <NavDropdown.Item>Civil Engineering</NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to='/me'>
+                    <NavDropdown.Item>Mechanical Engineering</NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to='/ee'>
+                    <NavDropdown.Item>Electrical Engineering</NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to='/ash'>
+                    <NavDropdown.Item>
+                      Applied Science and Humanities
+                    </NavDropdown.Item>
+                  </LinkContainer>
+                </NavDropdown>
+                {/* Container for LIFE@FOET*/}
+                <LinkContainer to='/studentlife'>
+                  <Nav.Link>Life at FOET</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to='/ash'>
-                  <NavDropdown.Item>
-                    Applied Science and Humanities
-                  </NavDropdown.Item>
+                <LinkContainer to='/admission'>
+                  <Nav.Link>Admission</Nav.Link>
                 </LinkContainer>
-              </NavDropdown>
-              {/* Container for admission */}
-              <LinkContainer to='/campus-life'>
-                <Nav.Link>Campus Life</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/admission'>
-                <Nav.Link>Admission</Nav.Link>
-              </LinkContainer>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>

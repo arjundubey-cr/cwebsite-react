@@ -12,6 +12,8 @@ import Ash from './Departments/ash.js'
 
 import AdmissionScreen from './screens/AdmissionScreen'
 import ScrollToTop from './ScrollToTop'
+import Tpc from './screens/Tpc'
+import StudentLife from './screens/StudentLife'
 function App() {
   return (
     <Router>
@@ -26,6 +28,8 @@ function App() {
           <Route path='/Ee' component={Ee} exact />
           <Route path='/Ash' component={Ash} exact />
           <Route path='/admission' component={AdmissionScreen} exact />
+          <Route path='/tpc' component={Tpc} exact />
+          <Route path='/studentlife' component={StudentLife} exact />
         </ScrollToTop>
       </main>
       <Footer />

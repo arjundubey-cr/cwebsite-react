@@ -18,9 +18,11 @@ const HomeScreen = () => {
           <h1 className='h2 font-weight-bolder'>Life at FOET</h1>
           <h2>We Impact Society to make it a better world to live</h2>
           <h3>You can be part too</h3>
-          <Button variant='danger' className='my-3'>
-            Learn More
-          </Button>
+          <LinkContainer to='/studentlife'>
+            <Button variant='danger' className='my-3'>
+              Learn More
+            </Button>
+          </LinkContainer>
         </div>
       </div>
       <Container>

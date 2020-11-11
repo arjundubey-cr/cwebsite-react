@@ -40,18 +40,19 @@ const Footer = () => {
               <Col>
                 <div className='footer-section-heading'>QUICK LINKS</div>
                 <ul className='footer-section-details'>
-                  <Link to='/admission' className='footer-link'>
+                  <a href='https://www.lkouniv.ac.in' className='footer-link'>
                     <li>University of Lucknow</li>
-                  </Link>
-                  <Link to='/admission' className='footer-link'>
+                  </a>
+                  <a
+                    href='https://udrc.lkouniv.ac.in/student?cd=MQAzADYAOQA2AA%3D%3D'
+                    className='footer-link'>
                     <li>UDRC Student Login</li>
-                  </Link>
-                  <Link to='/admission' className='footer-link'>
-                    <li></li>
-                  </Link>
-                  <Link to='/admission' className='footer-link'>
-                    <li>Scholarship</li>
-                  </Link>
+                  </a>
+                  <a
+                    href='https://slate.lkouniv.ac.in/'
+                    className='footer-link'>
+                    <li>SLATE</li>
+                  </a>
                 </ul>
               </Col>
               <Col>
