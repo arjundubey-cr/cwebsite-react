@@ -180,6 +180,27 @@
   background-color: #2a2a28 !important;
 }
 
+/* -------------civil lab------------- */
+
+.civil-labs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+.civil-lab-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 10px 15px;
+}
+
+.civil-lab-label
+{
+  text-align: center;
+}
 /* table content at mobile view */
 
 @media only screen and (max-width: 990px),
@@ -284,9 +305,8 @@
     font-weight: 600 !important;
   }
 
-  .achieve-img
-  {
-      width: 465px;
+  .achieve-img {
+    width: 465px;
   }
   .achieve-img img {
     width: 450px;
@@ -315,13 +335,11 @@
     margin-bottom: 14px;
   }
 
-  .achieve-img
-  {
-      width: 340px;
+  .achieve-img {
+    width: 340px;
   }
 
   .achieve-img .electrical-achieve-img {
     width: 324px;
   }
 }
-

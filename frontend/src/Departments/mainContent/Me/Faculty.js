@@ -1,89 +1,49 @@
 import React from 'react'
 import '../../commondesign.css'
-import imghp from '../../images/cse/faculty/HimanshuPandey.jpg'
-import imgay from '../../images/cse/faculty/AkanshaYadav.jpg'
-import imgas from '../../images/cse/faculty/AnshuSingh.jpg'
-import imgcbs from '../../images/cse/faculty/ChandrabhanSingh.jpg'
-import imgpk from '../../images/cse/faculty/Pankajkumar.jpg'
-import imgpt from '../../images/cse/faculty/PriyankaTripathi.jpg'
-import imgr from '../../images/cse/faculty/Rohit.jpg'
-import imgssd from '../../images/cse/faculty/ShrutiSaxenaDas.jpg'
-import imgzas from '../../images/cse/faculty/ZeeshanAliSiddiqui.jpg'
+import imgrb from '../../images/me/faculty/RajendraBahadur.jpg'
+import imgkt from '../../images/me/faculty/KamleshTiwari.jpg'
+import imgpks from '../../images/me/faculty/PrashantKumarSingh.jpg'
+import imgskg from '../../images/me/faculty/SandeepKumarGupta.jpg'
 
 const Faculty = () => {
   const data = [
     {
-      name: 'Dr. Himanshu Pandey',
-      image: imghp,
+      name: 'Dr. Rajendra Bahadur',
+      image: imgrb,
       post: 'Assistant Professor',
-      phoneNum: '7905287870',
-      email: 'hpandey010@gmail.com',
+      phoneNum: '7524816659',
+      email: 'rajendramech@gmail.com',
     },
     {
-      name: 'Er. Akansha Yadav',
-      image: imgay,
+      name: 'Er. Kamlesh Tiwari',
+      image: imgkt,
       post: 'Assistant Professor',
-      phoneNum: '7524086772',
-      email: 'itsakanksha9@gmail.com',
+      phoneNum: '9721049117',
+      email: 'tiwari.kamlesh@yahoo.com',
     },
     {
-      name: 'Er.Anshu Singh',
-      image: imgas,
+      name: 'Er.Prashant Kumar Singh',
+      image: imgpks,
       post: 'Assistant Professor',
-      phoneNum: '7376252768',
-      email: 'anshu.singh6225@gmail.com',
+      phoneNum: '9406987292',
+      email: 'pavanrajawat038@gmail.com',
     },
 
     {
-      name: 'Er. Chandrabhan Singh',
-      image: imgcbs,
+      name: 'Er. Sandeep Kumar Gupta',
+      image: imgskg,
       post: 'Assistant Professor',
-      phoneNum: '7275711509',
-      email: 'chandrabhan98@gmail.com',
+      phoneNum: '8299502617',
+      email: 'sandeep.gupta791@gmail.com',
     },
 
-    {
-      name: 'Er. Pankaj kumar',
-      image: imgpk,
-      post: 'Assistant Professor',
-      phoneNum: '9452462043',
-      email: 'lotus_28js@yahoo.com',
-    },
-    {
-      name: 'Er. Priyanka Tripathi',
-      image: imgpt,
-      post: 'Assistant Professor',
-      phoneNum: '9305595936',
-      email: 'priyankatripathiknp@gmail.com',
-    },
-    {
-      name: 'Er. Rohit',
-      image: imgr,
-      post: 'Assistant Professor',
-      phoneNum: '7007987502',
-      email: 'rohitatknit@gmail.com',
-    },
-    {
-      name: 'Er. Shruti Saxena Das',
-      image: imgssd,
-      post: 'Assistant Professor',
-      phoneNum: '8707524957',
-      email: 'shipra.shruti@gmail.com',
-    },
-    {
-      name: 'Er. Zeeshan Ali Siddiqui',
-      image: imgzas,
-      post: 'Assistant Professor',
-      phoneNum: '9810513463',
-      email: 'zeealis@gmail.com',
-    },
   ]
   return (
     <div className='Faculty'>
       <div className='container-fluid marketing'>
-        <div className='row facuty-data justify-content-space-between ml-1'>
+        <div className='row facuty-data justify-content-right ml-1'>
           {data.map((data, index) => (
-            <div className='col-lg-3 m-4 p-3 rounded'>
+            <div className='col-lg-3 m-4 p-3 margin-faculty-left rounded'>
               <img
                 src={data.image}
                 className='bd-placeholder-img img-shadow rounded-circle mb-2'
