@@ -1,14 +1,11 @@
 import React from 'react'
-
+import placeHolder from '../assets/images/image-showcase.jpg'
 const StudentLife = () => {
   return (
     <div>
-      <div className='section-heading text-center'>Student Life at FOET</div>
+      <div className='section-heading text-center'>Life at FOET</div>
       <hr className='section-underline' />
-      <div className='section-sub-heading container-fluid text-center my-3'>
-        Council of Student Activities
-      </div>
-      <div className='description container'>
+      <div className='description container-fluid'>
         The job market is one of the most competitive ones we have ever known.
         Very often, employers tell us that a degree alone is not indicative of a
         well-rounded graduate. It is ardent that during graduation, efforts
@@ -21,27 +18,59 @@ const StudentLife = () => {
         and value of both academic curriculum and co-curricular activities in
         developing the range of skills and attributes is crucial for graduates.
       </div>
-      <br />
-      <div className='description container'>
-        The introduction of a new course structure in 2017 has provided an
-        opportunity for undergraduate students to build a career to suit their
-        interests and aspirations. The curriculum enables students to develop
-        their subject knowledge, academic literacy, and a range of complementary
-        capabilities. Apart from the academic curriculum, there are
-        co-curricular and extra-curricular activities, which means any activity
-        that falls outside the academic curriculum is part of the Engineering
-        curriculum. To keep the program functional, various councils are in
-        place.
+      <div className='section-sub-heading text-center container'>
+        Student Life
       </div>
-      <div className='description container'>
-        These councils are as under:
-        <ul className='council-list'>
-          <li>Technical Council</li>
-          <li>Sports Council</li>
-          <li>Fine Arts and Photography Council</li>
-          <li>Literary Council</li>
-          <li>Cultural Council</li>
-        </ul>
+      <div className='row container-fluid'>
+        <div className='col-8 description'>
+          To complement their academics, students choose their own
+          extracurricular adventures, from a spectacular array of ways to
+          participate in music, dance, sports and tech. Council of Student
+          Activities(CSA) is in place which makes sure to help students navigate
+          challenges and to ensure proper smoothness of them
+        </div>
+        <div className='col-4'>
+          <img src='#' alt='Council of Student Activities' />
+        </div>
+      </div>
+      <div className='section-sub-heading text-center container'>
+        Clubs and Councils
+      </div>
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Hello World</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Rangmanch</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Hello World</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Hello World</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
