@@ -1,56 +1,117 @@
 import React from "react";
 import "../../commondesign.css";
-import imgcsl from "../../images/ee/ControlSystemLab.png";
-import imgeml1 from "../../images/ee/ElectricalMachineLab1.png";
-import imgeml2 from "../../images/ee/ElectricalMachineLab2.png";
-import imgemmil from "../../images/ee/EmmiLab.png";
-import imgpsl1 from "../../images/ee/PowerSystemLab1.png";
-import imgpsl2 from "../../images/ee/PowerSystemLab1.2.png";
-import imgpsl3 from "../../images/ee/PowerSystemLab2.png";
-import imgpsl4 from "../../images/ee/PowerSystemLab2.2.png";
 import BMAClab1 from "../../images/ce/BMAClab1.png";
 import BMAClab2 from "../../images/ce/BMAClab2.png";
-
+import CTlab1 from "../../images/ce/CTlab1.png";
+import CTlab2 from "../../images/ce/CTlab2.png";
+import CTlab3 from "../../images/ce/CTlab3.png";
+import EElab1 from "../../images/ce/EElab1.png";
+import EElab2 from "../../images/ce/EElab2.png";
+import FMlab1 from "../../images/ce/FMlab1.png";
+import FMlab2 from "../../images/ce/FMlab2.png";
+import GIlab1 from "../../images/ce/GIlab1.png";
+import GIlab2 from "../../images/ce/GIlab2.png";
+import GTElab1 from "../../images/ce/GTElab1.png";
+import GTElab2 from "../../images/ce/GTElab2.png";
+import GTElab3 from "../../images/ce/GTElab3.png";
+import GTElab4 from "../../images/ce/GTElab4.png";
+import HAHMlab1 from "../../images/ce/HAHMlab1.png";
+import HAHMlab2 from "../../images/ce/HAHMlab2.png";
+import SAlab1 from "../../images/ce/SAlab1.png";
+import SAlab2 from "../../images/ce/SAlab2.png";
+import SLlab1 from "../../images/ce/SLlab1.png";
+import SLlab2 from "../../images/ce/SLlab2.png";
+import TElab1 from "../../images/ce/TElab1.png";
+import TElab2 from "../../images/ce/TElab2.png";
+import TElab3 from "../../images/ce/TElab3.png";
+import TElab4 from "../../images/ce/TElab4.png";
 
 const About = (props) => {
-  const data = [
+  const lab = [
     {
-      labName: "",
-      description: "",
-      src: imgcsl,
-      alt: "Control system lab",
+      id: "1",
+      lab: "Building Materials & Construction Lab",
+      description:
+        "Number of Equipments: 08 (Vicat’s Apparatus, Compression Testing Machine, Le-Chatelier’s Apparatus, Flexure Testing Machine, Sieve Shaker & I.S. Sieves (coarse &fine both), Silt Content & Bulking of  sand, Oven, Cube Vibrator)",
+      images: [BMAClab1, BMAClab2],
+      alt: ["image1", "image2"],
     },
     {
-      src: imgeml1,
-      alt: "Electrical machine lab 1",
+      id: "2",
+      lab: "Surveying Lab",
+      description:
+        "Number of Equipments: 06 (Chains & Links, Prismatic Compass & Surveyor’s compass, Theodolite, Dumpy Level, Auto Level, Plane Table)",
+      images: [SLlab1, SLlab2],
+      alt: ["image1", "image2"],
     },
     {
-      src: imgeml2,
-      alt: "Electrical machine lab 2",
+      id: "3",
+      lab: "Fluid Mechanics Lab",
+      description:
+        "Number of Equipments: 08 (Venturimeter, Orifice meter, Friction Factor Apparatus, Bend meter, Reynolds Apparatus, Orifice,Bernoulli’s Apparatus,Metacentric height Apparatus)",
+      images: [FMlab1, FMlab2],
+      alt: ["image1", "image2"],
     },
     {
-      src: imgemmil,
-      alt: "Emmi lab",
+      id: "4",
+      lab: "Hydraulics & Hydraulic Machines Lab",
+      description:
+        "Number of Equipments: 04 (Francis Turbine, Kaplan Turbine, Pelton Turbine, Tilted Flume)",
+      images: [HAHMlab1, HAHMlab2],
+      alt: ["image1", "image2"],
     },
     {
-      src: imgpsl1,
-      alt: "Power system lab 1",
+      id: "5",
+      lab: "Structural Analysis Lab",
+      description:
+        "Number of Equipments: 08 (Maxwell Theorem Apparatus, Flexural rigidity Apparatus, Column Buckling Apparatus, 3-pin jointed bar Apparatus, Curved Members Apparatus, Unsymmetrical Bending Apparatus, 2- Hinged Arch, 3- Hinged Arch)",
+      images: [SAlab1, SAlab2],
+      alt: ["image1", "image2"],
     },
     {
-      src: imgpsl2,
-      alt: "Power system lab 1.2",
+      id: "6",
+      lab: "Geo-informatics Lab",
+      description:
+        "Number of Equipments: 05 (Total Station with reflector Prism, Mirror Stereoscope, Lens Stereoscope, Parallax bar, Hand-held GPS)",
+      images: [GIlab1, GIlab2],
+      alt: ["image1", "image2"],
     },
     {
-      src: imgpsl3,
-      alt: "Power system lab 2",
+      id: "7",
+      lab: "Concrete Technology Lab",
+      description:
+        "Number of Equipments: 16 (Vicat’s Apparatus, Compression Testing Machine, Le-Chatelier’s Apparatus, Flexure Testing Machine, Sieve Shaker with I.S., Sieves (coarse &fine both), Slump Cone Apparatus, Vee-Bee Consistometer, Flow Table Test, Compaction Factor Test, Schmidt Rebound Hammer, Concrete Test Hammer, Concrete Drum Mixer, Vibrating Table, Water Bath, Oven, Cube Vibrator)",
+      images: [CTlab1, CTlab2, CTlab3],
+      alt: ["image1", "image2", "image3"],
     },
     {
-      src: imgpsl4,
-      alt: "Power system lab 2.2",
+      id: "8",
+      lab: "Transportation Engineering Lab",
+      description:
+        "Number of Equipments: 14 (Aggregate Crushing Value Apparatus, Aggregate Impact Value Apparatus, Los-Angeles Abrasion Machine, Dorry’s Attrition Machine, Length Gauge, Thickness Gauge, CBR Testing Apparatus, Marshall’s Apparatus, Penetrometer, Ring & Ball Apparatus, Ductility Testing Machine, Flash & Fire Point Apparatus, Sieve Shaker with I.S. Sieves, Oven)",
+      images: [TElab1, TElab2, TElab3, TElab4],
+      alt: ["image1", "image2", "image3", "image4"],
+    },
+    {
+      id: "9",
+      lab: "Geotechnical Engineering Lab",
+      description:
+        "Number of Equipments: 13 (Hydrometer, Cassagrande’s Apparatus, Proctor Compaction Apparatus, Relative Density Apparatus, Core Cutter, Permeability Apparatus, Direct Shear Apparatus, Standard Penetration Test, Static Cone Penetration Apparatus, Sand Replacement apparatus, Water Content Determination Apparatus, Shrinkage Limit Apparatus, Plastic Limit Apparatus)",
+      images: [GTElab1, GTElab2, GTElab3, GTElab4],
+      alt: ["image1", "image2", "image3", "image4"],
+    },
+    {
+      id: "10",
+      lab: "Environmental Engineering Lab",
+      description:
+        "Number of Equipments: 11 (pH meter, Turbidity meter, BOD Incubator apparatus, COD Digestion tank apparatus, Conductivity Meter Apparatus, Kjheldal Apparatus, Jar Test Apparatus, High Volume Sampler, Sound level meter, Distillation Tank, Multi-test Parameter)",
+      images: [EElab1, EElab2],
+      alt: ["image1", "image2"],
     },
   ];
+
   return (
-    <div className="about pl-2 pr-3 py-1">
+    <div className="about pl-2 pr-1 py-1">
       <div className="social-handle mb-2 p-2 ">
         <div className="youtube">
           <a
@@ -68,7 +129,7 @@ const About = (props) => {
         </div>
       </div>
       <div className="introduction">
-        <h2 className="intro text-uppercase tx-blue">
+        <h2 className="intro text-uppercase tx-blue ">
           DEPARTMENT OF civil engineering
         </h2>
         <p className="pl-3">
@@ -142,83 +203,29 @@ const About = (props) => {
           Laboratories in Department of Civil ENGINEERING
         </h2>
         <div dir="auto" className="mx-3">
-          <div className="laboratory">
-            <h4 className="laboratory font-weight-bold" dir="auto">
-              1.Basic Electrical Engineering lab
-            </h4>
-            <p>
-              <strong>Number of Equipments: 08</strong> (Vicat’s Apparatus,
-              Compression Testing Machine, Le-Chatelier’s Apparatus, Flexure
-              Testing Machine, Sieve Shaker & I.S. Sieves (coarse &fine both),
-              Silt Content & Bulking of sand, Oven, Cube Vibrator)
-            </p>
-            <div className="civil-labs">
-              <div className="civil-lab-image">
-                <img src={BMAClab1} alt=""/>
-                <img src={BMAClab2} alt=""/>
-              </div>
-              <div className="civil-lab-label">
-                <p>
-                  <strong>
-                  Building Materials & Construction Lab
-                  </strong>
-                </p>
+          {lab.map((lab, index) => (
+            <div className="laboratory">
+              <h4 className="laboratory font-weight-bold" dir="auto">
+                {`${lab.id}`}.{`${lab.lab}`}
+              </h4>
+              <p>
+                <strong>{`${lab.description.substring(0, 24)}`}</strong>{" "}
+                {`${lab.description.substring(24)}`}
+              </p>
+              <div className="civil-labs">
+                <div className="civil-lab-image">
+                  {lab.images.map((image, index) => (
+                    <img src={image} alt={`${lab.alt[index]}`} />
+                  ))}
+                </div>
+                <div className="civil-lab-label">
+                  <p>
+                    <strong>{`${lab.lab}`}</strong>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            2.Electrical Machines Lab - I
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            3.Electrical Machines Lab- II
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            4.Network Analysis and Synthesis Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            5.Electrical Measurement and Measuring Instruments Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            6.Power System Lab - I
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            7.Power System Lab - II
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            8 Control System Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            9.Electrical Design and Fabrication Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            10.Power Electronics Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            11. Switchgear and Protection Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            12. Electric Drives Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            13. Simulation Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            14. Instrumentation and Process control Lab
-          </h4>
-        </div>
-        <div className="computer-center-images">
-          <h2 className="intro text-uppercase tx-blue font-weight-bold">
-            Laboratories in Department of Computer Science & Engineering
-          </h2>
-          <div className="lab-image my-3">
-            {data.map((data, index) => (
-              <img
-                src={data.src}
-                alt={`${data.alt}`}
-                className="lab-inside img-border"
-              />
-            ))}{" "}
-          </div>
+          ))}
         </div>
       </div>
     </div>
