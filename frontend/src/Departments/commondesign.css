@@ -56,15 +56,21 @@
   text-decoration: none;
 }
 
-.faculty-data {
+.faculty-data
+{
+  display:grid;
+  grid-template-columns: repeat(3,34%);
+}
+/* .faculty-data {
   display: flex;
-  flex-direction: column;
-  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left!important;
 }
 
 .margin-faculty-left {
   margin-left: 2.5rem !important;
-}
+} */
 
 .bg-grey {
   background-color: grey;
@@ -203,10 +209,14 @@
 }
 /* table content at mobile view */
 
-@media only screen and (max-width: 990px),
-  (min-device-width: 768px) and (max-device-width: 1024px) {
+
+@media only screen and (max-width: 994px){
   .achieve-img .electrical-achieve-img {
     width: 600px;
+  }
+
+  .faculty-data{
+    grid-template-columns: repeat(2,45%);
   }
 }
 
@@ -296,10 +306,13 @@
   .student-activities-images img {
     width: 67%;
   }
+
+  .faculty-data{
+    grid-template-columns: repeat(2,50%);
+  }
 }
 
-@media only screen and (max-width: 690px),
-  (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 680px) {
   .intro {
     font-size: 1.5em;
     font-weight: 600 !important;
@@ -318,10 +331,13 @@
   .achieve-img .electrical-achieve-img {
     width: 447px;
   }
+
+  .faculty-data{
+    grid-template-columns: repeat(2,50%);
+  }
 }
 
-@media only screen and (max-width: 540px),
-  (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 578px) {
   .achieve-img img {
     width: 340px;
     height: auto;
@@ -341,5 +357,14 @@
 
   .achieve-img .electrical-achieve-img {
     width: 324px;
+  }
+
+  .faculty-data{
+    grid-template-columns: repeat(1,80%);
+  }
+
+  .faculty-name
+  {
+    font-size: 1.5rem;
   }
 }

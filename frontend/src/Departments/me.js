@@ -15,7 +15,7 @@ const Me = (props) => {
     if (ContentName === 'About') {
       return <About />
     } else if (ContentName === '') {
-      return <About />
+      return <Achievement />
     } else if (ContentName === 'Faculty') {
       return <Faculty />
     } else if (ContentName === 'Achievement') {

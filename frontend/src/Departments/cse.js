@@ -18,7 +18,7 @@ const Cse = (props) => {
             return <About />
         }
         else if (ContentName === '') {
-            return <About />
+            return <Faculty />
         }
         else if (ContentName === 'Faculty') {
             return <Faculty />

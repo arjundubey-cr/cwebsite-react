@@ -81,9 +81,9 @@ const Faculty = () => {
   return (
     <div className='Faculty'>
       <div className='container-fluid marketing'>
-        <div className='row facuty-data justify-content-space-between ml-1'>
+        <div className='row faculty-data justify-content-space-between ml-1'>
           {data.map((data, index) => (
-            <div className='col-lg-3 m-4 p-3 margin-faculty-left rounded'>
+            <div className='m-4 p-3 margin-faculty-left rounded'>
               <img
                 src={data.image}
                 className='bd-placeholder-img img-shadow rounded-circle mb-2'
@@ -94,7 +94,7 @@ const Faculty = () => {
                 aria-label='Placeholder: 140x140'
                 alt={`${data.name}`}
               />
-              <h2 className='font-weight-bold'>{data.name}</h2>
+              <h2 className='font-weight-bold faculty-name'>{data.name}</h2>
               <table className='mobile-table'>
                 <tbody className='mobile-tbody'>
                   <tr>
