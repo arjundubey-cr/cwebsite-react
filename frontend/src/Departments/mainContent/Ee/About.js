@@ -12,39 +12,37 @@ import imgpsl4 from "../../images/ee/PowerSystemLab2.2.png";
 const About = (props) => {
   const data = [
     {
-      src:imgcsl,
-      alt: 'Control system lab'
+      src: imgcsl,
+      alt: "Control system lab",
     },
     {
-      src:imgeml1,
-      alt: 'Electrical machine lab 1'
+      src: imgeml1,
+      alt: "Electrical machine lab 1",
     },
     {
-      src:imgeml2,
-      alt: 'Electrical machine lab 2'
+      src: imgeml2,
+      alt: "Electrical machine lab 2",
     },
     {
-      src:imgemmil,
-      alt: 'Emmi lab'
+      src: imgemmil,
+      alt: "Emmi lab",
     },
     {
-      src:imgpsl1,
-      alt: 'Power system lab 1'
+      src: imgpsl1,
+      alt: "Power system lab 1",
     },
     {
-      src:imgpsl2,
-      alt: 'Power system lab 1.2'
+      src: imgpsl2,
+      alt: "Power system lab 1.2",
     },
     {
-      src:imgpsl3,
-      alt: 'Power system lab 2'
+      src: imgpsl3,
+      alt: "Power system lab 2",
     },
     {
-      src:imgpsl4,
-      alt: 'Power system lab 2.2'
+      src: imgpsl4,
+      alt: "Power system lab 2.2",
     },
-    
-    
   ];
   return (
     <div className="about pl-2 pr-3 py-1">
@@ -94,7 +92,7 @@ const About = (props) => {
       </div>
       <div className="focus-list">
         <p>
-          The department covers all recent trends in Computer Technology with
+          The department covers all recent trends in Electrical Technology with
           prime focuses on:
         </p>
         <ul>
@@ -141,7 +139,7 @@ const About = (props) => {
         <p>
           While maintaining its ancient, traditional bonds to electrical
           engineering and mathematics, the department has gradually collaborated
-          with other disciplines. The true significance of computer science and
+          with other disciplines. The true significance of Electrical
           Engineering is best appreciated through such associations.
         </p>
       </div>
@@ -236,7 +234,7 @@ const About = (props) => {
                 alt={`${data.alt}`}
                 className="lab-inside img-border"
               />
-            ))}{' '}
+            ))}{" "}
           </div>
         </div>
       </div>
