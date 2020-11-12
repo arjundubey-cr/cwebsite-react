@@ -56,10 +56,9 @@
   text-decoration: none;
 }
 
-.faculty-data
-{
-  display:grid;
-  grid-template-columns: repeat(3,34%);
+.faculty-data {
+  display: grid;
+  grid-template-columns: repeat(3, 34%);
 }
 /* .faculty-data {
   display: flex;
@@ -199,24 +198,46 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   padding: 10px 15px;
 }
 
-.civil-lab-label
-{
+.civil-lab-label {
   text-align: center;
 }
+
+.me-achieve-img {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4px;
+}
+
+.me-achieve-img img {
+  width: 463px;
+  height: 422px;
+  border-radius: 10px;
+}
+.me-workshop-img img {
+  width: 375px;
+  height: 261px;
+}
+
 /* table content at mobile view */
 
-
-@media only screen and (max-width: 994px){
+@media only screen and (max-width: 994px) {
   .achieve-img .electrical-achieve-img {
     width: 600px;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(2,45%);
+  .faculty-data {
+    grid-template-columns: repeat(2, 45%);
+  }
+
+  .me-achieve-img img {
+    width: 336px;
+    height: 300px;
+    border-radius: 10px;
   }
 }
 
@@ -307,8 +328,14 @@
     width: 67%;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(2,50%);
+  .faculty-data {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .me-achieve-img img {
+    width: 311px;
+    height: 253px;
+    border-radius: 10px;
   }
 }
 
@@ -332,8 +359,19 @@
     width: 447px;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(2,50%);
+  .faculty-data {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .me-achieve-img {
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+  }
+
+  .me-achieve-img img {
+    width: 375px;
+    height: 261px;
+    border-radius: 10px;
   }
 }
 
@@ -359,12 +397,21 @@
     width: 324px;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(1,80%);
+  .faculty-data {
+    grid-template-columns: repeat(1, 80%);
   }
 
-  .faculty-name
-  {
+  .faculty-name {
     font-size: 1.5rem;
+  }
+
+  .me-achieve-img img {
+    width: 354px;
+    height: 253px;
+    border-radius: 10px;
+  }
+
+  .me-achieve-description {
+    font-size: 0.89rem;
   }
 }

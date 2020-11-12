@@ -15,7 +15,7 @@ const Me = (props) => {
     if (ContentName === 'About') {
       return <About />
     } else if (ContentName === '') {
-      return <Achievement />
+      return <About />
     } else if (ContentName === 'Faculty') {
       return <Faculty />
     } else if (ContentName === 'Achievement') {
@@ -65,7 +65,7 @@ const Me = (props) => {
           <ul className='navbar-nav mr-auto'>
             <li className='nav-item'>
               <Link
-                to='/ece'
+                to='/me'
                 className='nav-link sidebar-item active'
                 onClick={handlediv}
                 value='About'>
