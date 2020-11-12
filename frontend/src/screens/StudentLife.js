@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import placeHolder from '../assets/images/image-showcase.jpg'
 const StudentLife = () => {
   return (
     <div>
@@ -36,8 +36,41 @@ const StudentLife = () => {
       <div className='section-sub-heading text-center container'>
         Clubs and Councils
       </div>
-      <div className='row'>
-        <div className='col'></div>
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Hello World</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Rangmanch</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Hello World</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div class='card-image'>
+              <img src={placeHolder} alt='Avatar' class='image' />
+              <div class='overlay'>
+                <div class='text'>Hello World</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
