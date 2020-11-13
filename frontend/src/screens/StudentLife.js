@@ -1,5 +1,9 @@
 import React from 'react'
-import placeHolder from '../assets/images/image-showcase.jpg'
+import literary from '../assets/images/clubs&councils/literary.jpeg'
+import cultural from '../assets/images/clubs&councils/cultural.jpeg'
+import sports from '../assets/images/clubs&councils/sports.jpeg'
+import technical from '../assets/images/clubs&councils/technical.jpeg'
+import finearts from '../assets/images/clubs&councils/finearts.jpeg'
 const StudentLife = () => {
   return (
     <div>
@@ -36,37 +40,51 @@ const StudentLife = () => {
       <div className='section-sub-heading text-center container'>
         Clubs and Councils
       </div>
-      <div className='container-fluid'>
-        <div className='row'>
-          <div className='col-3'>
-            <div class='card-image'>
-              <img src={placeHolder} alt='Avatar' class='image' />
-              <div class='overlay'>
-                <div class='text'>Hello World</div>
+      <div className='container-fluid my-3'>
+        <div className='row council-cards'>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image'>
+              <img src={cultural} alt='Avatar' className='image' />
+              <div className='overlay'>
+                <div className='text'>Cultural Council</div>
+              </div>
+              <div className='hidden-text'></div>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image'>
+              <img src={technical} alt='Avatar' className='image' />
+              <div className='overlay'>
+                <div className='text'>Technical Council</div>
+              </div>
+              <div className='hidden-text'></div>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image'>
+              <img src={finearts} alt='Avatar' className='image' />
+              <div className='overlay'>
+                <div className='text'>
+                  <strong>Fine Arts and Photography Club</strong> <br />
+                  The club primarily focuses on letting people paint their
+                  thoughts, perceptions and imaginations.
+                </div>
               </div>
             </div>
           </div>
-          <div className='col-3'>
-            <div class='card-image'>
-              <img src={placeHolder} alt='Avatar' class='image' />
-              <div class='overlay'>
-                <div class='text'>Rangmanch</div>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image'>
+              <img src={sports} alt='Avatar' className='image' />
+              <div className='overlay'>
+                <div className='text'>Sports Council</div>
               </div>
             </div>
           </div>
-          <div className='col-3'>
-            <div class='card-image'>
-              <img src={placeHolder} alt='Avatar' class='image' />
-              <div class='overlay'>
-                <div class='text'>Hello World</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-3'>
-            <div class='card-image'>
-              <img src={placeHolder} alt='Avatar' class='image' />
-              <div class='overlay'>
-                <div class='text'>Hello World</div>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image'>
+              <img src={literary} alt='Avatar' className='image' />
+              <div className='overlay'>
+                <div className='text'>Literary Council</div>
               </div>
             </div>
           </div>
