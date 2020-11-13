@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .intro {
-  padding: 0px 10px;
+  padding: 0px 7px;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -56,10 +56,9 @@
   text-decoration: none;
 }
 
-.faculty-data
-{
-  display:grid;
-  grid-template-columns: repeat(3,34%);
+.faculty-data {
+  display: grid;
+  grid-template-columns: repeat(3, 34%);
 }
 /* .faculty-data {
   display: flex;
@@ -196,39 +195,76 @@
 }
 
 .civil-lab-image {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:space-around;
-  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 20px;
+  align-self: center;
+  margin-bottom: 20px;
 }
 
-.civil-lab-label
-{
+.civil-lab-image img {
+  width: 407px;
+    height: 288px;
+  border-radius: 20px;
+}
+
+.civil-lab-label {
   text-align: center;
 }
+
+.me-achieve-img {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4px;
+}
+
+.me-achieve-img img {
+  width: 463px;
+  height: 422px;
+  border-radius: 10px;
+}
+.me-workshop-img img {
+  width: 375px;
+  height: 261px;
+}
+
 /* table content at mobile view */
 
-
-@media only screen and (max-width: 994px){
+@media only screen and (max-width: 994px) {
   .achieve-img .electrical-achieve-img {
     width: 600px;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(2,45%);
+  .faculty-data {
+    grid-template-columns: repeat(2, 45%);
+  }
+
+  .me-achieve-img img {
+    width: 336px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .civil-lab-image {
+    grid-template-columns: repeat(2, 47%);
+    grid-gap: 20px;
+  }
+
+  .civil-lab-image img {
+    width: 333px;
+    height: 243px;
   }
 }
 
-@media only screen and (max-width: 760px),
-  (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 760px) {
   /* Force table to not be like tables anymore */
 
   /* Force table to not be like tables anymore */
 
   .content {
-    padding-left: 0rem !important;
-    padding-right: 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 
   .mobile-table,
@@ -307,14 +343,30 @@
     width: 67%;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(2,50%);
+  .faculty-data {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .me-achieve-img img {
+    width: 311px;
+    height: 253px;
+    border-radius: 10px;
+  }
+
+  .civil-lab-image {
+    grid-template-columns: repeat(2, 51%);
+    grid-gap: 20px;
+  }
+
+  .civil-lab-image img {
+    width: 282px;
+    height: 221px;
   }
 }
 
 @media only screen and (max-width: 680px) {
   .intro {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 600 !important;
   }
 
@@ -332,8 +384,29 @@
     width: 447px;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(2,50%);
+  .faculty-data {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .me-achieve-img {
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+  }
+
+  .me-achieve-img img {
+    width: 375px;
+    height: 261px;
+    border-radius: 10px;
+  }
+
+  .civil-lab-image {
+    grid-template-columns: repeat(1, 40%);
+    grid-gap: 20px;
+  }
+
+  .civil-lab-image img {
+    width: 410px;
+    height: 249px;
   }
 }
 
@@ -359,12 +432,36 @@
     width: 324px;
   }
 
-  .faculty-data{
-    grid-template-columns: repeat(1,80%);
+  .faculty-data {
+    grid-template-columns: repeat(1, 80%);
   }
 
-  .faculty-name
-  {
+  .faculty-name {
     font-size: 1.5rem;
+  }
+
+  .me-achieve-img img {
+    width: 354px;
+    height: 253px;
+    border-radius: 10px;
+  }
+
+  .me-achieve-description,
+  .laboratory {
+    font-size: 0.89rem;
+  }
+
+  .civil-labs {
+    padding-left: 2px;
+  }
+
+  .civil-lab-image {
+    grid-template-columns: repeat(1, 40%);
+    grid-gap: 20px;
+  }
+
+  .civil-lab-image img {
+    width: 313px;
+    height: 194px;
   }
 }
