@@ -275,15 +275,49 @@ div.departmentCard .card-body .card-title {
   height: 15%;
   transition: 0.5s ease;
 }
-
 .card-image:hover .overlay {
   height: 100%;
 }
-
 .text {
   color: white;
   font-size: 20px;
   text-align: center;
+}
+.card-image {
+  height: 100%;
+}
+.councilImage {
+  height: 100%;
+}
+@media only screen and (max-width: 400px) {
+  .councilImage {
+    height: 149px !important;
+  }
+  .overlay {
+    height: 25%;
+  }
+  .council-name {
+    font-size: 0.75em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .councilImage {
+    height: 245px;
+  }
+  .overlay {
+    height: 14%;
+  }
+  .council-name {
+    font-size: 1.01em;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .overlay {
+    height: 16%;
+  }
+  .council-name {
+    font-size: 1.02em;
+  }
 }
 /* student life css ends */
 /* Footer Styling */

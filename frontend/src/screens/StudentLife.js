@@ -34,38 +34,64 @@ const StudentLife = () => {
           challenges and to ensure proper smoothness of them
         </div>
         <div className='col-4'>
-          <img src='#' alt='Council of Student Activities' />
+          <img src='#' alt='Council</strong> of Student Activities' />
         </div>
       </div>
       <div className='section-sub-heading text-center container'>
         Clubs and Councils
       </div>
-      <div className='container-fluid my-3'>
+      <div className='container-fluid px-5 my-3'>
         <div className='row council-cards'>
           <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
-            <div className='card-image'>
-              <img src={cultural} alt='Avatar' className='image' />
-              <div className='overlay'>
-                <div className='text'>Cultural Council</div>
-              </div>
-              <div className='hidden-text'></div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
-            <div className='card-image'>
-              <img src={technical} alt='Avatar' className='image' />
-              <div className='overlay'>
-                <div className='text'>Technical Council</div>
-              </div>
-              <div className='hidden-text'></div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
-            <div className='card-image'>
-              <img src={finearts} alt='Avatar' className='image' />
+            <div className='card-image councilImage'>
+              <img
+                src={cultural}
+                alt='Avatar'
+                className='image councilImage '
+              />
               <div className='overlay'>
                 <div className='text'>
-                  <strong>Fine Arts and Photography Club</strong> <br />
+                  {' '}
+                  <strong className='council-name'> Cultural Council </strong>
+                </div>
+              </div>
+              <div className='hidden-text'></div>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image councilImage'>
+              <img
+                src={technical}
+                alt='Avatar'
+                className='image councilImage '
+              />
+              <div className='overlay'>
+                <div className='text'>
+                  {' '}
+                  <strong className='council-name'>
+                    {' '}
+                    Technical Council
+                  </strong>{' '}
+                  <br />
+                </div>
+              </div>
+              <div className='hidden-text'></div>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
+            <div className='card-image '>
+              <img
+                src={finearts}
+                alt='Avatar'
+                className='image councilImage '
+              />
+              <div className='overlay'>
+                <div className='text'>
+                  {' '}
+                  <strong className='council-name'>
+                    Fine Arts and Photography Club
+                  </strong>{' '}
+                  <br />
                   The club primarily focuses on letting people paint their
                   thoughts, perceptions and imaginations.
                 </div>
@@ -74,17 +100,27 @@ const StudentLife = () => {
           </div>
           <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
             <div className='card-image'>
-              <img src={sports} alt='Avatar' className='image' />
+              <img src={sports} alt='Avatar' className='image councilImage ' />
               <div className='overlay'>
-                <div className='text'>Sports Council</div>
+                <div className='text'>
+                  {' '}
+                  <strong className='council-name'>Sports Council</strong>
+                </div>
               </div>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
-            <div className='card-image'>
-              <img src={literary} alt='Avatar' className='image' />
+            <div className='card-image councilImage'>
+              <img
+                src={literary}
+                alt='Avatar'
+                className='image councilImage '
+              />
               <div className='overlay'>
-                <div className='text'>Literary Council</div>
+                <div className='text'>
+                  {' '}
+                  <strong className='council-name'>Literary Council</strong>
+                </div>
               </div>
             </div>
           </div>
