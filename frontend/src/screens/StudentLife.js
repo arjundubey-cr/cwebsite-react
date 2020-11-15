@@ -27,11 +27,11 @@ const StudentLife = () => {
       </div>
       <div className='row container-fluid'>
         <div className='col-8 description'>
-          To complement their academics, students choose their own
-          extracurricular adventures, from a spectacular array of ways to
-          participate in music, dance, sports and tech. Council of Student
-          Activities(CSA) is in place which makes sure to help students navigate
-          challenges and to ensure proper smoothness of them
+          To complement their academics, students choose their extracurricular
+          adventures from a spectacular array of ways to participate in music,
+          dance, sports, and tech. The Council of Student Activities(CSA) is in
+          place to make sure to help students navigate challenges and to ensure
+          proper smoothness of them.
         </div>
         <div className='col-4'>
           <img src='#' alt='Council</strong> of Student Activities' />
@@ -53,7 +53,13 @@ const StudentLife = () => {
                 <div className='text'>
                   <strong className='council-name'> Cultural Council </strong>
                   <br />
-                  <div className='council-description'></div>
+                  <div className='council-description'>
+                    Cultural Council is for students who also have a keen
+                    interest in arts like Drama, Dance, Art, Singing, or
+                    instrument playing. This council is an enthusiastic group of
+                    individuals who organize, perform, and teach throughout the
+                    year.
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,8 +95,8 @@ const StudentLife = () => {
                   <br />
                   <div className='council-description'>
                     The Council primarily focuses on letting people paint their
-                    thoughts, perceptions and imaginations, and also conduct
-                    several events and competitions every academic session.
+                    thoughts, perceptions, and imaginations, and also conduct
+                    several events and competitions in every academic session.
                   </div>
                 </div>
               </div>

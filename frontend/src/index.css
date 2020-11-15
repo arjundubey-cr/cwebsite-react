@@ -280,6 +280,9 @@ div.departmentCard .card-body .card-title {
 .card-image:hover .overlay {
   height: 100%;
 }
+.card-image:hover .overlay .text {
+  margin-top: 5px;
+}
 .text {
   color: white;
   text-align: center;
@@ -290,19 +293,33 @@ div.departmentCard .card-body .card-title {
 .councilImage {
   height: 100%;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
+  .overlay {
+    height: 20%;
+  }
+  .card-image .overlay .text {
+    margin-top: 3px;
+  }
+  .council-description {
+    font-size: 0.85em;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 400px) {
   .councilImage {
     height: 149px !important;
   }
+  .card-image .overlay .text {
+    margin-top: 3px;
+  }
   .overlay {
-    height: 25%;
+    height: 20%;
   }
   .council-name {
-    font-size: 50px;
+    font-size: 1em;
   }
   .council-description {
     margin-top: 10px;
-    font-size: 0.95em;
+    font-size: 0.9em;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 576px) {
