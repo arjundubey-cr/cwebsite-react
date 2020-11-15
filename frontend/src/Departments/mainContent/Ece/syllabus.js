@@ -13,9 +13,11 @@ const CourseSyllabus = (props) => {
           <table className="table table-condensed table-bordered pub table-striped">
             <thead>
               <tr className="bg-dark">
-                <th className='text-white' width="3%">S.No.</th>
-                <th className='text-white' >Description</th>
-                <th className='text-white' >View</th>
+                <th className="text-white text-center" width="3%">
+                  S.No.
+                </th>
+                <th className="text-white mx-auto text-center">Description</th>
+                <th className="text-white mx-auto text-center">View</th>
               </tr>
             </thead>
             <tbody id="tblTimeTable">
@@ -27,7 +29,7 @@ const CourseSyllabus = (props) => {
                 </td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_58f3e1a3-74af-4893-845d-9fae7c3bddc0_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -44,7 +46,7 @@ const CourseSyllabus = (props) => {
                 </td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_5b17eeeb-ebbb-45fa-bec5-51fe00905818_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -58,7 +60,7 @@ const CourseSyllabus = (props) => {
                 <td>Ordinance Rules &amp; Regulations for B.Tech Programme</td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_09e25b20-5fb3-461f-bbb3-2d864c0f636e_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -75,7 +77,7 @@ const CourseSyllabus = (props) => {
                 </td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_d6015c64-8887-4ba8-9920-80bc6991d22a_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -92,7 +94,7 @@ const CourseSyllabus = (props) => {
                 </td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_f1c23a3a-54f0-49f7-9f0a-fadd64f517c6_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -106,7 +108,7 @@ const CourseSyllabus = (props) => {
                 <td>Open Elective Syllabus</td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_d18776d8-da94-42ff-990e-e8cfa3bd0810_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -123,7 +125,7 @@ const CourseSyllabus = (props) => {
                 </td>
                 <td className="text-center">
                   <a
-                    className='text-dark'
+                    className="text-dark"
                     href="http://udrc.lkouniv.ac.in//Content/DepartmentContent/SY_547d6ecd-d94e-4579-a20c-6c55ff179e43_57.pdf"
                     target="_blank"
                     rel="noopener noreferrer"

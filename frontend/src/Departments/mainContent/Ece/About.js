@@ -28,7 +28,7 @@ const About = (props) => {
         <p className="pl-3">
           The Department of Electronics & Communication Engineering offers 4
           years undergraduate B.Tech. programme in Electronics & Communication
-          Engineering. It has an intake of 60 students. Besides teaching
+          Engineering. It has an intake of 66 students. Besides teaching
           students of Electronics & Communication Engineering, the department
           also offers basic as well as advance level courses in Electronics
           Engineering to the students of various branches of the Faculty. It has

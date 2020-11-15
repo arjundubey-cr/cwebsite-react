@@ -13,11 +13,9 @@ const CourseSyllabus = (props) => {
           <table class='table table-condensed table-bordered pub table-striped'>
             <thead>
               <tr className='bg-pink table-header-background'>
-                <th className='table-header-text' width='3%'>
-                  S.No.
-                </th>
-                <th className='table-header-text'>Description</th>
-                <th className='table-header-text'>View</th>
+                <th className='text-white text-center' width="3%">S.No.</th>
+                <th className='text-white mx-auto text-center' >Description</th>
+                <th className='text-white mx-auto text-center' >View</th>
               </tr>
             </thead>
             <tbody id='tblTimeTable'>
