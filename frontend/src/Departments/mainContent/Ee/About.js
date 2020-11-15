@@ -1,13 +1,13 @@
 import React from "react";
 import "../../commondesign.css";
-import imgcsl from "../../images/ee/ControlSystemLab.png";
-import imgeml1 from "../../images/ee/ElectricalMachineLab1.png";
-import imgeml2 from "../../images/ee/ElectricalMachineLab2.png";
-import imgemmil from "../../images/ee/EmmiLab.png";
-import imgpsl1 from "../../images/ee/PowerSystemLab1.png";
-import imgpsl2 from "../../images/ee/PowerSystemLab1.2.png";
-import imgpsl3 from "../../images/ee/PowerSystemLab2.png";
-import imgpsl4 from "../../images/ee/PowerSystemLab2.2.png";
+import imgcsl from "../../images/ee/ControlSystemLab.jpg";
+import imgeml1 from "../../images/ee/ElectricalMachineLab1.jpg";
+import imgeml2 from "../../images/ee/ElectricalMachineLab2.jpg";
+import imgemmil from "../../images/ee/EmmiLab.jpg";
+import imgpsl1 from "../../images/ee/PowerSystemLab1.jpg";
+import imgpsl2 from "../../images/ee/PowerSystemLab1.2.jpg";
+import imgpsl3 from "../../images/ee/PowerSystemLab2.jpg";
+import imgpsl4 from "../../images/ee/PowerSystemLab2.2.jpg";
 
 const About = (props) => {
   const data = [

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../commondesign.css";
-import image1 from "../../images/ee/Achievements/image1.png";
-import image2 from "../../images/ee/Achievements/image2.png";
+import image1 from "../../images/ee/Achievements/image1.jpg";
+import image2 from "../../images/ee/Achievements/image2.jpg";
 
 const Achievement = (props) => {
   return (

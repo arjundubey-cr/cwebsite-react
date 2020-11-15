@@ -332,11 +332,11 @@ const Achievement = (props) => {
       </div>
       <div className='csi-image'>
         <img
-          src={require('../../images/cse/Achievements/certificate.png')}
+          src={require('../../images/cse/Achievements/certificate.jpg')}
           alt='certificate'
         />
         <img
-          src={require('../../images/cse/Achievements/image-2.png')}
+          src={require('../../images/cse/Achievements/image-2.jpg')}
           alt='certificate distribution'
         />
       </div>
