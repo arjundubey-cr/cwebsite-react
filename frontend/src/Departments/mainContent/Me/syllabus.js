@@ -13,9 +13,11 @@ const CourseSyllabus = (props) => {
           <table class="table table-condensed table-bordered pub table-striped">
             <thead>
               <tr class="bg-dark">
-                <th className='text-white' width="3%">S.No.</th>
-                <th className='text-white' >Description</th>
-                <th className='text-white' >View</th>
+                <th className="text-white text-center" width="3%">
+                  S.No.
+                </th>
+                <th className="text-white mx-auto text-center">Description</th>
+                <th className="text-white mx-auto text-center">View</th>
               </tr>
             </thead>
             <tbody id="tblTimeTable">

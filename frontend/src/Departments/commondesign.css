@@ -187,14 +187,14 @@
 
 /* -------------civil lab------------- */
 
-.civil-labs {
+.civil-labs,.civil-achieve-flex {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10px 20px;
+  padding: 10px 8px;
 }
 
-.civil-lab-image {
+.civil-lab-image,.civil-achieve-img {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-gap: 20px;
@@ -202,11 +202,12 @@
   margin-bottom: 20px;
 }
 
-.civil-lab-image img {
+.civil-lab-image img,.civil-achieve-img img {
   width: 407px;
-    height: 288px;
-  border-radius: 20px;
+  height: 288px;
+  border-radius: 5px;
 }
+
 
 .civil-lab-label {
   text-align: center;
@@ -216,12 +217,12 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 4px;
+  grid-gap: 5px;
 }
 
 .me-achieve-img img {
-  width: 463px;
-  height: 422px;
+  width: 447px;
+  height: 350px;
   border-radius: 10px;
 }
 .me-workshop-img img {
@@ -246,13 +247,13 @@
     border-radius: 10px;
   }
 
-  .civil-lab-image {
-    grid-template-columns: repeat(2, 47%);
+  .civil-lab-image,.civil-achieve-img {
+    grid-template-columns: repeat(2, 49%);
     grid-gap: 20px;
   }
 
-  .civil-lab-image img {
-    width: 333px;
+  .civil-lab-image img,.civil-achieve-img img {
+    width: 325px;
     height: 243px;
   }
 }
@@ -353,12 +354,12 @@
     border-radius: 10px;
   }
 
-  .civil-lab-image {
+  .civil-lab-image,.civil-achieve-img {
     grid-template-columns: repeat(2, 51%);
     grid-gap: 20px;
   }
 
-  .civil-lab-image img {
+  .civil-lab-image img,.civil-achieve-img img {
     width: 282px;
     height: 221px;
   }
@@ -366,10 +367,19 @@
 
 @media only screen and (max-width: 680px) {
   .intro {
+    padding:0 3px;
     font-size: 1.4em;
     font-weight: 600 !important;
   }
 
+  .content {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  ul,ol{
+    padding-left:28px;
+  }
   .achieve-img {
     width: 465px;
   }
@@ -399,14 +409,19 @@
     border-radius: 10px;
   }
 
-  .civil-lab-image {
+  .civil-lab-image,.civil-achieve-img {
     grid-template-columns: repeat(1, 40%);
     grid-gap: 20px;
   }
 
-  .civil-lab-image img {
+  .civil-lab-image img,.civil-achieve-img img {
     width: 410px;
     height: 249px;
+  }
+
+  .civil-achievement p
+  {
+    font-size: 0.8rem;
   }
 }
 
@@ -433,7 +448,7 @@
   }
 
   .faculty-data {
-    grid-template-columns: repeat(1, 80%);
+    grid-template-columns: repeat(1, 94%);
   }
 
   .faculty-name {
@@ -451,17 +466,21 @@
     font-size: 0.89rem;
   }
 
-  .civil-labs {
+  .civil-labs,.civil-achieve-flex {
     padding-left: 2px;
   }
 
-  .civil-lab-image {
+  .civil-lab-image,.civil-achieve-img {
     grid-template-columns: repeat(1, 40%);
     grid-gap: 20px;
   }
 
-  .civil-lab-image img {
+  .civil-lab-image img,.civil-achieve-img img {
     width: 313px;
     height: 194px;
+  }
+
+  table td{
+    font-size:0.85rem;
   }
 }
