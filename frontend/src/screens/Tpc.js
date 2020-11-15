@@ -86,7 +86,7 @@ const Tpc = () => {
         Our Objectives
       </div>
       <Container>
-        <ul className='tpc-objectives-list'>
+        <ul className='tpc-objectives-list ml-3 ml-md-2 ml-lg-2'>
           <li>
             To provide assistance in the employment process of final semester
             students and place them in organisations aligned with their career
