@@ -51,11 +51,11 @@ const StudentLife = () => {
               />
               <div className='overlay'>
                 <div className='text'>
-                  {' '}
                   <strong className='council-name'> Cultural Council </strong>
+                  <br />
+                  <div className='council-description'></div>
                 </div>
               </div>
-              <div className='hidden-text'></div>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
@@ -67,15 +67,11 @@ const StudentLife = () => {
               />
               <div className='overlay'>
                 <div className='text'>
-                  {' '}
-                  <strong className='council-name'>
-                    {' '}
-                    Technical Council
-                  </strong>{' '}
+                  <strong className='council-name'>Technical Council</strong>
                   <br />
+                  <div className='council-description'></div>
                 </div>
               </div>
-              <div className='hidden-text'></div>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
@@ -87,13 +83,15 @@ const StudentLife = () => {
               />
               <div className='overlay'>
                 <div className='text'>
-                  {' '}
                   <strong className='council-name'>
                     Fine Arts and Photography Club
-                  </strong>{' '}
+                  </strong>
                   <br />
-                  The club primarily focuses on letting people paint their
-                  thoughts, perceptions and imaginations.
+                  <div className='council-description'>
+                    The Council primarily focuses on letting people paint their
+                    thoughts, perceptions and imaginations, and also conduct
+                    several events and competitions every academic session.
+                  </div>
                 </div>
               </div>
             </div>
@@ -103,8 +101,9 @@ const StudentLife = () => {
               <img src={sports} alt='Avatar' className='image councilImage ' />
               <div className='overlay'>
                 <div className='text'>
-                  {' '}
                   <strong className='council-name'>Sports Council</strong>
+                  <br />
+                  <div className='council-description'></div>
                 </div>
               </div>
             </div>
@@ -118,8 +117,14 @@ const StudentLife = () => {
               />
               <div className='overlay'>
                 <div className='text'>
-                  {' '}
                   <strong className='council-name'>Literary Council</strong>
+                  <br />
+                  <div className='council-description'>
+                    The council aims to promote literature, creativity and
+                    awareness among the students by organizing and conducting
+                    several events, competitions and other literary functions
+                    every academic session.
+                  </div>
                 </div>
               </div>
             </div>

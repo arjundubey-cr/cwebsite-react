@@ -240,6 +240,7 @@ div.departmentCard .card-body .card-title {
   color: var(--blue-text);
 }
 /* Admission Section CSS Ends */
+
 /*TPC CSS STARTS*/
 .tpc-objectives-list {
   list-style-type: square;
@@ -251,6 +252,7 @@ div.departmentCard .card-body .card-title {
   padding: 5px;
 }
 /* TPC CSS ENDS */
+
 /* student life css starts */
 .section-sub-sub-heading {
   font-weight: 900;
@@ -280,7 +282,6 @@ div.departmentCard .card-body .card-title {
 }
 .text {
   color: white;
-  font-size: 20px;
   text-align: center;
 }
 .card-image {
@@ -297,26 +298,30 @@ div.departmentCard .card-body .card-title {
     height: 25%;
   }
   .council-name {
-    font-size: 0.75em;
+    font-size: 50px;
+  }
+  .council-description {
+    margin-top: 10px;
+    font-size: 0.95em;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 400px) and (max-width: 576px) {
   .councilImage {
     height: 245px;
   }
   .overlay {
-    height: 14%;
+    height: 10%;
   }
   .council-name {
-    font-size: 1.01em;
+    font-size: 1em;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
   .overlay {
     height: 16%;
   }
   .council-name {
-    font-size: 1.02em;
+    font-size: 1em;
   }
 }
 /* student life css ends */
