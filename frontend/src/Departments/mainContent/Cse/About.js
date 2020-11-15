@@ -1,10 +1,10 @@
 import React from "react";
 import "../../commondesign.css";
-import ComputerLab1 from "../../images/cse/computer_lab_1.png";
-import ComputerLab2 from "../../images/cse/computer_lab_2.png";
-import ComputerLab3 from "../../images/cse/computer-lab-3.png";
-import matlab from "../../images/cse/matlab.png";
-import NetworkLab from "../../images/cse/network-lab.png";
+import ComputerLab1 from "../../images/cse/computer_lab_1.jpg";
+import ComputerLab2 from "../../images/cse/computer_lab_2.jpg";
+import ComputerLab3 from "../../images/cse/computer-lab-3.jpg";
+import matlab from "../../images/cse/matlab.jpg";
+import NetworkLab from "../../images/cse/network-lab.jpg";
 
 const About = (props) => {
   return (

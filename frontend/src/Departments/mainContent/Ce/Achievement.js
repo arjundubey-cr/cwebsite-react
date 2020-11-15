@@ -1,14 +1,14 @@
 import React from "react";
 import "../../commondesign.css";
-import image1 from "../../images/ce/Achievement/achieve1.png";
-import image2 from "../../images/ce/Achievement/achieve2.png";
-import image3 from "../../images/ce/Achievement/achieve3.png";
-import image4 from "../../images/ce/Achievement/achieve4.png";
-import image5 from "../../images/ce/Achievement/achieve5.png";
-import image6 from "../../images/ce/Achievement/achieve6.png";
-import image7 from "../../images/ce/Achievement/achieve7.png";
-import image8 from "../../images/ce/Achievement/achieve8.png";
-import image9 from "../../images/ce/Achievement/achieve9.png";
+import image1 from "../../images/ce/Achievement/achieve1.jpg";
+import image2 from "../../images/ce/Achievement/achieve2.jpg";
+import image3 from "../../images/ce/Achievement/achieve3.jpg";
+import image4 from "../../images/ce/Achievement/achieve4.jpg";
+import image5 from "../../images/ce/Achievement/achieve5.jpg";
+import image6 from "../../images/ce/Achievement/achieve6.jpg";
+import image7 from "../../images/ce/Achievement/achieve7.jpg";
+import image8 from "../../images/ce/Achievement/achieve8.jpg";
+import image9 from "../../images/ce/Achievement/achieve9.jpg";
 
 const Achievement = (props) => {
   return (

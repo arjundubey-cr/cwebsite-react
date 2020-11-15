@@ -176,8 +176,8 @@ Appreciation certificate</td>
                 </ul>
             </div>
             <div className="csi-image">
-                <img src={require('../../images/cse/Achievements/certificate.png')} alt="certificate" />
-                <img src={require('../../images/cse/Achievements/image-2.png')} alt="certificate distribution" />
+                <img src={require('../../images/cse/Achievements/certificate.jpg')} alt="certificate" />
+                <img src={require('../../images/cse/Achievements/image-2.jpg')} alt="certificate distribution" />
             </div>
            
         </div>
