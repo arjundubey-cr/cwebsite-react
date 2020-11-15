@@ -29,7 +29,7 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-          <LinkContainer to='/cse'>
+          <LinkContainer to='/ce'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ce} />
               <Card.Body>
@@ -39,7 +39,7 @@ const DepartmentCard = () => {
           </LinkContainer>
         </Col>
         <Col xs={12} sm={4} md={4} lg={4}>
-          <LinkContainer to='/cse'>
+          <LinkContainer to='/ece'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ece} />
               <Card.Body>
@@ -47,7 +47,7 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-          <LinkContainer to='/cse'>
+          <LinkContainer to='/ee'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={ee} />
               <Card.Body>
@@ -57,7 +57,7 @@ const DepartmentCard = () => {
           </LinkContainer>
         </Col>
         <Col xs={12} sm={4} md={4} lg={4} className='last-col'>
-          <LinkContainer to='/cse'>
+          <LinkContainer to='/me'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
               <Card.Img variant='top' src={me} />
               <Card.Body>
@@ -65,7 +65,7 @@ const DepartmentCard = () => {
               </Card.Body>
             </Card>
           </LinkContainer>
-          <LinkContainer to='/cse'>
+          <LinkContainer to='/ash'>
             <Card
               className='departmentCard last-card'
               style={{ width: '15rem' }}>
