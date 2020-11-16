@@ -5,7 +5,7 @@ import Image1 from "../../images/ece/image1.jpg";
 const About = (props) => {
   return (
     <div className="about pl-2 pr-3 py-1">
-      <div className="social-handle mb-2 p-2 ">
+      <div className="social-handle mb-2 p-2 pl-1">
         <div className="youtube">
           <a
             className="a-text-none"
