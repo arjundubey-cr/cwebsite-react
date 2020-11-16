@@ -9,7 +9,7 @@ const About = (props) => {
         <div className="youtube">
           <a
             className="a-text-none"
-            href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos"
+            href="https://www.youtube.com/channel/UCPW7_PsXavmSgJ-JMhMufEQ"
             alt="Computer Science youtube Channel"
             target="_blank"
             rel="noopener noreferrer"

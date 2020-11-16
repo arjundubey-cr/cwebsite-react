@@ -13,7 +13,7 @@ const About = (props) => {
         <div className="youtube align-items-center">
           <a
             className="a-text-none d-flex align-items-center"
-            href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos"
+            href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/featured?disable_polymer=1"
             alt="Computer Science youtube Channel"
             target="_blank"
             rel="noopener noreferrer"
