@@ -65,7 +65,7 @@ const Ash = (props) => {
           <ul className='navbar-nav mr-auto'>
             <li className='nav-item'>
               <Link
-                to='/cse'
+                to='/ash'
                 className='nav-link sidebar-item active'
                 onClick={handlediv}
                 value='About'>
@@ -73,11 +73,11 @@ const Ash = (props) => {
               </Link>
             </li>
             {/* <li className="nav-item">
-    <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
+    <Link to='/ash' className="nav-link sidebar-item" onClick={handlediv} value='VisionAndMission' >Visions & mission</Link>
 </li> */}
             <li className='nav-item'>
               <Link
-                to='/cse'
+                to='/ash'
                 className='nav-link sidebar-item'
                 onClick={handlediv}
                 value='Faculty'>
@@ -85,11 +85,11 @@ const Ash = (props) => {
               </Link>
             </li>
             {/* <li className="nav-item">
-    <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link>
+    <Link to='/ash' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link>
 </li> */}
             <li className='nav-item'>
               <Link
-                to='/cse'
+                to='/ash'
                 className='nav-link sidebar-item'
                 onClick={handlediv}
                 value='Achievement'>
@@ -98,7 +98,7 @@ const Ash = (props) => {
             </li>
             <li className='nav-item'>
               <Link
-                to='/cse'
+                to='/ash'
                 className='nav-link sidebar-item'
                 onClick={handlediv}
                 value='CourseSyllabus'>
@@ -106,7 +106,7 @@ const Ash = (props) => {
               </Link>
             </li>
             {/* <li className="nav-item">
-    <Link to='/cse' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
+    <Link to='/ash' className="nav-link sidebar-item" onClick={handlediv} value='Resources' >Resources</Link>
 </li> */}
           </ul>
         </div>
@@ -119,7 +119,7 @@ const Ash = (props) => {
           </button>
         </div>
       </nav>
-      <div className='content pl-5 pr-5 pt-3 pb-5 position-realtive'>
+      <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
         <Button
           onClick={scrollToTop}
