@@ -39,7 +39,7 @@ const Header = () => {
                   <Nav.Link>Contact Us</Nav.Link>
                 </LinkContainer>
               </div>
-              <br />
+              <hr className=' d-lg-none navbar-rule' />
               <div className='d-lg-flex ml-lg-auto mt-xl-5 mt-lg-4 mb-lg-0 mr-lg-0 bottom-list'>
                 <LinkContainer to='/about'>
                   <Nav.Link>About</Nav.Link>
