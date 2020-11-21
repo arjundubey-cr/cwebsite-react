@@ -31,6 +31,11 @@ main {
     margin-left: 80px;
   }
 }
+.navbar-rule {
+  height: 1px;
+  width: 100%;
+  margin: 0;
+}
 
 @media only screen and (min-width: 992px) {
   .top-list,
@@ -51,10 +56,13 @@ main {
   .bottom-list {
     margin-left: 0 !important;
   }
-  .top-list {
-    border-bottom: gray 1px solid;
+}
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column-reverse !important;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   div.bottom-list {
     margin-top: 35px !important;
