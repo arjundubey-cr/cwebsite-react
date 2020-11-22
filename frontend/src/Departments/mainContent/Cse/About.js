@@ -1,35 +1,35 @@
-import React from "react";
-import "../../commondesign.css";
-import ComputerLab1 from "../../images/cse/computer_lab_1.jpg";
-import ComputerLab2 from "../../images/cse/computer_lab_2.jpg";
-import ComputerLab3 from "../../images/cse/computer-lab-3.jpg";
-import matlab from "../../images/cse/matlab.jpg";
-import NetworkLab from "../../images/cse/network-lab.jpg";
+import React from 'react'
+import '../../commondesign.css'
+import ComputerLab1 from '../../images/cse/computer_lab_1.jpg'
+import ComputerLab2 from '../../images/cse/computer_lab_2.jpg'
+import ComputerLab3 from '../../images/cse/computer-lab-3.jpg'
+import matlab from '../../images/cse/matlab.jpg'
+import NetworkLab from '../../images/cse/network-lab.jpg'
 
 const About = (props) => {
   return (
-    <div className="about px-3 py-1">
-      <div className="social-handle mb-2 p-2">
-        <div className="youtube align-items-center">
+    <div className='about px-3 py-1'>
+      <div className='social-handle mb-2 p-2'>
+        <div className='youtube align-items-center'>
           <a
-            className="a-text-none d-flex align-items-center"
-            href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos"
-            alt="Computer Science youtube Channel"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-youtube text-danger font-awsome"></i>
-            <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
+            className='a-text-none d-flex align-items-center'
+            href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos'
+            alt='Computer Science youtube Channel'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <i className='fab fa-youtube text-danger font-awsome'></i>
+            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
               Youtube Channel
             </span>
           </a>
         </div>
       </div>
-      <div className="introduction">
-        <h2 className="intro text-uppercase tx-blue">
+      <div className='introduction'>
+        <div className='intro text-uppercase tx-blue container-fluid text-center section-heading'>
           DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
-        </h2>
-        <p className="pl-3">
+        </div>
+        <hr className='section-underline' />
+        <p className='pl-3'>
           Department of Computer Science & Engineering is the largest department
           in Faculty of Engineering and Technology. The Department offers a 4
           years course, B.Tech.in Computer Sc. & Engineering, with an intake of
@@ -42,9 +42,9 @@ const About = (props) => {
           facilities for high quality academic practices.
         </p>
       </div>
-      <div className="course-offered">
-        <h2 className="intro text-uppercase tx-blue">Course offered</h2>
-        <ul className="course-list">
+      <div className='course-offered'>
+        <h2 className='intro text-uppercase tx-blue'>Course offered</h2>
+        <ul className='course-list'>
           <li>
             <strong>
               B.Tech in Computer Science and Engineering(Duration-4 years)
@@ -64,8 +64,8 @@ const About = (props) => {
           </li>
         </ul>
       </div>
-      <div className="focus-list">
-        <p className="px-3">
+      <div className='focus-list'>
+        <p className='px-3'>
           The department covers all recent trends in Computer Technology with
           prime focuses on:
         </p>
@@ -107,15 +107,15 @@ const About = (props) => {
             <strong>Internet of Things (IoT)</strong>
           </li>
         </ul>
-        <p className="px-3">
+        <p className='px-3'>
           While maintaining its ancient, traditional bonds to electrical
           engineering and mathematics, the department has gradually collaborated
           with other disciplines. The true significance of computer science and
           Engineering is best appreciated through such associations.
         </p>
       </div>
-      <div className="deparment">
-        <h2 className="intro text-uppercase tx-blue">
+      <div className='deparment'>
+        <h2 className='intro text-uppercase tx-blue'>
           CONSULTANCY AREAS OF COMPUTER SCIENCE & ENGINEERING
         </h2>
         <div>
@@ -160,45 +160,45 @@ const About = (props) => {
           </ul>
         </div>
       </div>
-      <div className="computer-center">
-        <h2 className="intro text-uppercase tx-blue">COMPUTER CENTRE</h2>
-        <p className="computer-center-description px-2">
+      <div className='computer-center'>
+        <h2 className='intro text-uppercase tx-blue'>COMPUTER CENTRE</h2>
+        <p className='computer-center-description px-2'>
           This centre has two servers, 70 nodes with latest configurations along
           with necessary software and printers etc to meet the needs of the
           students from all other branches. All the computers are connected
           through LAN. There is internet facility in the centre.
         </p>
-        <div className="commputer-center-images">
-          <h2 className="intro text-uppercase tx-blue font-weight-bold">
+        <div className='commputer-center-images'>
+          <h2 className='intro text-uppercase tx-blue font-weight-bold'>
             Laboratories in Department of Computer Science & Engineering
           </h2>
-          <div className="lab-image my-3">
+          <div className='lab-image my-3'>
             <img
               src={ComputerLab1}
-              alt="ComputerLab1"
-              className="lab-inside img-border"
+              alt='ComputerLab1'
+              className='lab-inside img-border'
             />
             <img
               src={ComputerLab2}
-              alt="ComputerLab2"
-              className="lab-inside img-border"
+              alt='ComputerLab2'
+              className='lab-inside img-border'
             />
             <img
               src={ComputerLab3}
-              alt="ComputerLab3"
-              className="lab-inside img-border"
+              alt='ComputerLab3'
+              className='lab-inside img-border'
             />
-            <img src={matlab} alt="matlab" className="lab-inside img-border" />
+            <img src={matlab} alt='matlab' className='lab-inside img-border' />
             <img
               src={NetworkLab}
-              alt="NetworkLab"
-              className="lab-inside img-border"
+              alt='NetworkLab'
+              className='lab-inside img-border'
             />
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

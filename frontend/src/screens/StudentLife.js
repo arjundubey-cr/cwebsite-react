@@ -7,7 +7,7 @@ import finearts from '../assets/images/clubs&councils/finearts.jpeg'
 const StudentLife = () => {
   return (
     <div>
-      <div className='section-heading text-center'>Life at FOET</div>
+      <div className='section-heading text-center'>Life at FoET</div>
       <hr className='section-underline' />
       <div className='description container-fluid'>
         The job market is one of the most competitive ones we have ever known.

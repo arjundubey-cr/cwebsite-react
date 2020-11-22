@@ -21,11 +21,7 @@ main {
   color: var(--blue-text) !important;
   line-height: 1.2;
 }
-@media only screen and (min-width: 1200px) {
-  .navbar-brand {
-    margin-left: 100px;
-  }
-}
+
 @media only screen and (min-width: 1200px) {
   .navbar-brand {
     margin-left: 80px;
@@ -73,10 +69,10 @@ main {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .section-heading,
   .navbar-brand {
     font-size: 2em !important;
   }
-
   div.top-list .nav-link {
     font-size: 0.8em !important;
   }

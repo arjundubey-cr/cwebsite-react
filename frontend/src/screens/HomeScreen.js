@@ -15,8 +15,8 @@ const HomeScreen = () => {
       </Container>
       <div className='insti-life my-3'>
         <div className='content'>
-          <h1 className='h2 font-weight-bolder'>Life at FOET</h1>
-          <h2>We Impact Society to make it a better world to live</h2>
+          <h1 className='h2 font-weight-bolder'>Life at FoET</h1>
+          <h2>We impact society to make it a better world to live</h2>
           <h3>You can be part too</h3>
           <LinkContainer to='/studentlife'>
             <Button variant='danger' className='my-3'>
