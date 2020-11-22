@@ -1,99 +1,97 @@
 import React from 'react'
 import '../../commondesign.css'
-import imghp from '../../images/cse/faculty/HimanshuPandey.jpg'
-import imgay from '../../images/cse/faculty/AkanshaYadav.jpg'
-import imgas from '../../images/cse/faculty/AnshuSingh.jpg'
-import imgcbs from '../../images/cse/faculty/ChandrabhanSingh.jpg'
-import imgpk from '../../images/cse/faculty/Pankajkumar.jpg'
-import imgpt from '../../images/cse/faculty/PriyankaTripathi.jpg'
-import imgr from '../../images/cse/faculty/Rohit.jpg'
-import imgssd from '../../images/cse/faculty/ShrutiSaxenaDas.jpg'
-import imgzas from '../../images/cse/faculty/ZeeshanAliSiddiqui.jpg'
+import imgakt from '../../images/ash/faculty/ANUPAMKUMARTRIPATHI.jpg'
+import imgdg from '../../images/ash/faculty/DEEPAKGUPTA.jpg'
+import imgkv from '../../images/ash/faculty/KHUSHBOOVERMA.jpg'
+import imgrp from '../../images/ash/faculty/RACHANAPATHAK.jpg'
+import imgrps from '../../images/ash/faculty/RANVIJAYPRATAPSINGH.jpg'
+import imgss from '../../images/ash/faculty/SAVYASACHI.jpg'
+import imgsb from '../../images/ash/faculty/SHASHIBALA.jpg'
+import imgis from '../../images/ash/faculty/ISHASINGH.jpg'
+import imgks from '../../images/ash/faculty/KAUMUDISINGH.jpg'
 
 const Faculty = () => {
   const data = [
     {
-      name: 'Dr. Himanshu Pandey',
-      image: imghp,
+      name: 'Dr. ANUPAM KUMAR TRIPATHI',
+      image: imgakt,
       post: 'Assistant Professor',
-      phoneNum: '7905287870',
-      email: 'hpandey010@gmail.com',
+      phoneNum: '9450358456',
+      email: 'tripathi198117@gmail.com',
     },
     {
-      name: 'Er. Akansha Yadav',
-      image: imgay,
+      name: 'Dr. DEEPAK GUPTA',
+      image: imgdg,
       post: 'Assistant Professor',
-      phoneNum: '7524086772',
-      email: 'itsakanksha9@gmail.com',
+      phoneNum: '9415945708',
+      email: 'dg61279@gmail.com',
     },
     {
-      name: 'Er.Anshu Singh',
-      image: imgas,
+      name: 'Dr. KHUSHBOO VERMA',
+      image: imgkv,
       post: 'Assistant Professor',
-      phoneNum: '7376252768',
-      email: 'anshu.singh6225@gmail.com',
-    },
-
-    {
-      name: 'Er. Chandrabhan Singh',
-      image: imgcbs,
-      post: 'Assistant Professor',
-      phoneNum: '7275711509',
-      email: 'chandrabhan98@gmail.com',
+      phoneNum: '9473789438',
+      email: '1986khushi@gmail.com',
     },
 
     {
-      name: 'Er. Pankaj kumar',
-      image: imgpk,
+      name: 'Dr. RACHANA PATHAK',
+      image: imgrp,
       post: 'Assistant Professor',
-      phoneNum: '9452462043',
-      email: 'lotus_28js@yahoo.com',
+      phoneNum: '9044375304',
+      email: 'rachanapathak2@gmail.com',
+    },
+
+    {
+      name: 'Dr. RANVIJAY PRATAP SINGH',
+      image: imgrps,
+      post: 'Assistant Professor',
+      phoneNum: '8090196096',
+      email: 'rsingh0777@gmail.com',
     },
     {
-      name: 'Er. Priyanka Tripathi',
-      image: imgpt,
+      name: 'Dr. SAVYA SACHI',
+      image: imgss,
       post: 'Assistant Professor',
-      phoneNum: '9305595936',
-      email: 'priyankatripathiknp@gmail.com',
+      phoneNum: '9891002958',
+      email: 'savyasachi81@gmail.com',
     },
     {
-      name: 'Er. Rohit',
-      image: imgr,
+      name: 'Dr. SHASHI BALA',
+      image: imgsb,
       post: 'Assistant Professor',
-      phoneNum: '7007987502',
-      email: 'rohitatknit@gmail.com',
+      phoneNum: '9451246670',
+      email: 'shashichem15@gmail.com',
     },
     {
-      name: 'Er. Shruti Saxena Das',
-      image: imgssd,
+      name: 'MS. ISHA SINGH',
+      image: imgis,
       post: 'Assistant Professor',
-      phoneNum: '8707524957',
-      email: 'shipra.shruti@gmail.com',
+      phoneNum: '8765453699',
+      email: 'ishasinghwriterhc@gmail.com',
     },
     {
-      name: 'Er. Zeeshan Ali Siddiqui',
-      image: imgzas,
+      name: 'MS. KAUMUDI SINGH',
+      image: imgks,
       post: 'Assistant Professor',
-      phoneNum: '9810513463',
-      email: 'zeealis@gmail.com',
+      phoneNum: '7753817989',
+      email: 'kaumudi09.lu@gmail.com',
     },
   ]
   return (
     <div className='Faculty'>
       <div className='container-fluid marketing'>
-        <div className='row facuty-data justify-content-space-between ml-1'>
+        <div className='row faculty-data justify-content-space-between ml-1'>
           {data.map((data, index) => (
-            <div className='col-lg-3 m-4 p-3 rounded'>
+            <div className='m-4 p-3 rounded faculty-detail'>
               <img
                 src={data.image}
-                className='bd-placeholder-img img-shadow rounded-circle mb-2'
-                width='140'
-                height='140'
+                className='bd-placeholder-img img-shadow rounded-circle mb-3'
                 preserveAspectRatio='xMidYMid slice'
                 focusable='false'
                 aria-label='Placeholder: 140x140'
                 alt={`${data.name}`}></img>
-              <h2 className='font-weight-bold'>{data.name}</h2>
+              <h2 className='font-weight-bold faculty-name'>{data.name}</h2>
               <table className='mobile-table'>
                 <tbody className='mobile-tbody'>
                   <tr>

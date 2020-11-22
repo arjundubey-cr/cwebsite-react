@@ -46,11 +46,11 @@ const About = (props) => {
   ];
   return (
     <div className="about pl-2 pr-3 py-1">
-      <div className="social-handle mb-2 p-2 ">
+      <div className="social-handle mb-2 p-2 pl-1">
         <div className="youtube">
           <a
             className="a-text-none"
-            href="https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos"
+            href="https://www.youtube.com/channel/UCx22x0MSF37keTJOmnXQcUQ"
             alt="Computer Science youtube Channel"
             target="_blank"
             rel="noopener noreferrer"

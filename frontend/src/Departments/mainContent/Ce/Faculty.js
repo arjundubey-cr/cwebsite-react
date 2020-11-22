@@ -42,12 +42,10 @@ const Faculty = () => {
       <div className="container-fluid marketing">
         <div className="row faculty-data justify-content-space-between ml-1">
           {data.map((data, index) => (
-            <div className="m-4 p-3 margin-faculty-left rounded">
+            <div className="m-4 p-3 margin-faculty-left rounded faculty-detail">
               <img
                 src={data.image}
-                className="bd-placeholder-img img-shadow rounded-circle mb-2"
-                width="140"
-                height="140"
+                className="bd-placeholder-img img-shadow rounded-circle mb-3"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
                 aria-label="Placeholder: 140x140"

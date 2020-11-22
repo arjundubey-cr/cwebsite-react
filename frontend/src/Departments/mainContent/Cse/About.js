@@ -8,12 +8,12 @@ import NetworkLab from '../../images/cse/network-lab.jpg'
 
 const About = (props) => {
   return (
-    <div className='about px-3 py-1'>
-      <div className='social-handle mb-2 p-2'>
+    <div className='about pl-2 pr-3 py-1'>
+      <div className='social-handle mb-2 p-2 pl-1'>
         <div className='youtube align-items-center'>
           <a
             className='a-text-none d-flex align-items-center'
-            href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/videos'
+            href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/featured?disable_polymer=1'
             alt='Computer Science youtube Channel'
             target='_blank'
             rel='noopener noreferrer'>

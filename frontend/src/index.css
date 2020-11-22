@@ -301,11 +301,12 @@ div.departmentCard .card-body .card-title {
   .overlay {
     height: 20%;
   }
-  .card-image .overlay .text {
-    margin-top: 3px;
-  }
   .council-description {
-    font-size: 0.85em;
+    margin: 8px 5px 0px 5px;
+    font-size: 0.75em;
+  }
+  .councilImage {
+    height: 149px;
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 400px) {
@@ -313,7 +314,7 @@ div.departmentCard .card-body .card-title {
     height: 149px !important;
   }
   .card-image .overlay .text {
-    margin-top: 3px;
+    margin-top: 2px;
   }
   .overlay {
     height: 20%;
@@ -322,30 +323,102 @@ div.departmentCard .card-body .card-title {
     font-size: 1em;
   }
   .council-description {
-    margin-top: 10px;
+    margin: 8px 1px 0px 1px;
     font-size: 0.9em;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 576px) {
+@media only screen and (min-width: 401px) and (max-width: 575px) {
   .councilImage {
     height: 245px;
   }
+  .card-image .overlay .text {
+    margin-top: 5px;
+  }
   .overlay {
-    height: 10%;
+    height: 13%;
   }
   .council-name {
-    font-size: 1em;
+    font-size: 1.3em;
+  }
+  .council-description {
+    margin: 30px 5px 0px 5px;
+    font-size: 1.1em;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 638px) {
   .overlay {
     height: 16%;
   }
   .council-name {
     font-size: 1em;
   }
+  .council-description {
+    margin: 10px 5px 0px 5px;
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 638px) and (max-width: 767px) {
+  .card-image .overlay .text {
+    margin-top: 3px;
+  }
+  .council-description {
+    margin: 15px 5px 0px 5px;
+    font-size: 0.95em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .overlay {
+    height: 16%;
+  }
+  .council-name {
+    font-size: 1em;
+  }
+  .council-description {
+    margin: 10px 5px 0px 5px;
+    font-size: 0.75em;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+  .overlay {
+    height: 16%;
+  }
+  .card-image .overlay .text {
+    margin-top: 3px;
+  }
+  .council-name {
+    font-size: 1.15em;
+  }
+  .council-description {
+    margin: 15px 5px 0px 5px;
+    font-size: 0.95em;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .overlay {
+    height: 16%;
+  }
+  .card-image .overlay .text {
+    margin-top: 8px;
+  }
+  .council-name {
+    font-size: 1.25em;
+  }
+  .council-description {
+    margin: 15px 5px 0px 5px;
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .council-name {
+    font-size: 1.85em;
+  }
+  .council-description {
+    margin: 30px 5px 0px 5px;
+    font-size: 1.35em;
+  }
 }
 /* student life css ends */
+
 /* Footer Styling */
 footer {
   background-color: #2b2a54;

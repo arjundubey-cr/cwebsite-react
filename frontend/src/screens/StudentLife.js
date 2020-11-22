@@ -34,7 +34,7 @@ const StudentLife = () => {
           proper smoothness of them.
         </div>
         <div className='col-4'>
-          <img src='#' alt='Council</strong> of Student Activities' />
+          <img src='#' alt='Council of Student Activities' />
         </div>
       </div>
       <div className='section-sub-heading text-center container'>
@@ -75,7 +75,12 @@ const StudentLife = () => {
                 <div className='text'>
                   <strong className='council-name'>Technical Council</strong>
                   <br />
-                  <div className='council-description'></div>
+                  <div className='council-description'>
+                    The Technical Council is responsible for managing, ideating
+                    and supervising most things tech in the college. The
+                    Technical Council works for organising TechTalks and
+                    Technical Events within the campus.
+                  </div>
                 </div>
               </div>
             </div>
@@ -109,7 +114,12 @@ const StudentLife = () => {
                 <div className='text'>
                   <strong className='council-name'>Sports Council</strong>
                   <br />
-                  <div className='council-description'></div>
+                  <div className='council-description'>
+                    The Sports Council is for students who also have a keen
+                    interest in Sports like Badminton, Cricket, Chess etc. This
+                    council is an energetic group of individuals who organize
+                    sport events throughtout the academic session.
+                  </div>
                 </div>
               </div>
             </div>
