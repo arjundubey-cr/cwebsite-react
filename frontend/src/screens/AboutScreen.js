@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Container, Image, Row } from 'react-bootstrap'
+import vcphoto from '../assets/images/vc_photo.jpg'
 const AboutScreen = () => {
   return (
     <div>
@@ -28,23 +29,31 @@ const AboutScreen = () => {
         Furthermore, initiatives have also been towards energy conservation and
         tapping of solar energy in the campus.
       </div>
-      <div className='section-sub-heading container text-center'>
+      <div className='section-sub-heading container text-center mt-4'>
         From the Desk of Vice Chancellor
       </div>
-      <div className='description container'>
-        The University of Lucknow has had a long tradition of excellence and a
-        vibrant community of scholars, academicians, and alumni. The University
-        is known for its rigorous programs and substantive ethical standards,
-        which help in shaping crucible experiences in our students' lives.
-        Established in 1920, the University has become an emulable eidolon in
-        the field of education. Following these footsteps, the FoET, housed in
-        the second campus of the University of Lucknow, has carved a nurturing
-        space for students. The faculty started in 2017, has kept itself engaged
-        with new educational pedagogy, research, and innovation. The focus has
-        been on broadening the horizons of students, which has shaped them to be
-        global leaders with critical thinking and creativity.
+      <div className='container'>
+        <div className='row'>
+          <div className='description col-12 col-md-8'>
+            The University of Lucknow has had a long tradition of excellence and
+            a vibrant community of scholars, academicians, and alumni. The
+            University is known for its rigorous programs and substantive
+            ethical standards, which help in shaping crucible experiences in our
+            students' lives. Established in 1920, the University has become an
+            emulable eidolon in the field of education. Following these
+            footsteps, the FoET, housed in the second campus of the University
+            of Lucknow, has carved a nurturing space for students. The faculty
+            started in 2017, has kept itself engaged with new educational
+            pedagogy, research, and innovation. The focus has been on broadening
+            the horizons of students, which has shaped them to be global leaders
+            with critical thinking and creativity.
+          </div>
+          <div className='col-12 col-md-4'>
+            <Image src={vcphoto} className=' d-block m-auto' />
+          </div>
+        </div>
       </div>
-      <div className='section-sub-heading container text-center'>
+      <div className='section-sub-heading container text-center mt-4'>
         From the Desk of Coordinator
       </div>
     </div>
