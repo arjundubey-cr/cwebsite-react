@@ -73,7 +73,7 @@ const Footer = () => {
             <Col xl={4} lg={4} md={4} sm={4} className='text-center'>
               <a
                 href='https://g.page/LU_FOET?share'
-                class='text-white text-decoration-none'>
+                className='text-white text-decoration-none'>
                 <address>
                   Faculty Of Engineering & Technology <br />
                   University of Lucknow ,New Campus Rd <br />
@@ -90,12 +90,10 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-      </footer>
-      <Row className='footer-credits'>
-        <div className='text-center container-fluid'>
+        <div className='text-center py-1 footer-credits '>
           Developed by Arjun Dubey and Shubhendra Bahadur Srivastava
         </div>
-      </Row>
+      </footer>
     </div>
   )
 }

@@ -50,7 +50,7 @@ const AboutScreen = () => {
             with critical thinking and creativity.
           </div>
           <div className='col-12 col-md-4'>
-            <Image src={vcphoto} className=' d-block m-auto' />
+            <Image src={vcphoto} className='about-auth-image d-block m-auto' />
           </div>
         </div>
       </div>
@@ -71,8 +71,11 @@ const AboutScreen = () => {
             prepare them to meet the dynamic challenges of today's competitive
             environment.
           </div>
-          <div className='col-12 col-md-4'>
-            <Image src={rsguptaphoto} className=' d-block m-auto' />
+          <div className='col-12 col-md-4 '>
+            <Image
+              src={rsguptaphoto}
+              className='about-auth-image d-block m-auto'
+            />
           </div>
         </div>
       </div>

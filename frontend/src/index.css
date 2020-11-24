@@ -9,11 +9,7 @@ html {
 main {
   min-height: 80vh;
 }
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1280px !important;
-  }
-}
+
 .navbar {
   border-bottom: 1px gray solid;
   background-color: white !important;
@@ -430,6 +426,16 @@ div.departmentCard .card-body .card-title {
     flex-direction: column-reverse !important;
   }
 }
+div.message-about .description {
+  align-self: center;
+}
+.about-auth-image {
+  height: 290px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 /* About Screen CSS ends */
 
 /* Footer Styling */
