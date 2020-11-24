@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Image, Row } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 import vcphoto from '../assets/images/vc_photo.jpg'
 const AboutScreen = () => {
   return (
