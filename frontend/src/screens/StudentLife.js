@@ -9,7 +9,7 @@ const StudentLife = () => {
     <div>
       <div className='section-heading text-center'>Life at FoET</div>
       <hr className='section-underline' />
-      <div className='description container-fluid'>
+      <div className='description container'>
         The job market is one of the most competitive ones we have ever known.
         Very often, employers tell us that a degree alone is not indicative of a
         well-rounded graduate. It is ardent that during graduation, efforts
@@ -25,16 +25,18 @@ const StudentLife = () => {
       <div className='section-sub-heading text-center container'>
         Student Life
       </div>
-      <div className='row container-fluid'>
-        <div className='col-8 description'>
-          To complement their academics, students choose their extracurricular
-          adventures from a spectacular array of ways to participate in music,
-          dance, sports, and tech. The Council of Student Activities(CSA) is in
-          place to make sure to help students navigate challenges and to ensure
-          proper smoothness of them.
-        </div>
-        <div className='col-4'>
-          <img src='#' alt='Council of Student Activities' />
+      <div className='container'>
+        <div className='row'>
+          <div className='col-8 description'>
+            To complement their academics, students choose their extracurricular
+            adventures from a spectacular array of ways to participate in music,
+            dance, sports, and tech. The Council of Student Activities(CSA) is
+            in place to make sure to help students navigate challenges and to
+            ensure proper smoothness of them.
+          </div>
+          <div className='col-4'>
+            <img src='#' alt='Council of Student Activities' />
+          </div>
         </div>
       </div>
       <div className='section-sub-heading text-center container'>
