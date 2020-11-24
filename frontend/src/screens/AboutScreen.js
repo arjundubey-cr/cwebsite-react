@@ -1,6 +1,7 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
 import vcphoto from '../assets/images/vc_photo.jpg'
+import rsguptaphoto from '../assets/images/rs-gupta.jpg'
 const AboutScreen = () => {
   return (
     <div>
@@ -54,7 +55,26 @@ const AboutScreen = () => {
         </div>
       </div>
       <div className='section-sub-heading container text-center mt-4'>
-        From the Desk of Coordinator
+        Coordinator's Message
+      </div>
+      <div className='container'>
+        <div className='row'>
+          <div className='description col-12 col-md-8'>
+            As a part of the distinguished University of Lucknow, the Faculty of
+            Engineering and Technology has upheld high standards since its
+            inception in 2017. The Faculty of Engineering and Technology has
+            qualified faculty as well as equipped laboratories at our disposal.
+            Our goal of comprehensive and holistic technical education ensures
+            that our students equipped with both competence and character. We
+            provide our students with a solid foundation in different areas of
+            Engineering as well as Applied Science and Humanities and also
+            prepare them to meet the dynamic challenges of today's competitive
+            environment.
+          </div>
+          <div className='col-12 col-md-4'>
+            <Image src={rsguptaphoto} className=' d-block m-auto' />
+          </div>
+        </div>
       </div>
     </div>
   )
