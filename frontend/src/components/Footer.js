@@ -71,13 +71,17 @@ const Footer = () => {
               </Col>
             </Col>
             <Col xl={4} lg={4} md={4} sm={4} className='text-center'>
-              <address>
-                Faculty Of Engineering & Technology <br />
-                University of Lucknow ,New Campus Rd <br />
-                Sultanpur Village, <br />
-                Jankipuram, Lucknow, <br />
-                Uttar Pradesh 226021
-              </address>
+              <a
+                href='https://g.page/LU_FOET?share'
+                className='text-white text-decoration-none'>
+                <address>
+                  Faculty Of Engineering & Technology <br />
+                  University of Lucknow ,New Campus Rd <br />
+                  Sultanpur Village, <br />
+                  Jankipuram, Lucknow, <br />
+                  Uttar Pradesh 226021
+                </address>
+              </a>
               <div className='connect'>
                 <Insta />
                 <Facebook />
@@ -86,6 +90,9 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
+        <div className='text-center py-1 footer-credits '>
+          Developed by Arjun Dubey and Shubhendra Bahadur Srivastava
+        </div>
       </footer>
     </div>
   )

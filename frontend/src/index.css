@@ -9,11 +9,7 @@ html {
 main {
   min-height: 80vh;
 }
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1280px !important;
-  }
-}
+
 .navbar {
   border-bottom: 1px gray solid;
   background-color: white !important;
@@ -424,10 +420,28 @@ div.departmentCard .card-body .card-title {
 }
 /* student life css ends */
 
+/* About Screen CSS starts */
+@media only screen and (max-width: 768px) {
+  .message-about {
+    flex-direction: column-reverse !important;
+  }
+}
+div.message-about .description {
+  align-self: center;
+}
+.about-auth-image {
+  height: 290px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* About Screen CSS ends */
+
 /* Footer Styling */
 footer {
-  background-color: #2b2a54;
-  min-height: 500px !important;
+  background-color: #2a2a53;
+  min-height: 450px !important;
   color: white;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
@@ -467,4 +481,11 @@ ul.footer-section-details li {
 }
 .footer-link:hover {
   color: #6a8191;
+}
+.footer-credits {
+  background-color: #8585a8;
+  color: white;
+}
+.footer-credits div.container-fluid {
+  margin: 5px 0px;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
 import vcphoto from '../assets/images/vc_photo.jpg'
-import rsguptaphoto from '../assets/images/rs-gupta.jpg'
+import rsguptaphoto from '../assets/images/coordinator.png'
 const AboutScreen = () => {
   return (
     <div>
@@ -34,7 +34,7 @@ const AboutScreen = () => {
         From the Desk of Vice Chancellor
       </div>
       <div className='container'>
-        <div className='row'>
+        <div className='row message-about'>
           <div className='description col-12 col-md-8'>
             The University of Lucknow has had a long tradition of excellence and
             a vibrant community of scholars, academicians, and alumni. The
@@ -50,7 +50,7 @@ const AboutScreen = () => {
             with critical thinking and creativity.
           </div>
           <div className='col-12 col-md-4'>
-            <Image src={vcphoto} className=' d-block m-auto' />
+            <Image src={vcphoto} className='about-auth-image d-block m-auto' />
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ const AboutScreen = () => {
         Coordinator's Message
       </div>
       <div className='container'>
-        <div className='row'>
+        <div className='row message-about'>
           <div className='description col-12 col-md-8'>
             As a part of the distinguished University of Lucknow, the Faculty of
             Engineering and Technology has upheld high standards since its
@@ -71,8 +71,11 @@ const AboutScreen = () => {
             prepare them to meet the dynamic challenges of today's competitive
             environment.
           </div>
-          <div className='col-12 col-md-4'>
-            <Image src={rsguptaphoto} className=' d-block m-auto' />
+          <div className='col-12 col-md-4 '>
+            <Image
+              src={rsguptaphoto}
+              className='about-auth-image d-block m-auto'
+            />
           </div>
         </div>
       </div>
