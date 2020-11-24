@@ -426,8 +426,8 @@ div.departmentCard .card-body .card-title {
 
 /* Footer Styling */
 footer {
-  background-color: #2b2a54;
-  min-height: 500px !important;
+  background-color: #2a2a53;
+  min-height: 450px !important;
   color: white;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
@@ -467,4 +467,11 @@ ul.footer-section-details li {
 }
 .footer-link:hover {
   color: #6a8191;
+}
+.footer-credits {
+  background-color: #8585a8;
+  color: white;
+}
+.footer-credits div.container-fluid {
+  margin: 5px 0px;
 }
