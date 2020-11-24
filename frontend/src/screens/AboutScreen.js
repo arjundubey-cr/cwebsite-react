@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
 import vcphoto from '../assets/images/vc_photo.jpg'
-import rsguptaphoto from '../assets/images/rs-gupta.jpg'
+import rsguptaphoto from '../assets/images/coordinator.png'
 const AboutScreen = () => {
   return (
     <div>
@@ -34,7 +34,7 @@ const AboutScreen = () => {
         From the Desk of Vice Chancellor
       </div>
       <div className='container'>
-        <div className='row'>
+        <div className='row message-about'>
           <div className='description col-12 col-md-8'>
             The University of Lucknow has had a long tradition of excellence and
             a vibrant community of scholars, academicians, and alumni. The
@@ -58,7 +58,7 @@ const AboutScreen = () => {
         Coordinator's Message
       </div>
       <div className='container'>
-        <div className='row'>
+        <div className='row message-about'>
           <div className='description col-12 col-md-8'>
             As a part of the distinguished University of Lucknow, the Faculty of
             Engineering and Technology has upheld high standards since its

@@ -424,6 +424,14 @@ div.departmentCard .card-body .card-title {
 }
 /* student life css ends */
 
+/* About Screen CSS starts */
+@media only screen and (max-width: 768px) {
+  .message-about {
+    flex-direction: column-reverse !important;
+  }
+}
+/* About Screen CSS ends */
+
 /* Footer Styling */
 footer {
   background-color: #2a2a53;
