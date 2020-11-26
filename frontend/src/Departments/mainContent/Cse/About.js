@@ -29,7 +29,7 @@ const About = (props) => {
           DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
         </div>
         <hr className='section-underline' />
-        <p className='pl-3'>
+        <p className='pl-3 description'>
           Department of Computer Science & Engineering is the largest department
           in Faculty of Engineering and Technology. The Department offers a 4
           years course, B.Tech.in Computer Sc. & Engineering, with an intake of
@@ -43,7 +43,9 @@ const About = (props) => {
         </p>
       </div>
       <div className='course-offered'>
-        <h2 className='intro text-uppercase tx-blue'>Course offered</h2>
+        <h2 className='intro text-uppercase tx-blue section-sub-heading text-center'>
+          Course offered
+        </h2>
         <ul className='course-list'>
           <li>
             <strong>
@@ -52,7 +54,7 @@ const About = (props) => {
           </li>
           <li>
             <strong>
-              B.Tech in Computer Science and Engineering -Lateral (Duration-3
+              B.Tech in Computer Science and Engineering - Lateral (Duration-3
               years)
             </strong>
           </li>

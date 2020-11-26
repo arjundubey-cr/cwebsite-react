@@ -27,7 +27,7 @@ const Header = () => {
             <i className='fa fa-bars fa-lg' aria-hidden='true' />
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
-            <Nav>
+            <Nav className='header-navbar'>
               <div className='d-lg-flex ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
                 <LinkContainer to='/faculty'>
                   <Nav.Link>Faculty</Nav.Link>

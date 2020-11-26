@@ -12,7 +12,7 @@ const About = (props) => {
       <div className='social-handle mb-2 p-2 pl-1'>
         <div className='youtube'>
           <a
-            className='a-text-none'
+            className='a-text-none d-flex align-items-center'
             href='https://www.youtube.com/channel/UCUFsyx5aNTTTS9fl7ZxIYFQ/videos'
             alt='Computer Science youtube Channel'
             target='_blank'
@@ -25,7 +25,7 @@ const About = (props) => {
         </div>
       </div>
       <div className='introduction'>
-        <h2 className='intro text-uppercase tx-blue '>
+        <h2 className='intro text-uppercase tx-blue container-fluid text-center section-heading'>
           DEPARTMENT OF APPLIED SCIENCE & HUMANITIES
         </h2>
         <p className='pl-3'>
