@@ -49,8 +49,8 @@ const AboutScreen = () => {
             the horizons of students, which has shaped them to be global leaders
             with critical thinking and creativity.
           </div>
-          <div className='col-12 col-md-4'>
-            <Image src={vcphoto} className='about-auth-image d-block m-auto' />
+          <div className='col col-sm-12 col-md-3'>
+            <Image src={vcphoto} className='about-auth-image  d-block m-auto' />
           </div>
         </div>
       </div>
@@ -71,10 +71,10 @@ const AboutScreen = () => {
             prepare them to meet the dynamic challenges of today's competitive
             environment.
           </div>
-          <div className='col-12 col-md-4 '>
+          <div className='col col-sm-12 col-md-3'>
             <Image
               src={rsguptaphoto}
-              className='about-auth-image d-block m-auto'
+              className='about-auth-image d-block m-auto '
             />
           </div>
         </div>

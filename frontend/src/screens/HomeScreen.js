@@ -20,7 +20,7 @@ const HomeScreen = () => {
           <h3>You can be part too</h3>
           <LinkContainer to='/studentlife'>
             <Button variant='danger' className='my-3'>
-              Learn More
+              Check Out Student Life
             </Button>
           </LinkContainer>
         </div>
