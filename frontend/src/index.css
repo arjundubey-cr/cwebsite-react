@@ -300,7 +300,10 @@ div.departmentCard .card-body .card-title {
 }
 @media only screen and (max-width: 320px) {
   .overlay {
-    height: 20%;
+    height: 15%;
+  }
+  .council-name {
+    font-size: 0.85em;
   }
   .council-description {
     margin: 8px 5px 0px 5px;
@@ -318,7 +321,7 @@ div.departmentCard .card-body .card-title {
     margin-top: 2px;
   }
   .overlay {
-    height: 20%;
+    height: 18%;
   }
   .council-name {
     font-size: 1em;
@@ -336,7 +339,7 @@ div.departmentCard .card-body .card-title {
     margin-top: 5px;
   }
   .overlay {
-    height: 13%;
+    height: 15%;
   }
   .council-name {
     font-size: 1.3em;
@@ -351,47 +354,50 @@ div.departmentCard .card-body .card-title {
     height: 16%;
   }
   .council-name {
-    font-size: 1em;
+    font-size: 0.95em;
   }
   .council-description {
     margin: 10px 5px 0px 5px;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 @media only screen and (min-width: 638px) and (max-width: 767px) {
   .card-image .overlay .text {
-    margin-top: 3px;
+    margin-top: 2px;
   }
-  .council-description {
-    margin: 15px 5px 0px 5px;
-    font-size: 0.95em;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 900px) {
   .overlay {
-    height: 16%;
-  }
-  .council-name {
-    font-size: 1em;
+    height: 18%;
   }
   .council-description {
     margin: 10px 5px 0px 5px;
     font-size: 0.75em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .overlay {
+    height: 18%;
+  }
+  .council-name {
+    font-size: 0.85em;
+  }
+  .council-description {
+    margin: 5px 5px 0px 5px;
+    font-size: 0.6em;
+  }
+}
 @media only screen and (min-width: 901px) and (max-width: 1024px) {
   .overlay {
-    height: 16%;
+    height: 20%;
   }
   .card-image .overlay .text {
     margin-top: 3px;
   }
   .council-name {
-    font-size: 1.15em;
+    font-size: 0.85em;
   }
   .council-description {
-    margin: 15px 5px 0px 5px;
-    font-size: 0.95em;
+    margin: 5px 5px 0px 5px;
+    font-size: 0.7em;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -411,11 +417,14 @@ div.departmentCard .card-body .card-title {
 }
 @media only screen and (min-width: 1281px) {
   .council-name {
-    font-size: 1.85em;
+    font-size: 1.5em;
   }
   .council-description {
-    margin: 30px 5px 0px 5px;
-    font-size: 1.35em;
+    margin: 15px 5px 0px 5px;
+    font-size: 1.2em;
+  }
+  .overlay {
+    height: 15%;
   }
 }
 /* student life css ends */

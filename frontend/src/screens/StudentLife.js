@@ -42,7 +42,7 @@ const StudentLife = () => {
       <div className='section-sub-heading text-center container'>
         Clubs and Councils
       </div>
-      <div className='container-fluid px-5 my-3'>
+      <div className='container px-5 my-3'>
         <div className='row council-cards'>
           <div className='col-sm-6 col-md-4 col-lg-4 col-12 my-2'>
             <div className='card-image councilImage'>
