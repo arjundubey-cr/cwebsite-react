@@ -123,43 +123,18 @@ const About = (props) => {
         </h2>
         <div>
           <ul>
-            <li>
-              <strong>A</strong>
-              <strong>rtificial Intelligence</strong>
-            </li>
-            <li>
-              <strong>Digital Image Processing</strong>
-            </li>
-            <li>
-              <strong>Computer Networking &amp; Parallel Computing</strong>
-            </li>
-            <li>
-              <strong>Algorithm Design</strong>
-            </li>
-            <li>
-              <strong>Programming Languages and Software Engineering</strong>
-            </li>
-            <li>
-              <strong>Computer Organization &amp; Architecture </strong>
-            </li>
-            <li>
-              <strong>Data Analytics</strong>
-            </li>
-            <li>
-              <strong>Database Management</strong>
-            </li>
-            <li>
-              <strong>Web Technology</strong>
-            </li>
-            <li>
-              <strong>Machine Learning</strong>
-            </li>
-            <li>
-              <strong>Information &amp; Cyber Security</strong>
-            </li>
-            <li>
-              <strong>Internet of Things (IoT)</strong>
-            </li>
+            <li>Data Mining</li>
+            <li>Data Analysis</li>
+            <li>Ethical Hacking</li>
+            <li>Wireless Sensor Network</li>
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Cryptography &amp; Network Security</li>
+            <li>Algorithms &amp; Data Structure</li>
+            <li>Program Analysis &amp; Optimization</li>
+            <li>Requirement Analysis &amp; Gathering</li>
+            <li>Documentation of Web Apps &amp; Android Apps</li>
+            <li>Multi Agent System &amp; Symentic Web</li>
           </ul>
         </div>
       </div>
