@@ -7,6 +7,7 @@ import About from './mainContent/Ece/About'
 import Faculty from './mainContent/Ece/Faculty'
 import Achievement from './mainContent/Ece/Achievement'
 import CourseSyllabus from './mainContent/Ece/syllabus'
+import UpScrollButton from './UpScrollButton'
 
 const Ece = (props) => {
   const [mainContent, setContent] = useState('')
@@ -121,12 +122,7 @@ const Ece = (props) => {
       </nav>
       <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
-        <Button
-          onClick={scrollToTop}
-          className='btn btn-dark rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top'
-          href='#'>
-          <i className='fas fa-arrow-up'></i>
-        </Button>
+        <UpScrollButton />
       </div>
     </div>
   )

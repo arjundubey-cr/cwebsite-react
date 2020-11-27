@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
 //import ReactDOM from "react-dom"
 import './commondesign.css'
 import About from './mainContent/Me/About'
 import Faculty from './mainContent/Me/Faculty'
 import Achievement from './mainContent/Me/Achievement'
 import CourseSyllabus from './mainContent/Me/syllabus'
+import UpScrollButton from './UpScrollButton'
 
 const Me = (props) => {
   const [mainContent, setContent] = useState('')
@@ -28,22 +28,15 @@ const Me = (props) => {
   }
 
   const handlediv = (e) => {
-    // const a=e.target.getAttribute('Value')
-    // const [mainContent,setState]=useState(e.target.getAttribute('value'))
     setContent(e.target.getAttribute('Value'))
     const a = document.getElementsByClassName('item-nav')
     a[0].classList.remove('show')
-    // console.log(a[0]);
-    // console.log(a[0].classList);
-    // console.log(mainContent);
   }
 
   const goback = () => {
     props.history.push('/')
   }
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
+
   return (
     <div className='screen'>
       <nav className='navbar navbar-expand-lg navbar-dark bg-blue nav-fixed-top'>
@@ -121,12 +114,7 @@ const Me = (props) => {
       </nav>
       <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
-        <Button
-          onClick={scrollToTop}
-          className='btn btn-dark rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top'
-          href='#'>
-          <i className='fas fa-arrow-up'></i>
-        </Button>
+        <UpScrollButton />
       </div>
     </div>
   )

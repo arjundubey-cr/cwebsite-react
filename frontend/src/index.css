@@ -146,6 +146,7 @@ main {
 .section-heading {
   font-weight: 900;
   font-size: 3em;
+  line-height: 1.2;
   font-family: 'Roboto', sans-serif;
   margin-top: 30px;
   color: var(--blue-text);
@@ -153,6 +154,7 @@ main {
 .description {
   color: var(--gray-text);
   font-size: 1.25em;
+  line-height: 1.6;
 }
 .card {
   cursor: pointer !important;
