@@ -4,7 +4,7 @@ import { ReactComponent as Facebook } from '../assets/logo/facebook.svg'
 import { ReactComponent as Twitter } from '../assets/logo/twitter.svg'
 import { Link } from 'react-router-dom'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import logo from '../assets/logo/lu_logo_nobg.png'
+import logo from '../assets/logo/lu_no_bg.png'
 const Footer = () => {
   return (
     <div>

@@ -5,7 +5,7 @@ import eplab from '../../images/ash/eng-physics-lab1.jpg'
 import eplabdr from '../../images/ash/eng-physics-lab-darkroom.jpg'
 import pclabimg1 from '../../images/ash/proff-comm-lab-image1.jpg'
 import pclabimg2 from '../../images/ash/proff-comm-lab-image2.jpg'
-
+import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 const About = (props) => {
   return (
     <div className='about pl-2 pr-1 py-1'>
@@ -17,7 +17,7 @@ const About = (props) => {
             alt='Computer Science youtube Channel'
             target='_blank'
             rel='noopener noreferrer'>
-            <i className='fab fa-youtube text-danger font-awsome'></i>
+            <Youtube />
             <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
               Youtube Channel
             </span>

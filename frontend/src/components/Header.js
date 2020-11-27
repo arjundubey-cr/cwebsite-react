@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo/lu_logo_nobg.png'
+import logo from '../assets/logo/lu_no_bg.webp'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 

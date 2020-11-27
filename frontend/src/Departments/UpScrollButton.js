@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
-
+import upArrow from '../assets/logo/arrow.svg'
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
@@ -8,10 +8,11 @@ const scrollToTop = () => {
 const UpScrollButton = () => {
   return (
     <Button
+      variant='secondary'
       onClick={scrollToTop}
-      className='btn btn-dark rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top'
+      className='btn rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top'
       href='#'>
-      <i className='fas fa-arrow-up'></i>
+      <img src={upArrow} alt='Scroll to top' />
     </Button>
   )
 }

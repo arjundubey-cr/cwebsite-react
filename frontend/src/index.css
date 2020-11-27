@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   --blue-text: #2a2a53;
-  --gray-text: #9a9999;
+  --gray-text: #555f61;
 }
 html {
   overflow-x: hidden;
@@ -154,7 +153,7 @@ main {
 .description {
   color: var(--gray-text);
   font-size: 1.25em;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 .card {
   cursor: pointer !important;

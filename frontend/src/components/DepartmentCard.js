@@ -1,12 +1,12 @@
 import React from 'react'
 import { Col, Card, Row } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
-import cse from '../assets/logo/cse.png'
-import ce from '../assets/logo/ce.png'
-import me from '../assets/logo/me.png'
-import ece from '../assets/logo/ece.png'
-import ash from '../assets/logo/ash.png'
-import ee from '../assets/logo/ee.png'
+import cse from '../assets/logo/cse.svg'
+import ce from '../assets/logo/ce.svg'
+import me from '../assets/logo/me.svg'
+import ece from '../assets/logo/ece.svg'
+import ash from '../assets/logo/ash.svg'
+import ee from '../assets/logo/ee.svg'
 const DepartmentCard = () => {
   return (
     <Col className='text-center col'>

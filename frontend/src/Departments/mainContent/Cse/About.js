@@ -6,6 +6,8 @@ import ComputerLab3 from '../../images/cse/computer-lab-3.jpg'
 import matlab from '../../images/cse/matlab.jpg'
 import NetworkLab from '../../images/cse/network-lab.jpg'
 
+import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
+
 const About = (props) => {
   return (
     <div className='container about pl-2 pr-3 py-1'>
@@ -17,7 +19,7 @@ const About = (props) => {
             alt='Computer Science youtube Channel'
             target='_blank'
             rel='noopener noreferrer'>
-            <i className='fab fa-youtube text-danger font-awsome'></i>
+            <Youtube />
             <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
               Youtube Channel
             </span>
