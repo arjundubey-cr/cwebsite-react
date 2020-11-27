@@ -5,7 +5,6 @@ import ComputerLab2 from '../../images/cse/computer_lab_2.jpg'
 import ComputerLab3 from '../../images/cse/computer-lab-3.jpg'
 import matlab from '../../images/cse/matlab.jpg'
 import NetworkLab from '../../images/cse/network-lab.jpg'
-
 import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 
 const About = (props) => {

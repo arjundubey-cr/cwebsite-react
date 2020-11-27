@@ -48,7 +48,7 @@ const Tpc = () => {
         towards perfection. The faculty members work collaboratively to offer
         excellence in teaching and research.
       </div>
-      <div className=' description container-fluid text-center mt-1'>
+      <div className=' description container text-center mt-1'>
         The <strong>Training and Placement Cell</strong> of FoET is centred
         around employment outcomes for the final semester students. The Training
         and Placement cell organises training sessions, talks and other

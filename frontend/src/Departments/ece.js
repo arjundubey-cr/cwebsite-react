@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
 //import ReactDOM from "react-dom"
 import './commondesign.css'
 import About from './mainContent/Ece/About'
@@ -42,9 +41,7 @@ const Ece = (props) => {
   const goback = () => {
     props.history.push('/')
   }
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
+
   return (
     <div className='screen'>
       <nav className='navbar navbar-expand-lg navbar-dark bg-blue nav-fixed-top'>

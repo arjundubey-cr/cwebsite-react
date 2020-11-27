@@ -33,17 +33,12 @@ const Ee = (props) => {
     setContent(e.target.getAttribute('Value'))
     const a = document.getElementsByClassName('item-nav')
     a[0].classList.remove('show')
-    // console.log(a[0]);
-    // console.log(a[0].classList);
-    // console.log(mainContent);
   }
 
   const goback = () => {
     props.history.push('/')
   }
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
+
   return (
     <div className='scrEen'>
       <nav className='navbar navbar-expand-lg navbar-dark bg-blue nav-fixed-top'>

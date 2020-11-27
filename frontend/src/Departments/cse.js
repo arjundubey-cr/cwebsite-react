@@ -36,9 +36,7 @@ const Cse = (props) => {
   const goback = () => {
     props.history.push('/')
   }
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
+
   return (
     <div className='screen'>
       <nav className='navbar navbar-expand-lg navbar-dark bg-blue nav-fixed-top'>
