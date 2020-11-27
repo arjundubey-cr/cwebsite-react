@@ -37,7 +37,7 @@ const Tpc = () => {
         Training and Placement Cell
       </div>
       <hr className='section-underline' />
-      <div className=' description container-fluid text-center'>
+      <div className=' description container text-justify'>
         The Training and Placement Cell of the Faculty of Engineering and
         Technology functions under the aegis of the University of Lucknow, to
         facilitate the process of placement of enrolled students. The University
@@ -48,7 +48,7 @@ const Tpc = () => {
         towards perfection. The faculty members work collaboratively to offer
         excellence in teaching and research.
       </div>
-      <div className=' description container text-center mt-1'>
+      <div className=' description container text-justify mt-1'>
         The <strong>Training and Placement Cell</strong> of FoET is centred
         around employment outcomes for the final semester students. The Training
         and Placement cell organises training sessions, talks and other
