@@ -1,34 +1,36 @@
-import React from 'react'
-import '../../commondesign.css'
-import eclab from '../../images/ash/eng-chem-lab.jpg'
-import eplab from '../../images/ash/eng-physics-lab1.jpg'
-import eplabdr from '../../images/ash/eng-physics-lab-darkroom.jpg'
-import pclabimg1 from '../../images/ash/proff-comm-lab-image1.jpg'
-import pclabimg2 from '../../images/ash/proff-comm-lab-image2.jpg'
-import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
+import React from "react";
+import "../../commondesign.css";
+import eclab from "../../images/ash/eng-chem-lab.jpg";
+import eplab from "../../images/ash/eng-physics-lab1.jpg";
+import eplabdr from "../../images/ash/eng-physics-lab-darkroom.jpg";
+import pclabimg1 from "../../images/ash/proff-comm-lab-image1.jpg";
+import pclabimg2 from "../../images/ash/proff-comm-lab-image2.jpg";
+import { ReactComponent as Youtube } from "../../../assets/logo/youtube.svg";
 const About = (props) => {
   return (
-    <div className='about pl-2 pr-1 py-1'>
-      <div className='social-handle mb-2 p-2 pl-1'>
-        <div className='youtube'>
+    <div className="about pl-2 pr-1 py-1">
+      <div className="social-handle mb-2 p-2 pl-1">
+        <div className="youtube">
           <a
-            className='a-text-none d-flex align-items-center'
-            href='https://www.youtube.com/channel/UCUFsyx5aNTTTS9fl7ZxIYFQ/videos'
-            alt='Computer Science youtube Channel'
-            target='_blank'
-            rel='noopener noreferrer'>
+            className="a-text-none d-flex align-items-center"
+            href="https://www.youtube.com/channel/UCUFsyx5aNTTTS9fl7ZxIYFQ/videos"
+            alt="Computer Science youtube Channel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Youtube />
-            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
+            <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
               Youtube Channel
             </span>
           </a>
         </div>
       </div>
-      <div className='introduction'>
-        <h2 className='intro text-uppercase tx-blue container-fluid text-center section-heading'>
-          DEPARTMENT OF APPLIED SCIENCE & HUMANITIES
-        </h2>
-        <p className='pl-3'>
+      <div className="introduction">
+        <div className="intro text-uppercase tx-blue container-fluid text-center section-heading">
+          DEPARTMENT OF Applied Sciences and Humanities
+        </div>
+        <hr className="section-underline" />
+        <p className="pl-3">
           The Department of Applied Sciences and Humanities functions with the
           mission of expanding human knowledge and benefit society through
           education and research on fundamental and applied aspects of science
@@ -51,7 +53,7 @@ const About = (props) => {
           faculty and supporting staff. All the laboratories of the department
           are well equipped with modern equipments.
         </p>
-        <h5 className='font-weight-bold pl-3'>DEPARTMENT OBJECTIVES</h5>
+        <h5 className="font-weight-bold pl-3">DEPARTMENT OBJECTIVES</h5>
         <ul>
           <li>
             To strengthen the fundamentals in Applied Sciences (Chemistry,
@@ -65,9 +67,9 @@ const About = (props) => {
           <li>To sensitize students to environmental and ethical issues.</li>
         </ul>
       </div>
-      <div className='course-offered'>
-        <h2 className='intro text-uppercase tx-blue'>Course offered</h2>
-        <ul className='course-list'>
+      <div className="course-offered">
+        <h2 className="intro text-uppercase tx-blue">Course offered</h2>
+        <ul className="course-list">
           <strong>
             <li>Engineering Chemistry</li>
             <li>Engineering Physics</li>
@@ -78,8 +80,8 @@ const About = (props) => {
           </strong>
         </ul>
       </div>
-      <div className='deparment'>
-        <h2 className='intro text-uppercase tx-blue'>
+      <div className="deparment">
+        <h2 className="intro text-uppercase tx-blue">
           CONSULTANCY AREAS IN APPLIED SCIENCE & HUMANITIES
         </h2>
         <div>
@@ -117,10 +119,10 @@ const About = (props) => {
           </ol>
         </div>
       </div>
-      <div className='applied-science-department'>
-        <div className='department mb-3'>
-          <h2 className='intro text-uppercase tx-blue'>Chemistry</h2>
-          <p className='pl-3'>
+      <div className="applied-science-department">
+        <div className="department mb-3">
+          <h2 className="intro text-uppercase tx-blue">Chemistry</h2>
+          <p className="pl-3">
             Chemistry Department at Faculty of Engineering and Technology
             providing a basic knowledge of Applied Chemistry and Environment &
             Ecology in B.Tech first and second year respectively. Through our
@@ -134,24 +136,24 @@ const About = (props) => {
             study with recognition of the practical and technological importance
             of the engineering education.
           </p>
-          <h5 className='font-weight-bold pl-3'>Engineering Chemistry Lab</h5>
-          <p className='pl-3'>
+          <h5 className="font-weight-bold pl-3">Engineering Chemistry Lab</h5>
+          <p className="pl-3">
             <strong>Number of equipments:</strong> pH meter, Colorimeter, Hot
             plate, Oven, digital weighing, Water Distillation Unit, Water bath,
             titration equipments, glass ware.
           </p>
-          <div className='ash-image'>
+          <div className="ash-image">
             <img
               src={eclab}
-              alt='engineering chemistry lab'
-              className='ash-image pl-3'
+              alt="engineering chemistry lab"
+              className="ash-image pl-3"
             />
           </div>
         </div>
         <br />
-        <div className='department mb-3'>
-          <h2 className='intro text-uppercase tx-blue'>physics</h2>
-          <p className='pl-3'>
+        <div className="department mb-3">
+          <h2 className="intro text-uppercase tx-blue">physics</h2>
+          <p className="pl-3">
             The Physics Department at Faculty of Engineering and Technology is
             one of the premier places in the state, providing world-class
             undergraduate education encouraging research in diverse areas of
@@ -167,26 +169,26 @@ const About = (props) => {
             active students, FoET Physics thrives to be one of the leading
             research departments in the state.
           </p>
-          <h5 className='font-weight-bold pl-3'>Engineering Physics Lab</h5>
-          <p className='pl-3'>
+          <h5 className="font-weight-bold pl-3">Engineering Physics Lab</h5>
+          <p className="pl-3">
             <strong>Number of equipments:</strong> Newton's ring, Polerimeter,
             Diffrection grating, Nodal slide, Fresnel Biprism, Potentiometer,
             Energy band gap, Stefan's law, Variation of magnetic field, Carey
             foster bridge, Viscosity
           </p>
-          <div className='ash-image'>
-            <img src={eplab} alt='engineering-physics-lab' className='pl-3' />
+          <div className="ash-image">
+            <img src={eplab} alt="engineering-physics-lab" className="pl-3" />
             <img
               src={eplabdr}
-              alt='engineering-physics-lab-dark-room'
-              className='pl-3'
+              alt="engineering-physics-lab-dark-room"
+              className="pl-3"
             />
           </div>
         </div>
         <br />
-        <div className='department mb-3'>
-          <h2 className='intro text-uppercase tx-blue'>MATHEMATICS</h2>
-          <p className='pl-3'>
+        <div className="department mb-3">
+          <h2 className="intro text-uppercase tx-blue">MATHEMATICS</h2>
+          <p className="pl-3">
             Department of Mathematics offers courses to undergraduate and
             post-graduate students of various engineering and computer science
             disciplines like BCA, MCA and B.Tech. The syllabi have been designed
@@ -202,9 +204,9 @@ const About = (props) => {
           </p>
         </div>
         <br></br>
-        <div className='department mb-3'>
-          <h2 className='intro text-uppercase tx-blue'>english</h2>
-          <p className='pl-3'>
+        <div className="department mb-3">
+          <h2 className="intro text-uppercase tx-blue">english</h2>
+          <p className="pl-3">
             In the wake of a new era, when there is a growing demand for humane
             and environment sensitive engineers, the English Department at
             Faculty of Engineering and Technology has taken a lead in the field
@@ -223,21 +225,21 @@ const About = (props) => {
             developed and deployed in a milieu that has both socio‐cultural and
             economic needs and constraints.
           </p>
-          <h5 className='font-weight-bold pl-3'>
+          <h5 className="font-weight-bold pl-3">
             Professional Communication Lab (Language Lab)
           </h5>
-          <p className='pl-3'>
+          <p className="pl-3">
             <strong>Equipments used in PC lab:</strong> Computers, Microphones,
             PC software, Projectors, Sound system
           </p>
-          <div className='ash-image'>
-            <img src={pclabimg1} alt='PClab-image1' className='pl-3' />
-            <img src={pclabimg2} alt='PClab-image2' className='pl-3' />
+          <div className="ash-image">
+            <img src={pclabimg1} alt="PClab-image1" className="pl-3" />
+            <img src={pclabimg2} alt="PClab-image2" className="pl-3" />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../commondesign.css";
 import Image1 from "../../images/me/image1.jpg";
+import { ReactComponent as Youtube } from "../../../assets/logo/youtube.svg";
 
 const About = (props) => {
   const lab = [
@@ -37,27 +38,32 @@ const About = (props) => {
     {
       id: "7",
       lab: "Heat & Mass Transfer lab",
-      description: "Equipments:5 (Heat Transfer Through Composite Cylinder Apparatus.,Heat Transfer Through Composite Wall Apparatus,Heat Transfer Through a Pin-Fin (Natural and Forced) appratus, Parallel and Counter Flow Heat Exchanger Apparatus, Heat Pipe Apparatus.",
+      description:
+        "Equipments:5 (Heat Transfer Through Composite Cylinder Apparatus.,Heat Transfer Through Composite Wall Apparatus,Heat Transfer Through a Pin-Fin (Natural and Forced) appratus, Parallel and Counter Flow Heat Exchanger Apparatus, Heat Pipe Apparatus.",
     },
     {
       id: "8",
       lab: "Fluid Machinery lab",
-      description: "Equipments:3 (Reciprocating Pump Test Ring, Models of Different Impellers Of Pumps (Forward, Backward and Radial), Closed Circuit Hydraulic Ram Test Rig Hydraulic Ram)",
+      description:
+        "Equipments:3 (Reciprocating Pump Test Ring, Models of Different Impellers Of Pumps (Forward, Backward and Radial), Closed Circuit Hydraulic Ram Test Rig Hydraulic Ram)",
     },
     {
       id: "9",
       lab: "C. Engines lab",
-      description: "Equipments:5 (Four Stroke Four Cylinder Petrol Engine Test Rig With Morse Test and with (Electrical/Eddy current Dynamometer), Single Cylinder Four Stroke Diesel Engine Test Rig with (Electrical/Eddy current Dynamometer), Two Stage Reciprocating Air Compressor Test rig, Exhaust Gas Analyser (5 Gas – CO CO2 HC NOx O2) setup, Cut section model of four stroke diesel engine)",
+      description:
+        "Equipments:5 (Four Stroke Four Cylinder Petrol Engine Test Rig With Morse Test and with (Electrical/Eddy current Dynamometer), Single Cylinder Four Stroke Diesel Engine Test Rig with (Electrical/Eddy current Dynamometer), Two Stage Reciprocating Air Compressor Test rig, Exhaust Gas Analyser (5 Gas – CO CO2 HC NOx O2) setup, Cut section model of four stroke diesel engine)",
     },
     {
       id: "10",
       lab: "Theory of Machines lab",
-      description: "Equipments:9 (Simple Linkage models/mechanisms, Four Bar Linkage, Slider Crank Mechanisms, Gear Tooth form/profile apparatus, Gear Train, Dead Weight type Governor,Spring Controlled Governor, Gyroscope, Free and Forced Vibration Apparatus)",
+      description:
+        "Equipments:9 (Simple Linkage models/mechanisms, Four Bar Linkage, Slider Crank Mechanisms, Gear Tooth form/profile apparatus, Gear Train, Dead Weight type Governor,Spring Controlled Governor, Gyroscope, Free and Forced Vibration Apparatus)",
     },
     {
       id: "11",
       lab: "Machine Design lab",
-      description: "Equipments:4 (muff coupling, flexible coupling, rivet joints, bolted joints)",
+      description:
+        "Equipments:4 (muff coupling, flexible coupling, rivet joints, bolted joints)",
     },
   ];
   return (
@@ -71,7 +77,7 @@ const About = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-youtube text-danger font-awsome"></i>
+            <Youtube />
             <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
               Youtube Channel
             </span>
@@ -79,9 +85,10 @@ const About = (props) => {
         </div>
       </div>
       <div className="introduction">
-        <h2 className="intro text-uppercase tx-blue">
+        <div className="intro text-uppercase tx-blue container-fluid text-center section-heading">
           DEPARTMENT OF Mechanical Engineering
-        </h2>
+        </div>
+        <hr className="section-underline" />
         <p className="pl-3">
           The Department of Mechanical Engineering offers 4 years undergraduate
           B.Tech programme & it has an intake of 60 students The Department has
@@ -234,20 +241,14 @@ const About = (props) => {
               <li>Foundry Shop</li>
               <li>Machine Shop</li>
             </ul>
-            {
-              lab.map((lab,index)=>
-              (
-                <div className="me-lab">
+            {lab.map((lab, index) => (
+              <div className="me-lab">
                 <h4 className="laboratory font-weight-bold" dir="auto">
                   {`${lab.id}`}.{`${lab.lab}`}
                 </h4>
-                <p className="ml-2 pl-2">
-                  {`${lab.description}`}
-                </p>
+                <p className="ml-2 pl-2">{`${lab.description}`}</p>
               </div>
-              )
-              )
-            }
+            ))}
           </div>
           <div className="lab-image my-2">
             <img

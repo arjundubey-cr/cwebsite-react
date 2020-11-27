@@ -4,7 +4,9 @@ import imggs from "../../images/ce/faculty/GauravSrivastava.jpg";
 import imgjps from "../../images/ce/faculty/JitendraPratapSingh.jpg";
 import imgkp from "../../images/ce/faculty/KalpanaPatel.jpg";
 import imgns from "../../images/ce/faculty/NidhiSrivastava.jpg";
-
+import { ReactComponent as Briefcase } from "../../../assets/logo/briefcase.svg";
+import { ReactComponent as Email } from "../../../assets/logo/email.svg";
+import { ReactComponent as Phone } from "../../../assets/logo/phone.svg";
 const Faculty = () => {
   const data = [
     {
@@ -56,19 +58,19 @@ const Faculty = () => {
                 <tbody className="mobile-tbody">
                   <tr>
                     <td className="p-2">
-                      <i className="fas fa-briefcase"></i>
+                      <Briefcase />
                     </td>
                     <td className="p-2">{data.post}</td>
                   </tr>
                   <tr>
                     <td className="p-2">
-                      <i className="fas fa-phone"></i>
+                      <Phone />
                     </td>
                     <td className="p-2">{data.phoneNum}</td>
                   </tr>
                   <tr>
                     <td className="p-2">
-                      <i className="fas fa-envelope"></i>
+                      <Email />
                     </td>
                     <td className="p-2">
                       <a href={`mailto:${data.email}`} className="text-danger">

@@ -1,5 +1,6 @@
 import React from "react";
 import "../../commondesign.css";
+import { ReactComponent as Youtube } from "../../../assets/logo/youtube.svg";
 import BMAClab1 from "../../images/ce/BMAClab1.jpg";
 import BMAClab2 from "../../images/ce/BMAClab2.jpg";
 import CTlab1 from "../../images/ce/CTlab1.jpg";
@@ -121,7 +122,7 @@ const About = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-youtube text-danger font-awsome"></i>
+            <Youtube />
             <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
               Youtube Channel
             </span>
@@ -129,9 +130,10 @@ const About = (props) => {
         </div>
       </div>
       <div className="introduction">
-        <h2 className="intro text-uppercase tx-blue ">
-          DEPARTMENT OF civil engineering
-        </h2>
+        <div className="intro text-uppercase tx-blue container-fluid text-center section-heading">
+          DEPARTMENT OF Civil Engineering
+        </div>
+        <hr className="section-underline" />
         <p className="pl-3">
           The Department of Civil Engineering offers 4 years B.Tech in Civil
           Engineering and it has an intake of 66 students. The department has a

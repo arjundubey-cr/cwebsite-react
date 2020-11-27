@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
 //import ReactDOM from "react-dom"
 import './commondesign.css'
 import About from './mainContent/Ash/About'
 import Faculty from './mainContent/Ash/Faculty'
 import Achievement from './mainContent/Ash/Achievement'
 import CourseSyllabus from './mainContent/Ash/syllabus'
+import UpScrollButton from './UpScrollButton'
 
 const Ash = (props) => {
   const [mainContent, setContent] = useState('')
@@ -40,9 +40,6 @@ const Ash = (props) => {
 
   const goback = () => {
     props.history.push('/')
-  }
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
   return (
     <div className='screen'>
@@ -121,12 +118,7 @@ const Ash = (props) => {
       </nav>
       <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
-        <Button
-          onClick={scrollToTop}
-          className='btn btn-dark rounded-circle position-fixed fixed-bottom mr-2 mb-3 button-top'
-          href='#'>
-          <i className='fas fa-arrow-up'></i>
-        </Button>
+        <UpScrollButton />
       </div>
     </div>
   )
