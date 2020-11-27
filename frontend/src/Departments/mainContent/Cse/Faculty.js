@@ -1,14 +1,17 @@
 import React from 'react'
 import '../../commondesign.css'
-import imghp from '../../images/cse/faculty/HimanshuPandey.jpg'
-import imgay from '../../images/cse/faculty/AkanshaYadav.jpg'
-import imgas from '../../images/cse/faculty/AnshuSingh.jpg'
-import imgcbs from '../../images/cse/faculty/ChandrabhanSingh.jpg'
-import imgpk from '../../images/cse/faculty/Pankajkumar.jpg'
-import imgpt from '../../images/cse/faculty/PriyankaTripathi.jpg'
-import imgr from '../../images/cse/faculty/Rohit.jpg'
-import imgssd from '../../images/cse/faculty/ShrutiSaxenaDas.jpg'
-import imgzas from '../../images/cse/faculty/ZeeshanAliSiddiqui.jpg'
+import imghp from '../../images/cse/faculty/HimanshuPandey.jpg';
+import imgay from '../../images/cse/faculty/AkanshaYadav.jpg';
+import imgas from '../../images/cse/faculty/AnshuSingh.jpg';
+import imgcbs from '../../images/cse/faculty/ChandrabhanSingh.jpg';
+import imgpk from '../../images/cse/faculty/Pankajkumar.jpg';
+import imgpt from '../../images/cse/faculty/PriyankaTripathi.jpg';
+import imgr from '../../images/cse/faculty/Rohit.jpg';
+import imgssd from '../../images/cse/faculty/ShrutiSaxenaDas.jpg';
+import imgzas from '../../images/cse/faculty/ZeeshanAliSiddiqui.jpg';
+import { ReactComponent as Briefcase } from "../../../assets/logo/briefcase.svg";
+import { ReactComponent as Email } from "../../../assets/logo/email.svg";
+import { ReactComponent as Phone } from "../../../assets/logo/phone.svg";
 
 const Faculty = () => {
   const data = [
@@ -97,19 +100,19 @@ const Faculty = () => {
                 <tbody className='mobile-tbody'>
                   <tr>
                     <td className='p-2'>
-                      <i className='fas fa-briefcase'></i>
+                      <Briefcase/>
                     </td>
                     <td className='p-2'>{data.post}</td>
                   </tr>
                   <tr>
                     <td className='p-2'>
-                      <i className='fas fa-phone'></i>
+                      <Phone/>
                     </td>
                     <td className='p-2'>{data.phoneNum}</td>
                   </tr>
                   <tr>
                     <td className='p-2'>
-                      <i className='fas fa-envelope'></i>
+                      <Email/>
                     </td>
                     <td className='p-2'>
                       <a href={`mailto:${data.email}`} className='text-danger'>

@@ -9,6 +9,7 @@ import Ce from './Departments/ce.js'
 import Ee from './Departments/ee.js'
 import Me from './Departments/me.js'
 import Ash from './Departments/ash.js'
+import Faculty from './Departments/mainContent/Cse/Faculty.js'
 
 import AdmissionScreen from './screens/AdmissionScreen'
 import ScrollToTop from './ScrollToTop'
@@ -23,6 +24,7 @@ function App() {
         <ScrollToTop>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/cse' component={Cse} exact />
+          <Route path='/cse/faculty' component={Faculty} exact />
           <Route path='/ece' component={Ece} exact />
           <Route path='/ce' component={Ce} exact />
           <Route path='/me' component={Me} exact />

@@ -3,9 +3,17 @@
   font-weight: 600;
 }
 
+.section-heading {
+  font-size: 2.4rem !important;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
 .sidebar-item {
   font-size: 0.9em !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #c8d5e9 !important;
 }
 
@@ -73,6 +81,10 @@
   height: 140px;
 }
 
+.faculty-name {
+  font-size: 1.5rem;
+}
+
 .bg-grey {
   background-color: grey;
 }
@@ -111,8 +123,8 @@
   width: 95%;
   height: auto;
   margin: 6px;
-  border: 2px solid grey;
-  border-radius: 5px;
+  /* border: 2px solid grey;
+  border-radius: 5px; */
 }
 
 .student-activities-images {
@@ -364,16 +376,16 @@
 	Label .mobile-the data
 	*/
   .mobile-td:nth-of-type(1):before {
-    content: 'SN';
+    content: "SN";
   }
   .mobile-td:nth-of-type(2):before {
-    content: 'ORGANISATION';
+    content: "ORGANISATION";
   }
   .mobile-td:nth-of-type(3):before {
-    content: 'Job Title';
+    content: "Job Title";
   }
   .mobile-td:nth-of-type(4):before {
-    content: 'Date';
+    content: "Date";
   }
 
   .student-activities-images img {
@@ -471,6 +483,14 @@
   .civil-achievement p {
     font-size: 0.8rem;
   }
+
+  .section-heading {
+    font-size: 2rem !important;
+  }
+
+  .section-sub-heading {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media only screen and (max-width: 578px) {
@@ -546,5 +566,13 @@
 
   table td {
     font-size: 0.85rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem !important;
+  }
+
+  .section-sub-heading {
+    font-size: 1.5rem !important;
   }
 }

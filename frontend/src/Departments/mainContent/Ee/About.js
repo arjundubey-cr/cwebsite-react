@@ -8,6 +8,7 @@ import imgpsl1 from "../../images/ee/PowerSystemLab1.jpg";
 import imgpsl2 from "../../images/ee/PowerSystemLab1.2.jpg";
 import imgpsl3 from "../../images/ee/PowerSystemLab2.jpg";
 import imgpsl4 from "../../images/ee/PowerSystemLab2.2.jpg";
+import { ReactComponent as Youtube } from "../../../assets/logo/youtube.svg";
 
 const About = (props) => {
   const data = [
@@ -55,7 +56,7 @@ const About = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-youtube text-danger font-awsome"></i>
+            <Youtube />
             <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
               Youtube Channel
             </span>
@@ -63,9 +64,10 @@ const About = (props) => {
         </div>
       </div>
       <div className="introduction">
-        <h2 className="intro text-uppercase tx-blue">
-          DEPARTMENT OF ELECTRICAL ENGINEERING
-        </h2>
+        <div className="intro text-uppercase tx-blue container-fluid text-center section-heading">
+          DEPARTMENT OF Electrical Engineering
+        </div>
+        <hr className="section-underline" />
         <p className="pl-3">
           The Department of Electrical Engineering offers 4 years undergraduate
           B.Tech. programme in Electrical Engineering. It has an intake of 66

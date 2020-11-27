@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../commondesign.css'
-
+import certificate from '../../images/cse/Achievements/certificate.jpg';
+import certificate_distribution from '../../images/cse/Achievements/image-2.jpg';
 const Achievement = (props) => {
     return (
         <div className="container-fluid pl-3 pr-3">
@@ -176,8 +177,8 @@ Appreciation certificate</td>
                 </ul>
             </div>
             <div className="csi-image">
-                <img src={require('../../images/cse/Achievements/certificate.jpg')} alt="certificate" />
-                <img src={require('../../images/cse/Achievements/image-2.jpg')} alt="certificate distribution" />
+                <img src={certificate} alt="certificate" />
+                <img src={certificate_distribution} alt="certificate distribution" />
             </div>
            
         </div>
