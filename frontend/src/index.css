@@ -21,7 +21,10 @@ main {
   color: var(--blue-text) !important;
   line-height: 1.2;
 }
-
+.top-list .nav-link,
+.bottom-list .nav-link {
+  color: #707678 !important;
+}
 @media only screen and (min-width: 1200px) {
   .navbar-brand {
     margin-left: 80px;
