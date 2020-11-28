@@ -16,7 +16,10 @@ const AboutHome = () => {
         challenges.
       </div>
       <LinkContainer to='/about'>
-        <Button className='mt-3' variant='danger' size='lg'>
+        <Button
+          className='my-3 py-2 px-3 font-weight-bold'
+          variant='danger'
+          size='lg'>
           Learn More About Us
         </Button>
       </LinkContainer>
