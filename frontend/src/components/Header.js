@@ -14,7 +14,7 @@ const Header = () => {
               <img
                 alt='lu_logo'
                 src={logo}
-                height='60'
+                height='80px'
                 className='d-inline-block align-top'
               />
               <div>
@@ -24,7 +24,12 @@ const Header = () => {
           </LinkContainer>
           {/* Navbar toggle area starts */}
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
-            <img src={hamburgerMenu} alt='Menu Icon' />
+            <img
+              src={hamburgerMenu}
+              alt='Menu Icon'
+              height='24px'
+              width='24px'
+            />
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
             <Nav className='header-navbar'>

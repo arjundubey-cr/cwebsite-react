@@ -10,7 +10,6 @@ import UpScrollButton from './UpScrollButton'
 
 const Cse = (props) => {
   const [mainContent, setContent] = useState('')
-
   const ChangeContent = (ContentName) => {
     if (ContentName === 'About') {
       return <About />
@@ -50,7 +49,6 @@ const Cse = (props) => {
           aria-label='Toggle navigation'>
           <span className='navbar-toggler-icon'></span>
         </button>
-
         <div
           className='navbar-collapse collapse item-nav'
           id='navbarsExample05'
@@ -94,7 +92,6 @@ const Cse = (props) => {
             </li>
           </ul>
         </div>
-
         <div>
           <button
             className='btn goback btn-success ml-auto text-dark p-1 rounded'
@@ -103,7 +100,7 @@ const Cse = (props) => {
           </button>
         </div>
       </nav>
-      <div className='content container pl-3 pr-5 pt-3 pb-5 position-realtive'>
+      <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
         <UpScrollButton />
       </div>

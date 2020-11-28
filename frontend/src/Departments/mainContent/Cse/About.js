@@ -9,7 +9,7 @@ import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 
 const About = (props) => {
   return (
-    <div className='container'>
+    <>
       <div className='about pl-2 pr-1 py-1'>
         <div className='social-handle mb-2 p-2 pl-1'>
           <div className='youtube align-items-center'>
@@ -183,7 +183,7 @@ const About = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

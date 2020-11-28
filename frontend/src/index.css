@@ -25,7 +25,7 @@ main {
 .bottom-list .nav-link {
   color: #707678 !important;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1240px) {
   .navbar-brand {
     margin-left: 80px;
   }
@@ -50,19 +50,17 @@ main {
     font-size: 1em;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
   .top-list,
   .bottom-list {
     margin-left: 0 !important;
   }
-}
-@media only screen and (max-width: 992px) {
   .header-navbar {
     flex-direction: column-reverse !important;
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1240px) {
   div.bottom-list {
     margin-top: 35px !important;
   }
@@ -71,7 +69,7 @@ main {
     padding-left: 5em !important;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1240px) {
   .section-heading,
   .navbar-brand {
     font-size: 2em !important;
@@ -80,7 +78,7 @@ main {
     font-size: 0.8em !important;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1240px) {
   div.top-list .nav-link {
     font-size: 0.8em !important;
   }
