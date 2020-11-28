@@ -23,7 +23,7 @@ const DepartmentCard = () => {
         <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/cse'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={cse} />
+              <Card.Img variant='top' src={cse} alt='CSE Department' />
               <Card.Body>
                 <Card.Title>Computer Science and Engineering</Card.Title>
               </Card.Body>
@@ -31,7 +31,7 @@ const DepartmentCard = () => {
           </LinkContainer>
           <LinkContainer to='/ce'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={ce} />
+              <Card.Img variant='top' src={ce} alt='CE Department' />
               <Card.Body>
                 <Card.Title>Civil Engineering</Card.Title>
               </Card.Body>
@@ -41,7 +41,7 @@ const DepartmentCard = () => {
         <Col xs={12} sm={4} md={4} lg={4}>
           <LinkContainer to='/ece'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={ece} />
+              <Card.Img variant='top' src={ece} alt='ECE Department' />
               <Card.Body>
                 <Card.Title>Electronics &amp; Comm. Engineering</Card.Title>
               </Card.Body>
@@ -49,7 +49,7 @@ const DepartmentCard = () => {
           </LinkContainer>
           <LinkContainer to='/ee'>
             <Card className='departmentCard' style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={ee} />
+              <Card.Img variant='top' src={ee} alt='EE Department' />
               <Card.Body>
                 <Card.Title>Electrical Engineering</Card.Title>
               </Card.Body>
@@ -58,7 +58,10 @@ const DepartmentCard = () => {
         </Col>
         <Col xs={12} sm={4} md={4} lg={4} className='last-col'>
           <LinkContainer to='/me'>
-            <Card className='departmentCard' style={{ width: '15rem' }}>
+            <Card
+              className='departmentCard'
+              alt='ME Department'
+              style={{ width: '15rem' }}>
               <Card.Img variant='top' src={me} />
               <Card.Body>
                 <Card.Title>Mechanical Engineering</Card.Title>
@@ -69,7 +72,7 @@ const DepartmentCard = () => {
             <Card
               className='departmentCard last-card'
               style={{ width: '15rem' }}>
-              <Card.Img variant='top' src={ash} />
+              <Card.Img variant='top' src={ash} alt='ASH Department' />
               <Card.Body>
                 <Card.Title>Applied Science &amp; Humanities</Card.Title>
               </Card.Body>

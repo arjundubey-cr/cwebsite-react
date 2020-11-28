@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo/lu_no_bg.webp'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
-
+import hamburgerMenu from '../assets/logo/menu-icon.svg'
 const Header = () => {
   return (
     <header>
@@ -24,7 +24,7 @@ const Header = () => {
           </LinkContainer>
           {/* Navbar toggle area starts */}
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
-            <i className='fa fa-bars fa-lg' aria-hidden='true' />
+            <img src={hamburgerMenu} alt='Menu Icon' />
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
             <Nav className='header-navbar'>

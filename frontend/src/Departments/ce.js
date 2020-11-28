@@ -116,9 +116,9 @@ const Ce = (props) => {
           </button>
         </div>
       </nav>
-      <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
+      <div className='content container pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
-        <UpScrollButton/>
+        <UpScrollButton />
       </div>
     </div>
   )

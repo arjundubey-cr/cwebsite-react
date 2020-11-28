@@ -17,18 +17,21 @@ const Footer = () => {
             <Col xl={4} lg={4} md={4} sm={4}>
               <div className='footer-section-heading'>ADMISSION</div>
               <ul className='footer-section-details'>
-                <Link to='/admission' className='footer-link'>
-                  <li>Admission Procedure </li>
-                </Link>
-                <Link to='/admission' className='footer-link'>
-                  <li>Eligibility </li>
-                </Link>
-                <Link to='/admission' className='footer-link'>
-                  <li>Fee Structure</li>
-                </Link>
-                <Link to='/admission' className='footer-link'>
-                  <li>Scholarship</li>
-                </Link>
+                <li>
+                  <Link to='/admission' className='footer-link'>
+                    Admission Procedure
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/admission' className='footer-link'>
+                    Fee Structure
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/admission' className='footer-link'>
+                    Scholarship
+                  </Link>
+                </li>
               </ul>
             </Col>
             <Col
@@ -40,33 +43,45 @@ const Footer = () => {
               <Col>
                 <div className='footer-section-heading'>QUICK LINKS</div>
                 <ul className='footer-section-details'>
-                  <a href='https://www.lkouniv.ac.in' className='footer-link'>
-                    <li>University of Lucknow</li>
-                  </a>
-                  <a
-                    href='https://udrc.lkouniv.ac.in/student?cd=MQAzADYAOQA2AA%3D%3D'
-                    className='footer-link'>
-                    <li>UDRC Student Login</li>
-                  </a>
-                  <a
-                    href='https://slate.lkouniv.ac.in/'
-                    className='footer-link'>
-                    <li>SLATE</li>
-                  </a>
+                  <li>
+                    <a href='https://www.lkouniv.ac.in' className='footer-link'>
+                      University of Lucknow
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href='https://udrc.lkouniv.ac.in/student?cd=MQAzADYAOQA2AA%3D%3D'
+                      className='footer-link'>
+                      UDRC Student Login
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href='https://slate.lkouniv.ac.in/'
+                      className='footer-link'>
+                      SLATE
+                    </a>
+                  </li>
                 </ul>
               </Col>
               <Col>
                 <div className='footer-section-heading'>RESOURCES</div>
                 <ul className='footer-section-details'>
-                  <Link to='/admission' className='footer-link'>
-                    <li>Syllabus</li>
-                  </Link>
-                  <Link to='/admission' className='footer-link'>
-                    <li>E-content</li>
-                  </Link>
-                  <Link to='/admission' className='footer-link'>
-                    <li>Scholarship</li>
-                  </Link>
+                  <li>
+                    <Link to='/admission' className='footer-link'>
+                      Syllabus
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/admission' className='footer-link'>
+                      E-content
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/admission' className='footer-link'>
+                      Scholarship
+                    </Link>
+                  </li>
                 </ul>
               </Col>
             </Col>
