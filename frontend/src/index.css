@@ -45,14 +45,14 @@ main {
   .top-list,
   .bottom-list {
     position: absolute;
-    top: 25px;
+    top: 15px;
     right: 00px;
     width: 550px;
     height: 38px;
   }
   .bottom-list a.nav-link {
     font-weight: 900 !important;
-    font-size: 1em;
+    font-size: 1em !important;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -69,28 +69,25 @@ main {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1240px) {
-  div.bottom-list {
-    margin-top: 35px !important;
+  div.top-list .nav-link {
+    font-size: 1em !important;
   }
   .top-list,
   .bottom-list {
     padding-left: 5em !important;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .section-heading,
   .navbar-brand {
     font-size: 2em !important;
-  }
-  div.top-list .nav-link {
-    font-size: 0.8em !important;
   }
 }
 @media only screen and (min-width: 1240px) {
   div.top-list .nav-link {
     font-size: 0.8em !important;
   }
-  .top-list {
+  div.bottom-list .nav-link {
     font-size: 1.3em;
   }
 }

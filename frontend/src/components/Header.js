@@ -33,7 +33,7 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
             <Nav className='header-navbar'>
-              <div className='d-lg-flex ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
+              <div className='d-lg-flex ml-xl-5 ml-lg-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
                 <LinkContainer to='/tpc'>
                   <Nav.Link>Training &amp; Placement </Nav.Link>
                 </LinkContainer>
@@ -42,7 +42,7 @@ const Header = () => {
                 </LinkContainer>
               </div>
               <hr className=' d-lg-none navbar-rule' />
-              <div className='d-lg-flex ml-lg-auto mt-xl-5 mt-lg-4 mb-lg-0 mr-lg-0 bottom-list'>
+              <div className='d-lg-flex ml-lg-auto mt-xl-5 mt-lg-5 mb-lg-0 mr-lg-0 bottom-list'>
                 <LinkContainer to='/about'>
                   <Nav.Link>About</Nav.Link>
                 </LinkContainer>
