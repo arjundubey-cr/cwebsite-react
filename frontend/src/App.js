@@ -16,6 +16,7 @@ import ScrollToTop from './ScrollToTop'
 import Tpc from './screens/Tpc'
 import StudentLife from './screens/StudentLife'
 import AboutScreen from './screens/AboutScreen'
+//import ContactusScreen from './screens/ContactusScreen'
 function App() {
   return (
     <Router>
@@ -34,6 +35,7 @@ function App() {
           <Route path='/tpc' component={Tpc} exact />
           <Route path='/about' component={AboutScreen} exact />
           <Route path='/studentlife' component={StudentLife} exact />
+        {/* <Route path='/contact-us' component={ContactusScreen} exact /> */}
         </ScrollToTop>
       </main>
       <Footer />
