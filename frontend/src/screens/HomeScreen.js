@@ -19,7 +19,9 @@ const HomeScreen = () => {
           <h2>We impact society to make it a better world to live</h2>
           <h3>You can be part too</h3>
           <LinkContainer to='/studentlife'>
-            <Button variant='danger' className='my-3'>
+            <Button
+              variant='danger'
+              className='my-3 py-2 px-3 font-weight-bold'>
               Check Out Student Life
             </Button>
           </LinkContainer>
@@ -42,7 +44,9 @@ const HomeScreen = () => {
               Engineering and Technology education.
             </div>
             <LinkContainer to='/admission'>
-              <Button variant='danger' className='my-3'>
+              <Button
+                variant='danger'
+                className='my-3 py-2 px-3 font-weight-bold'>
                 Learn about Admission
               </Button>
             </LinkContainer>

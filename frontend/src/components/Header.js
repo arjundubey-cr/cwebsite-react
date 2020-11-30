@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo/lu_no_bg.webp'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
-
+import hamburgerMenu from '../assets/logo/menu-icon.svg'
 const Header = () => {
   return (
     <header>
@@ -14,7 +14,7 @@ const Header = () => {
               <img
                 alt='lu_logo'
                 src={logo}
-                height='60'
+                height='80px'
                 className='d-inline-block align-top'
               />
               <div>
@@ -24,14 +24,16 @@ const Header = () => {
           </LinkContainer>
           {/* Navbar toggle area starts */}
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
-            <i className='fa fa-bars fa-lg' aria-hidden='true' />
+            <img
+              src={hamburgerMenu}
+              alt='Menu Icon'
+              height='24px'
+              width='24px'
+            />
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
             <Nav className='header-navbar'>
               <div className='d-lg-flex ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
-                <LinkContainer to='/faculty'>
-                  <Nav.Link>Faculty</Nav.Link>
-                </LinkContainer>
                 <LinkContainer to='/tpc'>
                   <Nav.Link>Training &amp; Placement </Nav.Link>
                 </LinkContainer>
@@ -45,7 +47,7 @@ const Header = () => {
                   <Nav.Link>About</Nav.Link>
                 </LinkContainer>
                 {/* NavbarDropdown for Departments */}
-                <NavDropdown title='Department' id='basic-nav-dropdown'>
+                <NavDropdown title='Departments' id='basic-nav-dropdown'>
                   <LinkContainer to='/cse'>
                     <NavDropdown.Item>
                       Computer Science and Engineering
@@ -73,7 +75,7 @@ const Header = () => {
                 </NavDropdown>
                 {/* Container for LIFE@FOET*/}
                 <LinkContainer to='/studentlife'>
-                  <Nav.Link>Life at FOET</Nav.Link>
+                  <Nav.Link>Life at FoET</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to='/admission'>
                   <Nav.Link>Admission</Nav.Link>

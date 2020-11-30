@@ -7,7 +7,7 @@ const AboutScreen = () => {
     <div>
       <div className='section-heading text-center'>About FoET</div>
       <hr className='section-underline' />
-      <div className='description container text-center'>
+      <div className='description container text-justify'>
         The Faculty of Engineering and Technology was re-established as one of
         the Faculties of the University of Lucknow in 2017 with the aim of
         becoming a pioneer in the field of technical education. The Faculty has
