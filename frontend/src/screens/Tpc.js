@@ -3,30 +3,37 @@ import { Container, Table } from 'react-bootstrap'
 const Tpc = () => {
   const tpcTeachers = [
     {
+      _id: 1,
       name: 'Dr. Himanshu Pandey (In-charge)',
       branch: 'Computer Science and Engineering',
     },
     {
+      _id: 2,
       name: 'Er. Pankaj Kumar',
       branch: 'Computer Science and Engineering',
     },
     {
+      _id: 3,
       name: 'Er. Sushil Kumar Gupta',
       branch: 'Electronics and Communication Engineering',
     },
     {
+      _id: 4,
       name: 'Er. Pawan Kumar Singh',
       branch: 'Electrical Engineering',
     },
     {
+      _id: 5,
       name: 'Er. Gaurav Srivastava',
       branch: 'Civil Engineering',
     },
     {
+      _id: 6,
       name: 'Er. Prashan Kr. Singh',
       branch: 'Mechanical Engineering',
     },
     {
+      _id: 7,
       name: 'Ms. Isha Singh',
       branch: 'Applied Science and Humanities',
     },
