@@ -16,6 +16,7 @@ import ScrollToTop from './ScrollToTop'
 import Tpc from './screens/Tpc'
 import StudentLife from './screens/StudentLife'
 import AboutScreen from './screens/AboutScreen'
+import ContactusScreen from './screens/ContactusScreen'
 function App() {
   return (
     <Router>
@@ -29,6 +30,7 @@ function App() {
           <Route path='/ce' component={Ce} exact />
           <Route path='/me' component={Me} exact />
           <Route path='/ee' component={Ee} exact />
+          <Route path='/contact-us' component={ContactusScreen} exact />
           <Route path='/ash' component={Ash} exact />
           <Route path='/admission' component={AdmissionScreen} exact />
           <Route path='/tpc' component={Tpc} exact />

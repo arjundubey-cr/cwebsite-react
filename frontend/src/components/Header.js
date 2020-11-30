@@ -34,9 +34,6 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav myDiv'>
             <Nav className='header-navbar'>
               <div className='d-lg-flex ml-xl-5 mt-0 mb-xl-5 mb-lg-5 mr-0 top-list'>
-                <LinkContainer to='/faculty'>
-                  <Nav.Link>Faculty</Nav.Link>
-                </LinkContainer>
                 <LinkContainer to='/tpc'>
                   <Nav.Link>Training &amp; Placement </Nav.Link>
                 </LinkContainer>
@@ -50,7 +47,7 @@ const Header = () => {
                   <Nav.Link>About</Nav.Link>
                 </LinkContainer>
                 {/* NavbarDropdown for Departments */}
-                <NavDropdown title='Department' id='basic-nav-dropdown'>
+                <NavDropdown title='Departments' id='basic-nav-dropdown'>
                   <LinkContainer to='/cse'>
                     <NavDropdown.Item>
                       Computer Science and Engineering
@@ -78,7 +75,7 @@ const Header = () => {
                 </NavDropdown>
                 {/* Container for LIFE@FOET*/}
                 <LinkContainer to='/studentlife'>
-                  <Nav.Link>Life at FOET</Nav.Link>
+                  <Nav.Link>Life at FoET</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to='/admission'>
                   <Nav.Link>Admission</Nav.Link>

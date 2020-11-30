@@ -25,6 +25,11 @@ main {
 .bottom-list .nav-link {
   color: #707678 !important;
 }
+.top-list .nav-link:hover,
+.bottom-list .nav-link:hover {
+  color: #000000 !important;
+}
+
 @media only screen and (min-width: 1240px) {
   .navbar-brand {
     margin-left: 80px;
