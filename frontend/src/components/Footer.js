@@ -15,11 +15,11 @@ const Footer = () => {
           </Row>
           <Row className='pt-2 justify-content-between align-content-between align-content-sm-center'>
             <Col xl={4} lg={4} md={4} sm={4}>
-              <div className='footer-section-heading'>ADMISSION</div>
+              <div className='footer-section-heading'>FOR STUDENTS</div>
               <ul className='footer-section-details'>
                 <li>
                   <Link to='/admission' className='footer-link'>
-                    Admission Procedure
+                    Admission
                   </Link>
                 </li>
                 <li>
@@ -28,9 +28,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/admission' className='footer-link'>
-                    Scholarship
-                  </Link>
+                  <a
+                    href='https://udrc.lkouniv.ac.in/Content/DepartmentContent/SY_9ab4ee8a-319b-46d7-afbb-86dfe636b0ed_58.pdf'
+                    className='footer-link'>
+                    Ordinance, Rules and Regulations
+                  </a>
                 </li>
               </ul>
             </Col>
@@ -62,25 +64,12 @@ const Footer = () => {
                       SLATE
                     </a>
                   </li>
-                </ul>
-              </Col>
-              <Col>
-                <div className='footer-section-heading'>RESOURCES</div>
-                <ul className='footer-section-details'>
                   <li>
-                    <Link to='/admission' className='footer-link'>
-                      Syllabus
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/admission' className='footer-link'>
-                      E-content
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/admission' className='footer-link'>
+                    <a
+                      href='https://scholarship.up.gov.in/'
+                      className='footer-link'>
                       Scholarship
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </Col>
@@ -105,7 +94,7 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-        <div className='text-center py-1 footer-credits '>
+        <div className='text-center py-1 mt-3 footer-credits '>
           Developed by Arjun Dubey and Shubhendra Bahadur Srivastava
         </div>
       </footer>
