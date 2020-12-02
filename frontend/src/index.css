@@ -4,6 +4,7 @@
 }
 html {
   overflow-x: hidden;
+  font-size: 16px;
 }
 main {
   min-height: 80vh;
@@ -40,8 +41,27 @@ main {
   width: 100%;
   margin: 0;
 }
-
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1240px) {
+  .top-list,
+  .bottom-list {
+    position: absolute;
+    top: 25px;
+    right: 00px;
+    width: 550px;
+    height: 38px;
+  }
+  .bottom-list a.nav-link {
+    font-weight: 900 !important;
+    font-size: 1em !important;
+  }
+  div.top-list .nav-link {
+    font-size: 0.9em !important;
+  }
+  div.bottom-list .nav-link {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1240px) {
   .top-list,
   .bottom-list {
     position: absolute;
@@ -53,6 +73,16 @@ main {
   .bottom-list a.nav-link {
     font-weight: 900 !important;
     font-size: 1em !important;
+  }
+  div.top-list .nav-link {
+    font-size: 1em !important;
+  }
+  .top-list,
+  .bottom-list {
+    padding-left: 5em !important;
+  }
+  .navbar-brand {
+    font-size: 2em !important;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -66,31 +96,11 @@ main {
   .nav-link {
     font-weight: bold !important;
   }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1240px) {
-  div.top-list .nav-link {
-    font-size: 1em !important;
-  }
-  .top-list,
-  .bottom-list {
-    padding-left: 5em !important;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .section-heading,
   .navbar-brand {
     font-size: 2em !important;
   }
 }
-@media only screen and (min-width: 1240px) {
-  div.top-list .nav-link {
-    font-size: 0.8em !important;
-  }
-  div.bottom-list .nav-link {
-    font-size: 1.3em;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   .navbar-brand {
     font-size: 1.2em !important;
@@ -160,6 +170,19 @@ main {
   color: var(--gray-text);
   font-size: 1.25em;
   line-height: 1.4;
+}
+@media only screen and (max-width: 992px) {
+  .description {
+    font-size: 16px;
+  }
+  .section-heading {
+    font-size: 2.4em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-heading {
+    font-size: 2em;
+  }
 }
 .card {
   cursor: pointer !important;
