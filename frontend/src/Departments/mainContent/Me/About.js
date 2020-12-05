@@ -91,7 +91,7 @@ const About = (props) => {
         <hr className="section-underline" />
         <p className="pl-3">
           The Department of Mechanical Engineering offers 4 years undergraduate
-          B.Tech programme & it has an intake of 66 students The Department has
+          B.Tech programme & it has an intake of 66----- students The Department has
           a well qualified well experienced faculty and technical supporting
           staff. All the laboratories of the department are well equipped with
           modern equipments.
