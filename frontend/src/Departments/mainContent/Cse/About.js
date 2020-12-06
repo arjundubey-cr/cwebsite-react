@@ -31,7 +31,7 @@ const About = (props) => {
             DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
           </div>
           <hr className='section-underline' />
-          <p className='pl-3 description'>
+          <p className='pl-3 description container'>
             Department of Computer Science & Engineering is the largest
             department in Faculty of Engineering and Technology. The Department
             offers a 4 years course, B.Tech.in Computer Sc. & Engineering, with
@@ -45,11 +45,11 @@ const About = (props) => {
             academic practices.
           </p>
         </div>
-        <div className='course-offered'>
+        <div className='course-offered container'>
           <h2 className='intro text-uppercase tx-blue section-sub-heading'>
             Course offered
           </h2>
-          <ul className='course-list'>
+          <ul className='course-list description'>
             <li>
               <strong>
                 B.Tech in Computer Science and Engineering(Duration-4 years)
@@ -69,7 +69,7 @@ const About = (props) => {
             </li>
           </ul>
         </div>
-        <div className='focus-list'>
+        <div className='focus-list description container'>
           <p className='px-3'>
             The department covers all recent trends in Computer Technology with
             prime focuses on:
@@ -120,11 +120,11 @@ const About = (props) => {
             associations.
           </p>
         </div>
-        <div className='deparment'>
-          <h2 className='intro text-uppercase tx-blue'>
+        <div className='deparment container'>
+          <h2 className='intro text-uppercase section-sub-heading tx-blue'>
             CONSULTANCY AREAS OF COMPUTER SCIENCE & ENGINEERING
           </h2>
-          <div>
+          <div className='description'>
             <ul>
               <li>Data Mining</li>
               <li>Data Analysis</li>
@@ -142,15 +142,17 @@ const About = (props) => {
           </div>
         </div>
         <div className='computer-center'>
-          <h2 className='intro text-uppercase tx-blue'>COMPUTER CENTRE</h2>
-          <p className='computer-center-description px-2'>
+          <h2 className='intro text-uppercase section-sub-heading tx-blue'>
+            COMPUTER CENTRE
+          </h2>
+          <p className='computer-center-description description px-2'>
             This centre has two servers, 70 nodes with latest configurations
             along with necessary software and printers etc to meet the needs of
             the students from all other branches. All the computers are
             connected through LAN. There is internet facility in the centre.
           </p>
           <div className='commputer-center-images'>
-            <h2 className='intro text-uppercase tx-blue font-weight-bold'>
+            <h2 className='intro text-uppercase tx-blue section-sub-heading container'>
               Laboratories in Department of Computer Science & Engineering
             </h2>
             <div className='lab-image my-3'>

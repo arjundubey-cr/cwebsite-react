@@ -92,13 +92,7 @@ const Cse = (props) => {
             </li>
           </ul>
         </div>
-        <div>
-          <button
-            className='btn goback btn-success ml-auto text-dark p-1 rounded'
-            onClick={goback}>
-            Home
-          </button>
-        </div>
+        <div></div>
       </nav>
       <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}

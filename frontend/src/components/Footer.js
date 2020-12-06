@@ -98,7 +98,7 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-        <div className='text-center py-1 mt-3 footer-credits '>
+        <div className='text-center py-1 mt-5 footer-credits '>
           Developed by Arjun Dubey and Shubhendra Bahadur Srivastava
         </div>
       </footer>
