@@ -87,8 +87,12 @@ const Footer = () => {
                 </address>
               </a>
               <div className='connect'>
-                <Insta />
-                <Facebook />
+                <a href='https://www.instagram.com/luo_fficial/'>
+                  <Insta />
+                </a>
+                <a href='https://www.facebook.com/FetLucknowUniversity'>
+                  <Facebook />
+                </a>
                 <Twitter />
               </div>
             </Col>

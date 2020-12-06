@@ -14,13 +14,13 @@ const ContactusScreen = () => {
           Uttar Pradesh, 226021, India
         </address>
         <a
-          class='text-decoration-none description font-weight-bold'
+          className='text-decoration-none description font-weight-bold'
           href='tel:+917991200653'>
           7991200653
         </a>{' '}
         <br />
         <a
-          class='text-decoration-none description font-weight-bold'
+          className='text-decoration-none description font-weight-bold'
           href='tel:+918090196096'>
           8090196096
         </a>
