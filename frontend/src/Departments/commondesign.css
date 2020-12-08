@@ -7,7 +7,7 @@
   font-size: 2.4rem !important;
 }
 
-h2{
+h2 {
   font-size: 1.5rem;
 }
 
@@ -414,8 +414,8 @@ h2{
   .civil-achieve-img img,
   .ash-image img,
   .ash-achieve-img img {
-    width: 429px;
-    height: 266px;
+    width: 289px;
+    height: 240px;
   }
 }
 
