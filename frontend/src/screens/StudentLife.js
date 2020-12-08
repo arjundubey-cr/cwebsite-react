@@ -22,7 +22,7 @@ const StudentLife = () => {
         and value of both academic curriculum and co-curricular activities in
         developing the range of skills and attributes is crucial for graduates.
       </div>
-      <div className='section-sub-heading text-center container'>
+      <div className='section-sub-heading xs-mt-5 md-mt-5 text-center container'>
         Student Life
       </div>
       <div className='container'>
@@ -71,7 +71,7 @@ const StudentLife = () => {
               <img
                 src={technical}
                 alt='Avatar'
-                className='image councilImage '
+                className='image councilImage'
               />
               <div className='overlay'>
                 <div className='text'>
