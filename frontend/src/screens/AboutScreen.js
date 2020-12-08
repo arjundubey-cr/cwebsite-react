@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
 import vcphoto from '../assets/images/vc_photo.jpg'
-import rsguptaphoto from '../assets/images/rs-gupta.jpg'
+import rsguptaphoto from '../assets/images/coordinator.png'
 const AboutScreen = () => {
   return (
     <div>
