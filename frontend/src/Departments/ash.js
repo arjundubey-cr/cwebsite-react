@@ -81,9 +81,6 @@ const Ash = (props) => {
                 Faculty
               </Link>
             </li>
-            {/* <li className="nav-item">
-    <Link to='/ash' className="nav-link sidebar-item" onClick={handlediv} value='CourseOffered' >Course Offered</Link>
-</li> */}
             <li className='nav-item'>
               <Link
                 to='/ash'
@@ -110,7 +107,7 @@ const Ash = (props) => {
 
         <div></div>
       </nav>
-      <div className='content container pl-3 pr-5 pt-3 pb-5 position-realtive'>
+      <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
         <UpScrollButton />
       </div>
