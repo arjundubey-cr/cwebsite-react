@@ -8,6 +8,7 @@ html {
 }
 main {
   min-height: 80vh;
+  font-family: 'Slabo 27px', serif;
 }
 
 .navbar {
@@ -164,13 +165,14 @@ main {
   font-weight: 900;
   font-size: 3em;
   line-height: 1.2;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   margin-top: 30px;
   color: var(--blue-text);
 }
 .description {
   color: var(--gray-text);
   font-size: 20px;
+  font-family: 'Slabo 27px', serif;
   line-height: 1.4;
 }
 @media only screen and (max-width: 992px) {
