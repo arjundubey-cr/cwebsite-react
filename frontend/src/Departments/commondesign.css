@@ -154,10 +154,6 @@ h2 {
   font-size: 1.2rem;
 }
 
-.laboratory {
-  font-size: 1.2em;
-}
-
 .achievement-list {
   width: 100%;
 }
@@ -190,7 +186,7 @@ h2 {
 }
 
 .content {
-  font-family: sans-serif;
+  font-family: 'Alegreya', serif;
 }
 
 .bg-dark {

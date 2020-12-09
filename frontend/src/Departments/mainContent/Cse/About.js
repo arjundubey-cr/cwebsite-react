@@ -11,8 +11,8 @@ const About = (props) => {
   return (
     <>
       <div className='about pl-2 pr-1 py-1'>
-        <div className='social-handle mb-2 p-2 pl-1'>
-          <div className='youtube align-items-center'>
+        <div className=' container social-handle mb-2 p-2 pl-1'>
+          <div className=' youtube align-items-center'>
             <a
               className='a-text-none d-flex align-items-center'
               href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/featured?disable_polymer=1'
@@ -27,14 +27,14 @@ const About = (props) => {
           </div>
         </div>
         <div className='introduction'>
-          <div className='intro text-uppercase tx-blue container-fluid text-center section-heading'>
+          <div className='text-uppercase container-fluid text-center department-section-heading'>
             DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
           </div>
           <hr className='section-underline' />
-          <p className='pl-3 description container'>
+          <p className='description container'>
             Department of Computer Science & Engineering is the largest
             department in Faculty of Engineering and Technology. The Department
-            offers a 4 years course, B.Tech.in Computer Sc. & Engineering, with
+            offers a 4 years course, B.Tech. in Computer Sc. & Engineering, with
             an intake of 90 students and 3 Year MCA course with an intake of 30
             students. Now-a-days Computer Science & Engineering is the most
             sought-after branch in the country. The Department has very
@@ -46,8 +46,8 @@ const About = (props) => {
           </p>
         </div>
         <div className='course-offered container'>
-          <h2 className='intro text-uppercase tx-blue section-sub-heading'>
-            Course offered
+          <h2 className='text-uppercase tx-blue section-sub-heading'>
+            COURSES OFFERED
           </h2>
           <ul className='course-list description'>
             <li>
@@ -70,7 +70,7 @@ const About = (props) => {
           </ul>
         </div>
         <div className='focus-list description container'>
-          <p className='px-3'>
+          <p>
             The department covers all recent trends in Computer Technology with
             prime focuses on:
           </p>
@@ -112,7 +112,7 @@ const About = (props) => {
               <strong>Internet of Things (IoT)</strong>
             </li>
           </ul>
-          <p className='px-3'>
+          <p>
             While maintaining its ancient, traditional bonds to electrical
             engineering and mathematics, the department has gradually
             collaborated with other disciplines. The true significance of
@@ -120,8 +120,8 @@ const About = (props) => {
             associations.
           </p>
         </div>
-        <div className='deparment container'>
-          <h2 className='intro text-uppercase section-sub-heading tx-blue'>
+        <div className='department container'>
+          <h2 className='text-uppercase section-sub-heading tx-blue'>
             CONSULTANCY AREAS OF COMPUTER SCIENCE & ENGINEERING
           </h2>
           <div className='description'>
@@ -142,20 +142,20 @@ const About = (props) => {
           </div>
         </div>
         <div className='computer-center'>
-          <h2 className='intro text-uppercase section-sub-heading tx-blue'>
+          <h2 className='container text-uppercase section-sub-heading tx-blue'>
             COMPUTER CENTRE
           </h2>
-          <p className='computer-center-description description px-2'>
+          <p className='computer-center-description description container'>
             This centre has two servers, 70 nodes with latest configurations
             along with necessary software and printers etc to meet the needs of
             the students from all other branches. All the computers are
             connected through LAN. There is internet facility in the centre.
           </p>
           <div className='commputer-center-images'>
-            <h2 className='intro text-uppercase tx-blue section-sub-heading container'>
+            <h2 className='text-center text-uppercase tx-blue section-sub-sub-heading container'>
               Laboratories in Department of Computer Science & Engineering
             </h2>
-            <div className='lab-image my-3'>
+            <div className='lab-image my-3 container mx-auto'>
               <img
                 src={ComputerLab1}
                 alt='ComputerLab1'
