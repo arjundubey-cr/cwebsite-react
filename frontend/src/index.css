@@ -173,7 +173,7 @@ main {
 .description {
   color: var(--gray-text);
   font-size: 20px;
-  font-family: 'Bembo Std', serif;
+  font-family: 'Alegreya', serif;
   line-height: 1.4;
 }
 @media only screen and (max-width: 992px) {
@@ -189,19 +189,21 @@ main {
     font-size: 2em;
   }
 }
+/**Deparment Section CSS Starts*/
 .department-section-heading {
   font-weight: bolder !important;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.2;
   font-family: 'Lora', serif;
   margin-top: 30px;
   color: var(--blue-text);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .department-section-heading {
-    font-size: ;
+    font-size: 1.5rem;
   }
 }
+/* Deparment Section CSS Ends */
 .card {
   cursor: pointer !important;
   border: none !important;

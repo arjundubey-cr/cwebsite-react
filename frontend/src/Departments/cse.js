@@ -5,7 +5,7 @@ import './commondesign.css'
 import About from './mainContent/Cse/About'
 import Faculty from './mainContent/Cse/Faculty'
 import Achievement from './mainContent/Cse/Achievement'
-import CourseSyllabus from './mainContent/Cse/syllabus'
+import CourseSyllabus from './mainContent/Cse/Syllabus'
 import UpScrollButton from './UpScrollButton'
 
 const Cse = (props) => {
@@ -30,10 +30,6 @@ const Cse = (props) => {
     setContent(e.target.getAttribute('Value'))
     const a = document.getElementsByClassName('item-nav')
     a[0].classList.remove('show')
-  }
-
-  const goback = () => {
-    props.history.push('/')
   }
 
   return (

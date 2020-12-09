@@ -133,7 +133,7 @@ const About = (props) => {
           Department of Civil Engineering
         </div>
         <hr className='section-underline' />
-        <p className='pl-3'>
+        <p className='description'>
           The Department of Civil Engineering offers 4 years B.Tech in Civil
           Engineering and it has an intake of 66 students. The department has a
           well qualified faculty and technical supporting staff. All the
@@ -143,7 +143,7 @@ const About = (props) => {
       </div>
       <div className='course-offered'>
         <h2 className='intro text-uppercase tx-blue'>Course offered</h2>
-        <ul className='course-list'>
+        <ul className='course-list description'>
           <li>
             <strong>
               Bachelor of Technology in Civil Engineering (Duration-4 years)
@@ -162,7 +162,7 @@ const About = (props) => {
           CONSULTANCY AREAS OF Civil ENGINEERING
         </h2>
         <div>
-          <ol>
+          <ol className='description'>
             <li>
               <strong>Water Treatment</strong>
             </li>
@@ -200,12 +200,12 @@ const About = (props) => {
         </div>
       </div>
       <div className='computer-center'>
-        <h2 className='intro text-uppercase tx-blue'>
+        <h2 className='section-sub-heading text-uppercase tx-blue'>
           Laboratories in Department of Civil ENGINEERING
         </h2>
         <div dir='auto' className='mx-3'>
           {lab.map((lab, index) => (
-            <div className='laboratory'>
+            <div className='laboratory description'>
               <h4 className='laboratory font-weight-bold' dir='auto'>
                 {`${lab.id}`}.{`${lab.lab}`}
               </h4>

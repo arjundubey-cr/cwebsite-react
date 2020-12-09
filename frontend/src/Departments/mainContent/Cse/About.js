@@ -12,7 +12,7 @@ const About = (props) => {
     <>
       <div className='about pl-2 pr-1 py-1'>
         <div className=' container social-handle mb-2 p-2 pl-1'>
-          <div className=' youtube align-items-center'>
+          <div className='youtube align-items-center'>
             <a
               className='a-text-none d-flex align-items-center'
               href='https://www.youtube.com/channel/UCYYdzJx1d_Ktjg9HHpuhJuQ/featured?disable_polymer=1'
@@ -20,7 +20,9 @@ const About = (props) => {
               target='_blank'
               rel='noopener noreferrer'>
               <Youtube />
-              <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
+              <span
+                className='ml-2 text-danger'
+                style={{ fontSize: '1.2rem', fontWeight: 500 }}>
                 Youtube Channel
               </span>
             </a>
@@ -122,7 +124,7 @@ const About = (props) => {
         </div>
         <div className='department container'>
           <h2 className='text-uppercase section-sub-heading tx-blue'>
-            CONSULTANCY AREAS OF COMPUTER SCIENCE & ENGINEERING
+            CONSULTANCY AREAS
           </h2>
           <div className='description'>
             <ul>
@@ -153,7 +155,7 @@ const About = (props) => {
           </p>
           <div className='commputer-center-images'>
             <h2 className='text-center text-uppercase tx-blue section-sub-sub-heading container'>
-              Laboratories in Department of Computer Science & Engineering
+              Laboratories
             </h2>
             <div className='lab-image my-3 container mx-auto'>
               <img

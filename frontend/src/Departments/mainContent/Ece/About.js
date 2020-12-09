@@ -9,15 +9,15 @@ const About = (props) => {
       <div className='container social-handle mb-2 p-2 pl-1'>
         <div className='youtube'>
           <a
-            className='a-text-none'
+            className='a-text-none d-flex align-items-center'
             href='https://www.youtube.com/channel/UCPW7_PsXavmSgJ-JMhMufEQ'
             alt='Computer Science youtube Channel'
             target='_blank'
             rel='noopener noreferrer'>
             <Youtube />
             <span
-              className='ml-2 font-weight-bold text-danger'
-              style={{ fontSize: '1rem' }}>
+              className='ml-2 text-danger'
+              style={{ fontSize: '1.2rem', fontWeight: 500 }}>
               Youtube Channel
             </span>
           </a>
