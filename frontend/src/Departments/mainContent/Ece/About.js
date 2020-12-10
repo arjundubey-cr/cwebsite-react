@@ -5,7 +5,7 @@ import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 
 const About = (props) => {
   return (
-    <div className='about pl-2 pr-3 py-1'>
+    <div className='about py-1'>
       <div className='container social-handle mb-2 p-2 pl-1'>
         <div className='youtube'>
           <a
@@ -67,10 +67,10 @@ const About = (props) => {
         <div className='description'>
           <ul>
             <li>
-              <strong>1. Automation &amp; Calibration</strong>
+              <strong>Automation &amp; Calibration</strong>
             </li>
             <li>
-              <strong>2. Analog, Digital Circuit &amp; PCB Design</strong>
+              <strong>Analog, Digital Circuit &amp; PCB Design</strong>
             </li>
           </ul>
         </div>
@@ -89,39 +89,39 @@ const About = (props) => {
           Laboratories
         </h2>
         <div dir='auto' className='description'>
-          <h4 className=' font-weight-bold' dir='auto'>
+          <div className=' font-weight-bold' dir='auto'>
             1. Solid State Devices Lab&nbsp;
-          </h4>
-          <h4 className=' font-weight-bold' dir='auto'>
+          </div>
+          <div className=' font-weight-bold' dir='auto'>
             2. Signals &amp; Systems Lab
-          </h4>
-          <h4 className=' font-weight-bold' dir='auto'>
+          </div>
+          <div className=' font-weight-bold' dir='auto'>
             3. Digital Circuit &amp; Logic Design Lab
-          </h4>
-          <h4 className='font-weight-bold' dir='auto'>
+          </div>
+          <div className='font-weight-bold' dir='auto'>
             4. Electronics Workshop &amp; PCB Design Lab
-          </h4>
-          <h4 className='font-weight-bold' dir='auto'>
+          </div>
+          <div className='font-weight-bold' dir='auto'>
             5. Electronics Instrumentation &amp; Measurement Lab
-          </h4>
-          <h4 className='font-weight-bold' dir='auto'>
+          </div>
+          <div className='font-weight-bold' dir='auto'>
             6. Numerical Technique Lab
-          </h4>
-          <h4 className='font-weight-bold' dir='auto'>
+          </div>
+          <div className='font-weight-bold' dir='auto'>
             7. Communication Lab-I &amp; Lab-II
-          </h4>
-          <h4 className='font-weight-bold' dir='auto'>
+          </div>
+          <div className='font-weight-bold' dir='auto'>
             8. Microprocessor &amp; Microcontroller Lab
-          </h4>
-          <h4 className='font-weight-bold' dir='auto'>
+          </div>
+          <div className='font-weight-bold' dir='auto'>
             9. Integrated circuit Lab
-          </h4>
-          <h4 className=' font-weight-bold' dir='auto'>
+          </div>
+          <div className=' font-weight-bold' dir='auto'>
             10. Advance Electronics Design Lab
-          </h4>
-          <h4 className=' font-weight-bold' dir='auto'>
+          </div>
+          <div className=' font-weight-bold' dir='auto'>
             11. Microwave Engineering Lab
-          </h4>
+          </div>
         </div>
         <div className='lab-image my-2'>
           <img

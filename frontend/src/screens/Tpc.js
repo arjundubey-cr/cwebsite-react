@@ -72,7 +72,7 @@ const Tpc = () => {
         Incharge and Advisory Board
       </div>
       <Container>
-        <Table bordered>
+        <Table className='description' bordered>
           <thead>
             <tr>
               <th>Name</th>

@@ -170,14 +170,16 @@ main {
   margin-top: 30px;
   color: var(--blue-text);
 }
-.description {
+.description,
+.tpc-objectives-list li {
   color: var(--gray-text);
   font-size: 20px;
   font-family: 'Alegreya', serif;
   line-height: 1.4;
 }
 @media only screen and (max-width: 992px) {
-  .description {
+  .description,
+  .tpc-objectives-list li {
     font-size: 16px;
   }
   .section-heading {
@@ -198,12 +200,21 @@ main {
   margin-top: 30px;
   color: var(--blue-text);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .department-section-heading {
-    font-size: 1.5rem;
+    font-size: 28px;
   }
 }
-/* Deparment Section CSS Ends */
+@media only screen and (max-width: 768px) {
+  .department-section-heading {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 586px) {
+  .department-section-heading {
+    font-size: 20px;
+  }
+} /* Deparment Section CSS Ends */
 .card {
   cursor: pointer !important;
   border: none !important;
@@ -284,7 +295,7 @@ div.departmentCard .card-body .card-title {
 .section-sub-heading {
   font-weight: 900;
   color: var(--blue-text);
-  font-size: 1.65em;
+  font-size: 1.85em;
   font-family: 'Lora', serif;
 }
 @media only screen and (max-width: 768px) {
@@ -306,10 +317,6 @@ div.departmentCard .card-body .card-title {
   list-style-type: square;
   padding: 0;
   color: var(--gray-text);
-}
-.tpc-objectives-list li {
-  font-size: 1.25em;
-  padding: 5px;
 }
 /* TPC CSS ENDS */
 

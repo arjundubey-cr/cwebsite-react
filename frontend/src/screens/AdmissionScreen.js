@@ -21,7 +21,7 @@ const AdmissionScreen = () => {
         Seat Matrix
       </div>
       <Container>
-        <Table bordered hover>
+        <Table className='description' bordered hover>
           <thead>
             <tr>
               <th>Program</th>
@@ -60,7 +60,7 @@ const AdmissionScreen = () => {
         Admission Notifications
       </div>
       <Container>
-        <Table bordered hover>
+        <Table className='description' bordered hover>
           <thead>
             <tr>
               <th>Subject</th>
@@ -101,7 +101,7 @@ const AdmissionScreen = () => {
       <div className='section-sub-heading container-fluid text-center my-3'>
         Help Desk
       </div>
-      <Container className='mb-3 h5'>
+      <Container className='mb-3 description '>
         For, any query reach out to us at <br />
         Phone Num:{' '}
         <a className='external-link' href='tel:+917991200653'>
