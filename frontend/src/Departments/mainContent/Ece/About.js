@@ -6,7 +6,7 @@ import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 const About = (props) => {
   return (
     <div className='about py-1'>
-      <div className='container social-handle mb-2 p-2 pl-1'>
+      <div className='container social-handle mb-2'>
         <div className='youtube'>
           <a
             className='a-text-none d-flex align-items-center'
@@ -24,7 +24,7 @@ const About = (props) => {
         </div>
       </div>
       <div className='introduction'>
-        <div className='text-uppercase container-fluid text-center department-section-heading'>
+        <div className='text-uppercase text-center department-section-heading'>
           Department of Electronics & Communication Engineering
         </div>
         <hr className='section-underline' />
