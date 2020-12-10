@@ -53,7 +53,7 @@ const Faculty = () => {
   return (
     <div className='Faculty'>
       <div className='container marketing'>
-        <div className='row faculty-data justify-content-right ml-1'>
+        <div className='row faculty-data description justify-content-right ml-1'>
           {data.map((data, index) => (
             <div className='m-4 p-3 margin-faculty-left rounded faculty-detail'>
               <img

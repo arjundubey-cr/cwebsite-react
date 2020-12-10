@@ -1,74 +1,73 @@
-import React from "react";
-import "../../commondesign.css";
-import imgcsl from "../../images/ee/ControlSystemLab.jpg";
-import imgeml1 from "../../images/ee/ElectricalMachineLab1.jpg";
-import imgeml2 from "../../images/ee/ElectricalMachineLab2.jpg";
-import imgemmil from "../../images/ee/EmmiLab.jpg";
-import imgpsl1 from "../../images/ee/PowerSystemLab1.jpg";
-import imgpsl2 from "../../images/ee/PowerSystemLab1.2.jpg";
-import imgpsl3 from "../../images/ee/PowerSystemLab2.jpg";
-import imgpsl4 from "../../images/ee/PowerSystemLab2.2.jpg";
-import { ReactComponent as Youtube } from "../../../assets/logo/youtube.svg";
+import React from 'react'
+import '../../commondesign.css'
+import imgcsl from '../../images/ee/ControlSystemLab.jpg'
+import imgeml1 from '../../images/ee/ElectricalMachineLab1.jpg'
+import imgeml2 from '../../images/ee/ElectricalMachineLab2.jpg'
+import imgemmil from '../../images/ee/EmmiLab.jpg'
+import imgpsl1 from '../../images/ee/PowerSystemLab1.jpg'
+import imgpsl2 from '../../images/ee/PowerSystemLab1.2.jpg'
+import imgpsl3 from '../../images/ee/PowerSystemLab2.jpg'
+import imgpsl4 from '../../images/ee/PowerSystemLab2.2.jpg'
+import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 
 const About = (props) => {
   const data = [
     {
       src: imgcsl,
-      alt: "Control system lab",
+      alt: 'Control system lab',
     },
     {
       src: imgeml1,
-      alt: "Electrical machine lab 1",
+      alt: 'Electrical machine lab 1',
     },
     {
       src: imgeml2,
-      alt: "Electrical machine lab 2",
+      alt: 'Electrical machine lab 2',
     },
     {
       src: imgemmil,
-      alt: "Emmi lab",
+      alt: 'Emmi lab',
     },
     {
       src: imgpsl1,
-      alt: "Power system lab 1",
+      alt: 'Power system lab 1',
     },
     {
       src: imgpsl2,
-      alt: "Power system lab 1.2",
+      alt: 'Power system lab 1.2',
     },
     {
       src: imgpsl3,
-      alt: "Power system lab 2",
+      alt: 'Power system lab 2',
     },
     {
       src: imgpsl4,
-      alt: "Power system lab 2.2",
+      alt: 'Power system lab 2.2',
     },
-  ];
+  ]
   return (
-    <div className="about pl-2 pr-3 py-1">
-      <div className="social-handle mb-2 p-2 pl-1">
-        <div className="youtube">
+    <div className='about pl-2 pr-3 py-1'>
+      <div className='social-handle mb-2 p-2 pl-1'>
+        <div className='youtube'>
           <a
-            className="a-text-none"
-            href="https://www.youtube.com/channel/UCx22x0MSF37keTJOmnXQcUQ"
-            alt="Computer Science youtube Channel"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+            className='a-text-none'
+            href='https://www.youtube.com/channel/UCx22x0MSF37keTJOmnXQcUQ'
+            alt='Computer Science youtube Channel'
+            target='_blank'
+            rel='noopener noreferrer'>
             <Youtube />
-            <span className="ml-2 text-danger" style={{ fontSize: "1rem" }}>
+            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
               Youtube Channel
             </span>
           </a>
         </div>
       </div>
-      <div className="introduction">
-        <div className="intro text-uppercase tx-blue container-fluid text-center section-heading">
+      <div className='description'>
+        <div className='department-section-heading text-uppercase text-center '>
           DEPARTMENT OF Electrical Engineering
         </div>
-        <hr className="section-underline" />
-        <p className="pl-3">
+        <hr className='section-underline' />
+        <p className='pl-3'>
           The Department of Electrical Engineering offers 4 years undergraduate
           B.Tech. programme in Electrical Engineering. It has an intake of 66
           students. Besides teaching students of Electrical Engineering, the
@@ -79,9 +78,9 @@ const About = (props) => {
           modern equipments.
         </p>
       </div>
-      <div className="course-offered">
-        <h2 className="intro text-uppercase tx-blue">Course offered</h2>
-        <ul className="course-list">
+      <div className='course-offered'>
+        <h2 className='section-sub-heading text-uppercase '>Courses offered</h2>
+        <ul className='course-list description'>
           <li>
             <strong>B.Tech in Electrical Engineering(Duration- 4 years)</strong>
           </li>
@@ -92,7 +91,7 @@ const About = (props) => {
           </li>
         </ul>
       </div>
-      <div className="focus-list">
+      <div className='focus-list description'>
         <p>
           The department covers all recent trends in Electrical Technology with
           prime focuses on:
@@ -145,12 +144,10 @@ const About = (props) => {
           Engineering is best appreciated through such associations.
         </p>
       </div>
-      <div className="deparment">
-        <h2 className="intro text-uppercase tx-blue">
-          CONSULTANCY AREAS OF ELECTRICAL ENGINEERING
-        </h2>
+      <div className='deparment'>
+        <h2 className='section-sub-heading'>CONSULTANCY AREAS</h2>
         <div>
-          <ul>
+          <ul className='description'>
             <li>
               <strong>
                 Design and cost estimation for Wiring of Buildings
@@ -177,71 +174,69 @@ const About = (props) => {
           </ul>
         </div>
       </div>
-      <div className="computer-center">
-        <h2 className="intro text-uppercase tx-blue">
-          Laboratories in Department of ELECTRICAL ENGINEERING ENGINEERING
-        </h2>
-        <div dir="auto" className="mx-3">
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            1.Basic Electrical Engineering lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            2.Electrical Machines Lab - I
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            3.Electrical Machines Lab- II
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            4.Network Analysis and Synthesis Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            5.Electrical Measurement and Measuring Instruments Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            6.Power System Lab - I
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            7.Power System Lab - II
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            8 Control System Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            9.Electrical Design and Fabrication Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
-            10.Power Electronics Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
+      <div className='computer-center'>
+        <h2 className='section-sub-heading text-uppercase '>Laboratories</h2>
+        <div dir='auto' className='mx-3 description'>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            1. Basic Electrical Engineering lab
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            2. Electrical Machines Lab - I
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            3. Electrical Machines Lab- II
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            4. Network Analysis and Synthesis Lab
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            5. Electrical Measurement and Measuring Instruments Lab
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            6. Power System Lab - I
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            7. Power System Lab - II
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            8. Control System Lab
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            9. Electrical Design and Fabrication Lab
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
+            10. Power Electronics Lab
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
             11. Switchgear and Protection Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
             12. Electric Drives Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
             13. Simulation Lab
-          </h4>
-          <h4 className="laboratory font-weight-bold" dir="auto">
+          </div>
+          <div className='laboratory font-weight-bold' dir='auto'>
             14. Instrumentation and Process control Lab
-          </h4>
+          </div>
         </div>
-        <div className="computer-center-images">
-          <h2 className="intro text-uppercase tx-blue font-weight-bold">
+        <div className='computer-center-images'>
+          <h2 className='intro text-uppercase tx-blue font-weight-bold'>
             Laboratories in Department of Computer Science & Engineering
           </h2>
-          <div className="lab-image my-3">
+          <div className='lab-image my-3'>
             {data.map((data, index) => (
               <img
                 src={data.src}
                 alt={`${data.alt}`}
-                className="lab-inside img-border"
+                className='lab-inside img-border'
               />
-            ))}{" "}
+            ))}{' '}
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

@@ -193,7 +193,7 @@ main {
 }
 /**Deparment Section CSS Starts*/
 .department-section-heading {
-  font-weight: bolder !important;
+  font-weight: 900 !important;
   font-size: 2rem;
   line-height: 1.2;
   font-family: 'Lora', serif;
