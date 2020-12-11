@@ -8,6 +8,7 @@ html {
 }
 main {
   min-height: 80vh;
+  font-family: 'Alegreya', serif;
 }
 
 .navbar {
@@ -17,8 +18,9 @@ main {
 .navbar-brand {
   display: flex !important;
   align-items: center;
-  font-weight: 1000 !important;
+  font-weight: bolder !important;
   font-size: 2.5em !important;
+  font-family: 'Lora', serif;
   color: var(--blue-text) !important;
   line-height: 1.2;
 }
@@ -157,24 +159,27 @@ main {
 /* HomeScreen Section Styling */
 .section-underline {
   border-top: solid 5px #fd2d34;
-  margin-top: 0px;
+  margin-top: 5px;
   width: 15%;
 }
 .section-heading {
-  font-weight: 900;
+  font-weight: bolder !important;
   font-size: 3em;
   line-height: 1.2;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', serif;
   margin-top: 30px;
   color: var(--blue-text);
 }
-.description {
+.description,
+.tpc-objectives-list li {
   color: var(--gray-text);
   font-size: 20px;
+  font-family: 'Alegreya', serif;
   line-height: 1.4;
 }
 @media only screen and (max-width: 992px) {
-  .description {
+  .description,
+  .tpc-objectives-list li {
     font-size: 16px;
   }
   .section-heading {
@@ -186,6 +191,30 @@ main {
     font-size: 2em;
   }
 }
+/**Deparment Section CSS Starts*/
+.department-section-heading {
+  font-weight: 900 !important;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-family: 'Lora', serif;
+  margin-top: 30px;
+  color: var(--blue-text);
+}
+@media only screen and (max-width: 1200px) {
+  .department-section-heading {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .department-section-heading {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 586px) {
+  .department-section-heading {
+    font-size: 19px;
+  }
+} /* Deparment Section CSS Ends */
 .card {
   cursor: pointer !important;
   border: none !important;
@@ -266,8 +295,13 @@ div.departmentCard .card-body .card-title {
 .section-sub-heading {
   font-weight: 900;
   color: var(--blue-text);
-  font-size: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.85em;
+  font-family: 'Lora', serif;
+}
+@media only screen and (max-width: 768px) {
+  .section-sub-heading {
+    font-size: 1.35em;
+  }
 }
 .external-link {
   color: var(--blue-text);
@@ -284,10 +318,6 @@ div.departmentCard .card-body .card-title {
   padding: 0;
   color: var(--gray-text);
 }
-.tpc-objectives-list li {
-  font-size: 1.25em;
-  padding: 5px;
-}
 /* TPC CSS ENDS */
 
 /* student life css starts */
@@ -295,7 +325,7 @@ div.departmentCard .card-body .card-title {
   font-weight: 900;
   color: var(--blue-text);
   font-size: 1.25em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', serif;
 }
 .card-image {
   position: relative;
@@ -485,7 +515,7 @@ footer {
   min-height: 430px !important;
   color: white;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alegreya', serif;
 }
 .footer-container {
   max-width: 1280px !important;
@@ -506,8 +536,9 @@ address {
   padding: 0;
 }
 .footer-section-heading {
-  font-weight: 900;
+  font-weight: bolder;
   font-size: 1.5em;
+  font-family: 'Lora', serif;
 }
 ul.footer-section-details li {
   padding-top: 0.25em;

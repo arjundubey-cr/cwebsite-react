@@ -11,7 +11,11 @@ const Footer = () => {
       <footer>
         <Container className='pt-3 footer-container'>
           <Row xl={12} md={12} sm={12} className='justify-content-center'>
-            <Image src={logo} className='footer-logo' />
+            <Image
+              src={logo}
+              className='footer-logo'
+              alt='FoET, University of Lucknow'
+            />
           </Row>
           <Row className='pt-2 justify-content-between align-content-between align-content-sm-center'>
             <Col xl={4} lg={4} md={4} sm={4}>

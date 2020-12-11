@@ -17,10 +17,6 @@ h2 {
   background-color: #0d1751 !important;
 }
 
-.tx-blue {
-  color: #2a2a53;
-}
-
 .li-none {
   list-style-type: none;
 }
@@ -61,16 +57,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 34%);
 }
-/* .faculty-data {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: left!important;
-}
-
-.margin-faculty-left {
-  margin-left: 2.5rem !important;
-} */
 
 .faculty-detail img {
   width: 140px;
@@ -119,8 +105,6 @@ h2 {
   width: 95%;
   height: auto;
   margin: 6px;
-  /* border: 2px solid grey;
-  border-radius: 5px; */
 }
 
 .student-activities-images {
@@ -152,10 +136,6 @@ h2 {
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
-}
-
-.laboratory {
-  font-size: 1.2em;
 }
 
 .achievement-list {
@@ -190,7 +170,7 @@ h2 {
 }
 
 .content {
-  font-family: sans-serif;
+  font-family: 'Alegreya', serif;
 }
 
 .bg-dark {
@@ -307,11 +287,6 @@ h2 {
 
   /* Force table to not be like tables anymore */
 
-  .content {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-
   .mobile-table,
   .mobile-thead,
   .mobile-tbody,
@@ -420,11 +395,6 @@ h2 {
     padding: 0 3px;
     font-size: 1.4em;
     font-weight: 600 !important;
-  }
-
-  .content {
-    padding-left: 0.5rem !important;
-    padding-right: 1rem !important;
   }
 
   ul,
@@ -550,5 +520,14 @@ h2 {
 
   table td {
     font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .achieve-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 4px #736c6c38;
   }
 }

@@ -5,13 +5,14 @@ import imgss from '../../images/ece/faculty/SiddharthSingh.jpg'
 import imgakj from '../../images/ece/faculty/AvinashKumarJayank.jpg'
 import imgps from '../../images/ece/faculty/PriyankaSingh.jpg'
 import imgskg from '../../images/ece/faculty/SushilKumarGupta.jpg'
-import { ReactComponent as Briefcase } from "../../../assets/logo/briefcase.svg";
-import { ReactComponent as Email } from "../../../assets/logo/email.svg";
-import { ReactComponent as Phone } from "../../../assets/logo/phone.svg";
+import { ReactComponent as Briefcase } from '../../../assets/logo/briefcase.svg'
+import { ReactComponent as Email } from '../../../assets/logo/email.svg'
+import { ReactComponent as Phone } from '../../../assets/logo/phone.svg'
 
 const Faculty = () => {
   const data = [
     {
+      id: 1,
       name: 'Dr. Manoj Kumar Jain',
       image: imgmkj,
       post: 'Assistant Professor',
@@ -51,8 +52,8 @@ const Faculty = () => {
   ]
   return (
     <div className='Faculty'>
-      <div className='container-fluid marketing'>
-        <div className='row faculty-data justify-content-right ml-1'>
+      <div className='container marketing'>
+        <div className='row faculty-data description justify-content-right ml-1'>
           {data.map((data, index) => (
             <div className='m-4 p-3 margin-faculty-left rounded faculty-detail'>
               <img
@@ -67,19 +68,19 @@ const Faculty = () => {
                 <tbody className='mobile-tbody'>
                   <tr>
                     <td className='p-2'>
-                      <Briefcase/>
+                      <Briefcase />
                     </td>
                     <td className='p-2'>{data.post}</td>
                   </tr>
                   <tr>
                     <td className='p-2'>
-                      <Phone/>
+                      <Phone />
                     </td>
                     <td className='p-2'>{data.phoneNum}</td>
                   </tr>
                   <tr>
                     <td className='p-2'>
-                      <Email/>
+                      <Email />
                     </td>
                     <td className='p-2'>
                       <a href={`mailto:${data.email}`} className='text-danger'>
