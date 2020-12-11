@@ -36,13 +36,8 @@ const About = (props) => {
           <p className='description container'>
             Department of Computer Science & Engineering is the largest
             department in Faculty of Engineering and Technology. The Department
-<<<<<<< HEAD
             offers a 4 years course, B.Tech.in Computer Sc. & Engineering, with
             an intake of 133 students and 3 Year MCA course with an intake of 33
-=======
-            offers a 4 years course, B.Tech. in Computer Sc. & Engineering, with
-            an intake of 90 students and 3 Year MCA course with an intake of 30
->>>>>>> new-features
             students. Now-a-days Computer Science & Engineering is the most
             sought-after branch in the country. The Department has very
             experienced and well qualified faculty members and several well
