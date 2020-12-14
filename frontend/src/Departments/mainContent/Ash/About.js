@@ -8,7 +8,7 @@ import pclabimg2 from '../../images/ash/proff-comm-lab-image2.jpg'
 import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 const About = (props) => {
   return (
-    <div className='about pl-2 pr-1 py-1'>
+    <div className='about container py-1'>
       <div className='social-handle mb-2 p-2 pl-1'>
         <div className='youtube'>
           <a
@@ -18,18 +18,20 @@ const About = (props) => {
             target='_blank'
             rel='noopener noreferrer'>
             <Youtube />
-            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
+            <span
+              className='ml-2 text-danger'
+              style={{ fontSize: '1rem', fontWeight: 500 }}>
               Youtube Channel
             </span>
           </a>
         </div>
       </div>
       <div className='introduction'>
-        <div className='tx-blue container-fluid text-center section-heading department-section-heading'>
+        <div className='container-fluid text-center text-uppercase department-section-heading'>
           Department Of Applied Sciences and Humanities
         </div>
         <hr className='section-underline' />
-        <p className='pl-3 description'>
+        <p className='container description'>
           The Department of Applied Sciences and Humanities functions with the
           mission of expanding human knowledge and benefit society through
           education and research on fundamental and applied aspects of science
@@ -52,76 +54,56 @@ const About = (props) => {
           faculty and supporting staff. All the laboratories of the department
           are well equipped with modern equipments.
         </p>
-        <h5 className='font-weight-bold pl-3 description'>
-          Deparment Objectives
-        </h5>
-        <ul className='description'>
-          <li>
-            To strengthen the fundamentals in Applied Sciences (Chemistry,
-            Physics &amp; Mathematics).
-          </li>
-          <li>
-            To develop the ability to communicate effectively as technical
-            professionals be able to appraise the learning.
-          </li>
-          <li>To provide an environment for working effectively in groups.</li>
-          <li>To sensitize students to environmental and ethical issues.</li>
-        </ul>
-      </div>
-      <div className='course-offered'>
-        <h2 className='section-sub-heading'>Courses offered</h2>
-        <ul className='course-list description'>
-          <strong>
-            <li>Engineering Chemistry</li>
-            <li>Engineering Physics</li>
-            <li>Engineering Mathematics</li>
-            <li>English (Professional Communication)</li>
-            <li>Environment &amp; Ecology</li>
-            <li>Human Values &amp; Ethics</li>
-          </strong>
-        </ul>
-      </div>
-      <div className='deparment'>
-        <h2 className='section-sub-heading'>
-          Consultancy Areas In Applied Science & Humanities
-        </h2>
-        <div className='description'>
-          <ol>
+        <div className='container'>
+          <h5 className='font-weight-bold description'>Deparment Objectives</h5>
+          <ul className='description'>
             <li>
-              <strong>Waste Water Treatment</strong>
+              To strengthen the fundamentals in Applied Sciences (Chemistry,
+              Physics &amp; Mathematics).
             </li>
             <li>
-              <strong>Solid Waste Management</strong>
+              To develop the ability to communicate effectively as technical
+              professionals be able to appraise the learning.
             </li>
             <li>
-              <strong>Rain Water Harvesting</strong>
+              To provide an environment for working effectively in groups.
             </li>
-            <li>
-              <strong>Corporate Communication</strong>
-            </li>
-            <li>
-              <strong>Corporate Training </strong>
-            </li>
-            <li>
-              <strong>Life Skill Training </strong>
-            </li>
-            <li>
-              <strong>Voice & Accent Training </strong>
-            </li>
-            <li>
-              <strong>Behavioral Training </strong>
-            </li>
-            <li>
-              <strong>Leadership Training </strong>
-            </li>
-            <li>
-              <strong>Building Corporate Negotiation Framework</strong>
-            </li>
-          </ol>
+            <li>To sensitize students to environmental and ethical issues.</li>
+          </ul>
         </div>
       </div>
-      <div className='applied-science-department'>
-        <div className='department mb-3'>
+      <div className='course-offered container'>
+        <h2 className='section-sub-heading text-uppercase'>Courses offered</h2>
+        <ul className='course-list description'>
+          <li>Engineering Chemistry</li>
+          <li>Engineering Physics</li>
+          <li>Engineering Mathematics</li>
+          <li>English (Professional Communication)</li>
+          <li>Environment &amp; Ecology</li>
+          <li>Human Values &amp; Ethics</li>
+        </ul>
+      </div>
+      <div className='deparment container'>
+        <h2 className='section-sub-heading text-uppercase'>
+          Consultancy Areas
+        </h2>
+        <div className='description'>
+          <ul>
+            <li>Waste Water Treatment</li>
+            <li>Solid Waste Management</li>
+            <li>Rain Water Harvesting</li>
+            <li>Corporate Communication</li>
+            <li>Corporate Training</li>
+            <li>Life Skill Training</li>
+            <li>Voice & Accent Training</li>
+            <li>Behavioral Training</li>
+            <li>Leadership Training</li>
+            <li>Building Corporate Negotiation Framework</li>
+          </ul>
+        </div>
+      </div>
+      <div className='applied-science-department container'>
+        <div className='department mt-5'>
           <h2 className='text-uppercase section-sub-heading'>Chemistry</h2>
           <p className='description'>
             Chemistry Department at Faculty of Engineering and Technology
@@ -154,8 +136,8 @@ const About = (props) => {
           </div>
         </div>
         <br />
-        <div className='department mb-3'>
-          <h2 className='intro section-sub-heading'>Physics</h2>
+        <div className='department mt-5'>
+          <h2 className=' section-sub-heading text-uppercase'>Physics</h2>
           <p className='description'>
             The Physics Department at Faculty of Engineering and Technology is
             one of the premier places in the state, providing world-class
@@ -172,7 +154,7 @@ const About = (props) => {
             active students, FoET Physics thrives to be one of the leading
             research departments in the state.
           </p>
-          <h5 className='font-weight-bold'>Engineering Physics Lab</h5>
+          <h4 className='font-weight-bold'>Engineering Physics Lab</h4>
           <p className='description'>
             <strong>Number of equipments:</strong> Newton's ring, Polerimeter,
             Diffrection grating, Nodal slide, Fresnel Biprism, Potentiometer,
@@ -190,8 +172,8 @@ const About = (props) => {
         </div>
         <br />
         <div className='department mb-3'>
-          <h2 className='intro text-uppercase tx-blue'>MATHEMATICS</h2>
-          <p className='pl-3'>
+          <h2 className=' section-sub-heading text-uppercase'>MATHEMATICS</h2>
+          <p className='description'>
             Department of Mathematics offers courses to undergraduate and
             post-graduate students of various engineering and computer science
             disciplines like BCA, MCA and B.Tech. The syllabi have been designed
@@ -208,8 +190,8 @@ const About = (props) => {
         </div>
         <br></br>
         <div className='department mb-3'>
-          <h2 className='intro text-uppercase tx-blue'>english</h2>
-          <p className='pl-3'>
+          <h2 className=' section-sub-heading text-uppercase'>english</h2>
+          <p className='description'>
             In the wake of a new era, when there is a growing demand for humane
             and environment sensitive engineers, the English Department at
             Faculty of Engineering and Technology has taken a lead in the field
@@ -228,10 +210,10 @@ const About = (props) => {
             developed and deployed in a milieu that has both socio‐cultural and
             economic needs and constraints.
           </p>
-          <h5 className='font-weight-bold pl-3'>
+          <h4 className='font-weight-bold '>
             Professional Communication Lab (Language Lab)
-          </h5>
-          <p className='pl-3'>
+          </h4>
+          <p className='description'>
             <strong>Equipments used in PC lab:</strong> Computers, Microphones,
             PC software, Projectors, Sound system
           </p>

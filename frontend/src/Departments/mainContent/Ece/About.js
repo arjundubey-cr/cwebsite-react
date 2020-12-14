@@ -64,16 +64,10 @@ const About = (props) => {
         <h2 className='section-sub-heading text-uppercase tx-blue'>
           CONSULTANCY AREAS
         </h2>
-        <div className='description'>
-          <ul>
-            <li>
-              <strong>Automation &amp; Calibration</strong>
-            </li>
-            <li>
-              <strong>Analog, Digital Circuit &amp; PCB Design</strong>
-            </li>
-          </ul>
-        </div>
+        <ul className='description'>
+          <li>Automation &amp; Calibration</li>
+          <li>Analog, Digital Circuit &amp; PCB Design</li>
+        </ul>
       </div>
       <div className='computer-center container'>
         <h2 className='section-sub-heading text-uppercase tx-blue'>
@@ -88,41 +82,19 @@ const About = (props) => {
         <h2 className='section-sub-heading  text-uppercase tx-blue'>
           Laboratories
         </h2>
-        <div dir='auto' className='description'>
-          <div className=' font-weight-bold' dir='auto'>
-            1. Solid State Devices Lab&nbsp;
-          </div>
-          <div className=' font-weight-bold' dir='auto'>
-            2. Signals &amp; Systems Lab
-          </div>
-          <div className=' font-weight-bold' dir='auto'>
-            3. Digital Circuit &amp; Logic Design Lab
-          </div>
-          <div className='font-weight-bold' dir='auto'>
-            4. Electronics Workshop &amp; PCB Design Lab
-          </div>
-          <div className='font-weight-bold' dir='auto'>
-            5. Electronics Instrumentation &amp; Measurement Lab
-          </div>
-          <div className='font-weight-bold' dir='auto'>
-            6. Numerical Technique Lab
-          </div>
-          <div className='font-weight-bold' dir='auto'>
-            7. Communication Lab-I &amp; Lab-II
-          </div>
-          <div className='font-weight-bold' dir='auto'>
-            8. Microprocessor &amp; Microcontroller Lab
-          </div>
-          <div className='font-weight-bold' dir='auto'>
-            9. Integrated circuit Lab
-          </div>
-          <div className=' font-weight-bold' dir='auto'>
-            10. Advance Electronics Design Lab
-          </div>
-          <div className=' font-weight-bold' dir='auto'>
-            11. Microwave Engineering Lab
-          </div>
-        </div>
+        <ul className='description'>
+          <li>Water Treatment</li>
+          <li>Waste Water Treatment</li>
+          <li>Solid Waste Management</li>
+          <li>E-waste Management</li>
+          <li>Rain Water Harvesting</li>
+          <li>Aggregate Testing</li>
+          <li>Concrete Testing</li>
+          <li>Cement Testing</li>
+          <li>Bitumen Testing</li>
+          <li>Brick Testing</li>
+          <li>Soil Testing</li>
+        </ul>
         <div className='lab-image my-2'>
           <img
             src={Image1}

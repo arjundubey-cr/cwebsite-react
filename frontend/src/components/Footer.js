@@ -97,7 +97,9 @@ const Footer = () => {
                 <a href='https://www.facebook.com/FetLucknowUniversity'>
                   <Facebook />
                 </a>
-                <Twitter />
+                <a href='https://twitter.com/foetlkouniv'>
+                  <Twitter />
+                </a>
               </div>
             </Col>
           </Row>

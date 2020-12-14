@@ -123,9 +123,6 @@ const Tpc = () => {
           </li>
         </ul>
       </Container>
-      <div className='section-sub-heading container-fluid text-center my-3'>
-        Activity Log of TPC
-      </div>
     </div>
   )
 }

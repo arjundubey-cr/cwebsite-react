@@ -10,7 +10,7 @@ import { ReactComponent as Youtube } from '../../../assets/logo/youtube.svg'
 const About = (props) => {
   return (
     <>
-      <div className='about pl-2 pr-1 py-1'>
+      <div className='about pr-1 py-1'>
         <div className=' container social-handle mb-2 p-2 pl-1'>
           <div className='youtube align-items-center'>
             <a
@@ -123,23 +123,23 @@ const About = (props) => {
           </p>
         </div>
         <div className='department container'>
-          <h2 className='text-uppercase section-sub-heading tx-blue'>
+          <h2 className='text-uppercase section-sub-heading '>
             CONSULTANCY AREAS
           </h2>
           <div className='description'>
             <ul>
-              <li>Data Mining</li>
-              <li>Data Analysis</li>
-              <li>Ethical Hacking</li>
-              <li>Wireless Sensor Network</li>
-              <li>Machine Learning</li>
-              <li>Artificial Intelligence</li>
-              <li>Cryptography &amp; Network Security</li>
-              <li>Algorithms &amp; Data Structure</li>
-              <li>Program Analysis &amp; Optimization</li>
-              <li>Requirement Analysis &amp; Gathering</li>
-              <li>Documentation of Web Apps &amp; Android Apps</li>
-              <li>Multi Agent System &amp; Symentic Web</li>
+              <li> Data Mining</li>
+              <li> Data Analysis</li>
+              <li> Ethical Hacking</li>
+              <li> Wireless Sensor Network</li>
+              <li> Machine Learning</li>
+              <li> Artificial Intelligence</li>
+              <li> Cryptography &amp; Network Security</li>
+              <li> Algorithms &amp; Data Structure</li>
+              <li> Program Analysis &amp; Optimization</li>
+              <li> Requirement Analysis &amp; Gathering</li>
+              <li> Documentation of Web Apps &amp; Android Apps</li>
+              <li> Multi Agent System &amp; Symentic Web</li>
             </ul>
           </div>
         </div>
