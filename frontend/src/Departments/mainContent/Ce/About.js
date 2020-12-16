@@ -113,7 +113,7 @@ const About = (props) => {
 
   return (
     <div className='about pl-2 pr-1 py-1'>
-      <div className='social-handle mb-2 p-2 pl-1'>
+      <div className='container social-handle mb-2 p-2 pl-1'>
         <div className='youtube'>
           <a
             className='a-text-none'
@@ -129,11 +129,11 @@ const About = (props) => {
         </div>
       </div>
       <div className='introduction'>
-        <div className='tx-blue container-fluid text-center section-heading'>
+        <div className='text-uppercase container-fluid text-center department-section-heading'>
           Department of Civil Engineering
         </div>
         <hr className='section-underline' />
-        <p className='description'>
+        <p className='description container'>
           The Department of Civil Engineering offers 4 years B.Tech in Civil
           Engineering and it has an intake of 66 students. The department has a
           well qualified faculty and technical supporting staff. All the
@@ -141,8 +141,10 @@ const About = (props) => {
           equipments.
         </p>
       </div>
-      <div className='course-offered'>
-        <h2 className='intro text-uppercase tx-blue'>Course offered</h2>
+      <div className='course-offered container mt-4'>
+        <h2 className='section-sub-heading text-uppercase tx-blue'>
+          COURSES OFFERED
+        </h2>
         <ul className='course-list description'>
           <li>
             <strong>
@@ -157,53 +159,29 @@ const About = (props) => {
           </li>
         </ul>
       </div>
-      <div className='deparment'>
-        <h2 className='intro text-uppercase tx-blue'>
-          CONSULTANCY AREAS OF Civil ENGINEERING
+      <div className='deparment container mt-4'>
+        <h2 className='text-uppercase section-sub-heading'>
+          CONSULTANCY AREAS
         </h2>
-        <div>
-          <ol className='description'>
-            <li>
-              <strong>Water Treatment</strong>
-            </li>
-            <li>
-              <strong>Waste Water Treatment</strong>
-            </li>
-            <li>
-              <strong>Solid Waste Management</strong>
-            </li>
-            <li>
-              <strong>E-waste Management</strong>
-            </li>
-            <li>
-              <strong>Rain Water Harvesting</strong>
-            </li>
-            <li>
-              <strong>Aggregate Testing </strong>
-            </li>
-            <li>
-              <strong>Concrete Testing </strong>
-            </li>
-            <li>
-              <strong>Cement Testing </strong>
-            </li>
-            <li>
-              <strong>Bitumen Testing </strong>
-            </li>
-            <li>
-              <strong>Brick Testing</strong>
-            </li>
-            <li>
-              <strong>Soil Testing</strong>
-            </li>
-          </ol>
+        <div className='description'>
+          <ul>
+            <li>Water Treatment</li>
+            <li>Waste Water Treatment</li>
+            <li>Solid Waste Management</li>
+            <li>E-waste Management</li>
+            <li>Rain Water Harvesting</li>
+            <li>Aggregate Testing</li>
+            <li>Concrete Testing</li>
+            <li>Cement Testing</li>
+            <li>Bitumen Testing</li>
+            <li>Brick Testing</li>
+            <li>Soil Testing</li>
+          </ul>
         </div>
       </div>
-      <div className='computer-center'>
-        <h2 className='section-sub-heading text-uppercase tx-blue'>
-          Laboratories in Department of Civil ENGINEERING
-        </h2>
-        <div dir='auto' className='mx-3'>
+      <div className='container computer-center mt-3'>
+        <h2 className='section-sub-heading text-uppercase'>Laboratories</h2>
+        <div dir='auto'>
           {lab.map((lab, index) => (
             <div className='laboratory description'>
               <h4 className='laboratory font-weight-bold' dir='auto'>
