@@ -1,12 +1,14 @@
 import React from 'react'
 import { Row, Container, Col, Button } from 'react-bootstrap'
 import Carasouel from '../components/Carasouel'
+import Notifcation from '../components/notification'
 import AboutHome from '../components/AboutHome'
 import DepartmentCard from '../components/DepartmentCard'
 import { LinkContainer } from 'react-router-bootstrap'
 const HomeScreen = () => {
   return (
     <div>
+    <Notifcation/>
       <Carasouel />
       <Container>
         <Row>
