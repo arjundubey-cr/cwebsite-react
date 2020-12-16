@@ -3,13 +3,6 @@
   font-weight: 600;
 }
 
-<<<<<<< HEAD
-=======
-.section-heading {
-  font-size: 2.4rem !important;
-}
-
->>>>>>> side-project
 h2 {
   font-size: 1.5rem;
 }
@@ -530,20 +523,11 @@ h2 {
   }
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 400px) {
   .achieve-img img {
     width: 80%;
     height: auto;
     border-radius: 10px;
     box-shadow: 1px 1px 2px 4px #736c6c38;
-=======
-  .section-heading {
-    font-size: 1.4rem !important;
-  }
-
-  .section-sub-heading {
-    font-size: 1.5rem !important;
->>>>>>> side-project
   }
 }

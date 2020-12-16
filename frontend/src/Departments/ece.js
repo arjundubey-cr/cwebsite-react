@@ -111,11 +111,7 @@ const Ece = (props) => {
 
         <div></div>
       </nav>
-<<<<<<< HEAD
       <div className='content pt-3 pb-5 position-realtive'>
-=======
-      <div className='content pl-3 pr-5 pt-3 pb-5 position-realtive'>
->>>>>>> side-project
         {ChangeContent(mainContent)}
         <UpScrollButton />
       </div>
