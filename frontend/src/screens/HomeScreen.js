@@ -8,7 +8,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 const HomeScreen = () => {
   return (
     <div>
-    <Notifcation/>
+      <Notifcation />
       <Carasouel />
       <Container>
         <Row>

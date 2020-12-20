@@ -48,7 +48,7 @@ const Footer = () => {
               className='footer-stacked-columns text-left text-sm-center text-md-center'>
               <Col>
                 <div className='footer-section-heading'>QUICK LINKS</div>
-                <ul className='footer-section-details'>
+                <ul className='footer-section-details text-center'>
                   <li>
                     <a href='https://www.lkouniv.ac.in' className='footer-link'>
                       University of Lucknow
