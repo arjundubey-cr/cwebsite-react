@@ -5,9 +5,9 @@ import imgskb from '../../images/ee/faculty/ShailendraKumarBhasker.jpg'
 import imgpks from '../../images/ee/faculty/PavanKumarSingh.jpg'
 import imgrd from '../../images/ee/faculty/RamanDevesh.jpg'
 import imgwa from '../../images/ee/faculty/WazidAli.jpg'
-import { ReactComponent as Briefcase } from "../../../assets/logo/briefcase.svg";
-import { ReactComponent as Email } from "../../../assets/logo/email.svg";
-import { ReactComponent as Phone } from "../../../assets/logo/phone.svg";
+import { ReactComponent as Briefcase } from '../../../assets/logo/briefcase.svg'
+import { ReactComponent as Email } from '../../../assets/logo/email.svg'
+import { ReactComponent as Phone } from '../../../assets/logo/phone.svg'
 
 const Faculty = () => {
   const data = [
@@ -54,7 +54,7 @@ const Faculty = () => {
       <div className='container-fluid marketing'>
         <div className='row faculty-data justify-content-right ml-1'>
           {data.map((data, index) => (
-            <div className=' m-4 p-3 faculty-info rounded faculty-detail'>
+            <div className=' description m-4 faculty-info rounded faculty-detail'>
               <img
                 src={data.image}
                 className='bd-placeholder-img img-shadow rounded-circle mb-3'
@@ -67,19 +67,19 @@ const Faculty = () => {
                 <tbody className='mobile-tbody'>
                   <tr>
                     <td className='p-2'>
-                      <Briefcase/>
+                      <Briefcase />
                     </td>
                     <td className='p-2'>{data.post}</td>
                   </tr>
                   <tr>
                     <td className='p-2'>
-                      <Phone/>
+                      <Phone />
                     </td>
                     <td className='p-2'>{data.phoneNum}</td>
                   </tr>
                   <tr>
                     <td className='p-2'>
-                      <Email/>
+                      <Email />
                     </td>
                     <td className='p-2'>
                       <a href={`mailto:${data.email}`} className='text-danger'>

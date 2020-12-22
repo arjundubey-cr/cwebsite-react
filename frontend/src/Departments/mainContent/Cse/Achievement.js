@@ -6,7 +6,7 @@ const Achievement = (props) => {
   return (
     <div className='container pl-3 pr-3'>
       <div className='introduction'>
-        <h2 className='section-sub-heading text-center text-uppercase tx-blue'>
+        <h2 className='section-sub-heading text-center text-uppercase underline'>
           Achievements
         </h2>
         <ol className='pl-3 ml-3 description'>

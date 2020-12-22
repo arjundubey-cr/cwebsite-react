@@ -4,6 +4,7 @@ import cultural from '../assets/images/clubs&councils/cultural.jpeg'
 import sports from '../assets/images/clubs&councils/sports.jpeg'
 import technical from '../assets/images/clubs&councils/technical.jpeg'
 import finearts from '../assets/images/clubs&councils/finearts.jpeg'
+import csa from '../assets/images/csa-image.png'
 const StudentLife = () => {
   return (
     <div>
@@ -27,15 +28,15 @@ const StudentLife = () => {
       </div>
       <div className='container'>
         <div className='row'>
-          <div className='col-8 description'>
+          <div className='col-12 col-lg-8 description'>
             To complement their academics, students choose their extracurricular
             adventures from a spectacular array of ways to participate in music,
             dance, sports, and tech. The Council of Student Activities(CSA) is
             in place to make sure to help students navigate challenges and to
             ensure proper smoothness of them.
           </div>
-          <div className='col-4'>
-            <img src='#' alt='Council of Student Activities' />
+          <div className='col-12 pt-3 pt-lg-0 col-lg-4'>
+            <img src={csa} width='100%' alt='Council of Student Activities' />
           </div>
         </div>
       </div>

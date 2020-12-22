@@ -68,7 +68,7 @@ const About = (props) => {
   ]
   return (
     <div className='about pl-2 pr-3 py-1'>
-      <div className=' container social-handle mb-2 p-2 pl-1'>
+      <div className='social-handle mb-2 p-2 pl-1'>
         <div className='youtube align-items-center'>
           <a
             className='a-text-none d-flex align-items-center'
@@ -93,7 +93,7 @@ const About = (props) => {
         <hr className='section-underline' />
         <p className='description container'>
           The Department of Mechanical Engineering offers 4 years undergraduate
-          B.Tech programme & it has an intake of 66----- students The Department has
+          B.Tech programme & it has an intake of 66 students. The Department has
           a well qualified well experienced faculty and technical supporting
           staff. All the laboratories of the department are well equipped with
           modern equipments.

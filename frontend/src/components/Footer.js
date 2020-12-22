@@ -45,7 +45,7 @@ const Footer = () => {
               lg={4}
               md={4}
               sm={4}
-              className='footer-stacked-columns text-left text-sm-center text-md-center'>
+              className='footer-stacked-columns text-sm-center text-md-center'>
               <Col>
                 <div className='footer-section-heading'>QUICK LINKS</div>
                 <ul className='footer-section-details text-center'>

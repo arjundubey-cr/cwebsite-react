@@ -108,7 +108,7 @@ const Ee = (props) => {
 
         <div></div>
       </nav>
-      <div className='content  pt-3 pb-5 position-realtive'>
+      <div className='container  pt-3 pb-5 position-realtive'>
         {ChangeContent(mainContent)}
         <UpScrollButton />
       </div>

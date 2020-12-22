@@ -46,17 +46,19 @@ const About = (props) => {
     },
   ]
   return (
-    <div className='about pl-2 pr-3 py-1'>
-      <div className='social-handle mb-2 p-2 pl-1'>
+    <div className='about py-1'>
+      <div className='social-handle mb-2 '>
         <div className='youtube'>
           <a
-            className='a-text-none'
+            className='a-text-none d-flex align-items-center'
             href='https://www.youtube.com/channel/UCx22x0MSF37keTJOmnXQcUQ'
-            alt='Computer Science youtube Channel'
+            alt='Electrical Engineering Youtube Channel'
             target='_blank'
             rel='noopener noreferrer'>
             <Youtube />
-            <span className='ml-2 text-danger' style={{ fontSize: '1rem' }}>
+            <span
+              className='ml-2 text-danger'
+              style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>
               Youtube Channel
             </span>
           </a>

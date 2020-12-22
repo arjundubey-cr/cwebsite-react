@@ -136,10 +136,10 @@ main {
   border: none !important;
   outline-width: 0 !important;
 }
-
+/* Notification CSS Starts */
 /* Notification CSS */
 .notification-tab .notice a,
-li {
+.notice li {
   width: fit-content;
   /* display: inline-block; */
   margin: 0px 6px;
@@ -148,7 +148,6 @@ li {
 .notification-tab {
   display: grid;
   grid-template-columns: 19% 69% 12%;
-  margin: 2px 20px;
 }
 
 .notification-tab .title {
@@ -159,12 +158,12 @@ li {
   justify-content: center;
   background-color: #050d3c;
   width: 100%;
-  border-radius: 30px 0px 0px 30px;
 }
 
 .notification-tab .notifications {
   padding: 11px 7px;
   display: flex;
+  font-weight: bold;
   flex-direction: row;
   align-items: center;
   background-color: #050d3c;
@@ -179,7 +178,6 @@ li {
   justify-content: center;
   background-color: #050d3c;
   width: 100%;
-  border-radius: 0px 30px 30px 0px;
 }
 
 .notification-tab .title p {
@@ -234,14 +232,12 @@ li {
 @media only screen and (max-width: 578px) {
   .notification-tab {
     grid-template-columns: 29% 52% 19%;
-    margin: 2px 7px;
   }
 
   .notification-tab .title p {
     font-size: 0.8rem;
   }
 }
-
 /* Notification CSS Ends  */
 .carousel-img {
   max-height: 75vh !important;

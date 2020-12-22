@@ -12,7 +12,7 @@ import image9 from '../../images/ce/Achievement/achieve9.jpg'
 
 const Achievement = (props) => {
   return (
-    <div className='container-fluid pl-1 pr-2'>
+    <div className='container'>
       <div className='introduction'>
         <h2 className='section-sub-heading text-center text-uppercase tx-blue'>
           Achievements

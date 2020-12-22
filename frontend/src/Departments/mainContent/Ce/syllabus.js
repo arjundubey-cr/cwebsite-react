@@ -4,11 +4,11 @@ import '../../commondesign.css'
 const CourseSyllabus = (props) => {
   return (
     <div className='syllabus pl-2 pr-2'>
-      <h2 className='intro text-uppercase tx-blue underline'>
+      <h2 className='text-center section-sub-heading text-uppercase underline'>
         COURSE CONTENTS OR COURSE OUTLINES
       </h2>
       <hr className='hr1 mx-2' />
-      <div className='table-content pr-2 mx-2'>
+      <div className='table-content container'>
         <div className='table-responsive table-shadow mt-2 p-3 mt-4'>
           <table className='table description table-condensed table-bordered pub table-striped'>
             <thead>
