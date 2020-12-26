@@ -45,10 +45,10 @@ const Footer = () => {
               lg={4}
               md={4}
               sm={4}
-              className='footer-stacked-columns text-sm-center text-md-center'>
+              className='footer-stacked-columns text-left text-sm-center text-md-center'>
               <Col>
                 <div className='footer-section-heading'>QUICK LINKS</div>
-                <ul className='footer-section-details text-center'>
+                <ul className='footer-section-details '>
                   <li>
                     <a href='https://www.lkouniv.ac.in' className='footer-link'>
                       University of Lucknow
@@ -105,7 +105,16 @@ const Footer = () => {
           </Row>
         </Container>
         <div className='text-center py-1 mt-5 footer-credits '>
-          Developed by Arjun Dubey and Shubhendra Bahadur Srivastava
+          Developed by
+          <a
+            href='http://github.com/arjundubey-cr'
+            className=' text-decoration-none'>
+            Arjun Dubey
+          </a>
+          and
+          <a href='https://github.com/Shubhendra-Bahadur'>
+            Shubhendra Bahadur Srivastava
+          </a>
         </div>
       </footer>
     </div>
