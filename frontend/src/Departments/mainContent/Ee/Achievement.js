@@ -10,7 +10,6 @@ const Achievement = (props) => {
         <h2 className='section-sub-heading text-center text-uppercase'>
           Achievements
         </h2>
-        <hr className='section-underline' />
       </div>
       <div className='achievement description mt-3'>
         <p className='mb-1'>
