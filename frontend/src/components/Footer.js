@@ -104,15 +104,15 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-        <div className='text-center py-1 mt-5 footer-credits '>
-          Developed by
-          <a
-            href='http://github.com/arjundubey-cr'
-            className=' text-decoration-none'>
+        <div className='text-center description py-1 mt-5 footer-credits '>
+          Developed by{' '}
+          <a href='http://github.com/arjundubey-cr' className=' text-white'>
             Arjun Dubey
-          </a>
-          and
-          <a href='https://github.com/Shubhendra-Bahadur'>
+          </a>{' '}
+          and{' '}
+          <a
+            className='text-white'
+            href='https://github.com/Shubhendra-Bahadur'>
             Shubhendra Bahadur Srivastava
           </a>
         </div>
